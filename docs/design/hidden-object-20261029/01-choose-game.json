@@ -1,0 +1,18 @@
+{
+  "kind": "ui-mockup",
+  "screen": "놀이 선택",
+  "status": "approved-for-implementation",
+  "approved": true,
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "promptFile": "01-choose-game.prompt.txt",
+  "artifact": "01-choose-game.png",
+  "viewportConcept": {
+    "width": 1180,
+    "height": 820,
+    "orientation": "landscape"
+  },
+  "note": "화면 배치 시안. 실제 앱 화면·등록 게임·저장 상태의 검증 결과가 아님.",
+  "approvedAt": "2026-10-29",
+  "approval": "사용자: 시안대로 구현 진행. 서브에이전트로 컨텐츠 30개 생성."
+}

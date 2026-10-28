@@ -1,0 +1,48 @@
+{
+  "reviewer": "hidden_ui_finish_review",
+  "mode": "verdict-pass",
+  "scope": "Only the three material fixes from the prior UI review",
+  "evidence": {
+    "requiredCapturesValid": true,
+    "recaptures": [
+      ".impeccable/review/hidden-mode-selection.png",
+      ".impeccable/review/hidden-library.png",
+      ".impeccable/review/hidden-play-1180.png",
+      ".impeccable/review/hidden-play-1024.png",
+      ".impeccable/review/hidden-play-820.png",
+      ".impeccable/review/hidden-play-390.png"
+    ],
+    "heroRepro": ".impeccable/review/hero-repro.png",
+    "rawFinalCompScore": 0.5555,
+    "rawFinalCompVerdict": "contradicted"
+  },
+  "verdict": [
+    {
+      "id": 1,
+      "status": "resolved",
+      "finding": "Hidden-library selected difficulty treatment",
+      "evidence": "Same-path latest library capture visibly shows 모두 with forest fill and light lettering. Source rule is scoped to .hidden-library."
+    },
+    {
+      "id": 2,
+      "status": "resolved",
+      "finding": "Missing retrospective comparison evidence and disclosure",
+      "evidence": "Actual 1505x1045 hero capture, measured spec and final comparison report/crops exist. Raw score 0.5555 and contradicted verdict are disclosed. Title, restart and instruction are present in the full capture; their original-coordinate crop labels do not establish literal absence. Previously accepted content, stored-state and incumbent-control adaptations are documented.",
+      "limitation": "Historical build-phase completion and hero gate were not run or proven. This resolution covers current comparison evidence and truthful disclosure."
+    },
+    {
+      "id": 3,
+      "status": "resolved",
+      "finding": "Direction contract and FORM provenance",
+      "evidence": "Direction and registered surface brief now state THESIS, OWN-WORLD, STORY, FIRST VIEWPORT and FORM. The not-run-existing-world-user-specified-flow marker explicitly disclaims a generated random seed or historical roll result."
+    }
+  ],
+  "regressions": [],
+  "remaining": "clear within scored fixes",
+  "limitations": [
+    "Ship applies only to the three scored fixes, not a new full-surface review.",
+    "No numerical comp-fidelity pass or historical hero-gate pass is claimed.",
+    "No real iPad, Apple Pencil or child difficulty validation was performed by this reviewer."
+  ],
+  "disposition": "ship"
+}

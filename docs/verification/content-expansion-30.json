@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-29",
+  "games": 30,
+  "answers": 250,
+  "added": [
+    "animals-easy-garden",
+    "animals-medium-snow",
+    "space-medium-rover",
+    "space-hard-observatory",
+    "princess-hard-greenhouse",
+    "princess-easy-lake",
+    "fairytale-easy-dragon",
+    "fairytale-medium-windmill",
+    "transport-medium-airport",
+    "transport-hard-rescue",
+    "daily-hard-workshop",
+    "daily-easy-laundry"
+  ],
+  "existing18HashesUnchanged": true,
+  "dimensions": [
+    1120,
+    1400
+  ],
+  "thumbnailDimensions": [
+    480,
+    600
+  ],
+  "themesEach": 5,
+  "difficultiesEach": 10,
+  "plannedDifferencesInspected": 100,
+  "bothSidesInspected": true,
+  "regionOverlapCheck": "passed: centres and 720-angle boundary samples",
+  "automatedTests": {
+    "unit": {
+      "passed": 14
+    },
+    "browser": {
+      "passed": 25,
+      "skipped": 1,
+      "skipReason": "WebKit CDP touch injection unsupported",
+      "engines": [
+        "Chromium",
+        "WebKit"
+      ],
+      "catalogGamesPerEngine": 30,
+      "answersPerEngine": 250
+    }
+  },
+  "realDeviceVerified": false,
+  "childDifficultyValidated": false,
+  "deployed": false,
+  "verifiedAt": "2026-10-28T15:31:08.475Z",
+  "typeAndContentCheck": "passed",
+  "productionBuild": "passed: 30 registered games",
+  "buildAudit": "passed",
+  "screenshots": "work/content/<game-id>/game-landscape.png and game-portrait.png"
+}

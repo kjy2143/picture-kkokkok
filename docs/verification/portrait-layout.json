@@ -1,0 +1,389 @@
+{
+  "date": "2026-10-14",
+  "typecheck": "passed",
+  "content": {
+    "games": 19,
+    "answers": 157,
+    "approved": 0
+  },
+  "unitTests": {
+    "passed": 13
+  },
+  "browserTests": {
+    "passed": 13,
+    "skipped": 1,
+    "skipReason": "WebKit CDP touch injection unsupported; real iPad manual gate unchanged"
+  },
+  "build": "passed",
+  "deployment": "not performed",
+  "manualDeviceValidation": false,
+  "records": [
+    {
+      "id": "animals-easy-picnic",
+      "label": "landscape",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "page": {
+        "width": 1180,
+        "height": 820
+      },
+      "header": {
+        "x": 16,
+        "y": 16,
+        "width": 1148,
+        "height": 64
+      },
+      "boards": [
+        {
+          "x": 16,
+          "y": 261.328125,
+          "width": 566,
+          "height": 377.328125
+        },
+        {
+          "x": 598,
+          "y": 261.328125,
+          "width": 566,
+          "height": 377.328125
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic",
+      "label": "landscape-short",
+      "viewport": {
+        "width": 1180,
+        "height": 720
+      },
+      "page": {
+        "width": 1180,
+        "height": 720
+      },
+      "header": {
+        "x": 16,
+        "y": 16,
+        "width": 1148,
+        "height": 64
+      },
+      "boards": [
+        {
+          "x": 16,
+          "y": 211.328125,
+          "width": 566,
+          "height": 377.328125
+        },
+        {
+          "x": 598,
+          "y": 211.328125,
+          "width": 566,
+          "height": 377.328125
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic",
+      "label": "portrait",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "page": {
+        "width": 820,
+        "height": 1180
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 788,
+        "height": 113
+      },
+      "boards": [
+        {
+          "x": 29.375,
+          "y": 137,
+          "width": 761.25,
+          "height": 507.5
+        },
+        {
+          "x": 29.375,
+          "y": 660.5,
+          "width": 761.25,
+          "height": 507.5
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic",
+      "label": "phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "page": {
+        "width": 390,
+        "height": 844
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 358,
+        "height": 148
+      },
+      "boards": [
+        {
+          "x": 16,
+          "y": 213.671875,
+          "width": 358,
+          "height": 238.65625
+        },
+        {
+          "x": 16,
+          "y": 551.671875,
+          "width": 358,
+          "height": 238.65625
+        }
+      ],
+      "title": "700 18px / 24.3px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic-portrait",
+      "label": "landscape",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "page": {
+        "width": 1180,
+        "height": 820
+      },
+      "header": {
+        "x": 16,
+        "y": 16,
+        "width": 1148,
+        "height": 64
+      },
+      "boards": [
+        {
+          "x": 16,
+          "y": 96.25,
+          "width": 566,
+          "height": 707.5
+        },
+        {
+          "x": 598,
+          "y": 96.25,
+          "width": 566,
+          "height": 707.5
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic-portrait",
+      "label": "landscape-short",
+      "viewport": {
+        "width": 1180,
+        "height": 720
+      },
+      "page": {
+        "width": 1180,
+        "height": 720
+      },
+      "header": {
+        "x": 16,
+        "y": 16,
+        "width": 1148,
+        "height": 64
+      },
+      "boards": [
+        {
+          "x": 95.609375,
+          "y": 96,
+          "width": 486.390625,
+          "height": 607.984375
+        },
+        {
+          "x": 598,
+          "y": 96,
+          "width": 486.390625,
+          "height": 607.984375
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic-portrait",
+      "label": "portrait",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "page": {
+        "width": 820,
+        "height": 1180
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 788,
+        "height": 113
+      },
+      "boards": [
+        {
+          "x": 207,
+          "y": 137,
+          "width": 406,
+          "height": 507.5
+        },
+        {
+          "x": 207,
+          "y": 660.5,
+          "width": 406,
+          "height": 507.5
+        }
+      ],
+      "title": "700 20px / 27px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "id": "animals-easy-picnic-portrait",
+      "label": "phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "page": {
+        "width": 390,
+        "height": 844
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 358,
+        "height": 148
+      },
+      "boards": [
+        {
+          "x": 66.203125,
+          "y": 172,
+          "width": 257.59375,
+          "height": 321.984375
+        },
+        {
+          "x": 66.203125,
+          "y": 510,
+          "width": 257.59375,
+          "height": 321.984375
+        }
+      ],
+      "title": "700 18px / 24.3px NanumSquareRound, \"Apple SD Gothic Neo\", sans-serif",
+      "fonts": [
+        {
+          "family": "NanumSquareRound",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "NanumSquareRound",
+          "weight": "700",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "finalGapRecheck": {
+    "passed": 5,
+    "skipped": 1,
+    "minimumEdgeGap": 16,
+    "reason": "max-content tracks pack fitted images around a16px centre gap"
+  }
+}

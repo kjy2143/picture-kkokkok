@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-space-hard-04",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "음표",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.085,
+        "y": 0.066,
+        "rx": 0.019,
+        "ry": 0.03
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "활",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.909,
+        "y": 0.072,
+        "rx": 0.03,
+        "ry": 0.057
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "찻잔",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.455,
+        "y": 0.065,
+        "rx": 0.039,
+        "ry": 0.036
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "거북이",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.087,
+        "y": 0.26,
+        "rx": 0.06,
+        "ry": 0.057
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "깃털",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.119,
+        "y": 0.491,
+        "rx": 0.043,
+        "ry": 0.09
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "왕관",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.963,
+        "y": 0.194,
+        "rx": 0.037,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "당근",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.804,
+        "y": 0.574,
+        "rx": 0.044,
+        "ry": 0.027
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "종",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.157,
+        "y": 0.73,
+        "rx": 0.036,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "장화",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.567,
+        "y": 0.909,
+        "rx": 0.041,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "달팽이",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.906,
+        "y": 0.839,
+        "rx": 0.049,
+        "ry": 0.052
+      }
+    }
+  ]
+}

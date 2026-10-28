@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "scope": {
+    "replaced": 18,
+    "preserved": "animals-easy-picnic-portrait"
+  },
+  "games": 19,
+  "answers": 157,
+  "dimensions": {
+    "width": 1120,
+    "height": 1400,
+    "ratio": "4:5"
+  },
+  "tests": {
+    "unitPassed": 13,
+    "applicationBrowserPassed": 15,
+    "catalogBrowserPassed": 2,
+    "browserSkipped": 1,
+    "skipReason": "WebKit CDP touch injection",
+    "typecheck": "passed",
+    "contentCheck": "19 passed",
+    "productionBuild": "passed (0 approved games)"
+  },
+  "creatorReview": {
+    "plannedDifferencesInspected": true,
+    "unintendedChangesRepaired": true,
+    "ellipseBoundarySampling": "360 directions, no intersections among new games"
+  },
+  "parentApproved": false,
+  "realIPadVerified": false,
+  "childDifficultyValidated": false,
+  "deployed": false,
+  "archive": "work/archive/landscape-before-portrait-20261015",
+  "batch": "work/batches/portrait-replacement-18.json"
+}

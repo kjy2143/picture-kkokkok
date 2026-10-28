@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-animals-medium-03",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "우산",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.19,
+        "y": 0.091,
+        "rx": 0.072,
+        "ry": 0.059
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "물고기",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.823,
+        "y": 0.167,
+        "rx": 0.057,
+        "ry": 0.038
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "닻",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.562,
+        "y": 0.792,
+        "rx": 0.043,
+        "ry": 0.044
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "장갑",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.937,
+        "y": 0.507,
+        "rx": 0.044,
+        "ry": 0.067
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "열쇠",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.241,
+        "y": 0.83,
+        "rx": 0.057,
+        "ry": 0.05
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "별",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.545,
+        "y": 0.148,
+        "rx": 0.036,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "숟가락",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.546,
+        "y": 0.708,
+        "rx": 0.053,
+        "ry": 0.022
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "나비",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.883,
+        "y": 0.87,
+        "rx": 0.068,
+        "ry": 0.091
+      }
+    }
+  ]
+}

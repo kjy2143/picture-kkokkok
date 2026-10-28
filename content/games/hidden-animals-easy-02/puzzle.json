@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-animals-easy-02",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "물고기",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.125,
+        "y": 0.697,
+        "rx": 0.056,
+        "ry": 0.044
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "안경",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.181,
+        "y": 0.154,
+        "rx": 0.077,
+        "ry": 0.053
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "숟가락",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.325,
+        "y": 0.461,
+        "rx": 0.058,
+        "ry": 0.026
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "나비",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.857,
+        "y": 0.134,
+        "rx": 0.083,
+        "ry": 0.087
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "장화",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.571,
+        "y": 0.759,
+        "rx": 0.061,
+        "ry": 0.113
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "거북이",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.401,
+        "y": 0.747,
+        "rx": 0.065,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "종",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.075,
+        "y": 0.39,
+        "rx": 0.032,
+        "ry": 0.044
+      }
+    }
+  ]
+}

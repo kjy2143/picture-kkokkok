@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "transport-medium-train",
+  "title": "기차역에서 만나요",
+  "theme": "교통",
+  "difficulty": "medium",
+  "thumbnail": "thumbnail.webp"
+}

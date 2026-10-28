@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-fairytale-medium-04",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "물고기",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.139,
+        "y": 0.091,
+        "rx": 0.06,
+        "ry": 0.05
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "새의 날개",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.913,
+        "y": 0.483,
+        "rx": 0.055,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "안경",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.675,
+        "y": 0.141,
+        "rx": 0.058,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "열쇠",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.061,
+        "y": 0.363,
+        "rx": 0.032,
+        "ry": 0.075
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "초승달",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.908,
+        "y": 0.872,
+        "rx": 0.041,
+        "ry": 0.067
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "하트",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.941,
+        "y": 0.089,
+        "rx": 0.045,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "깃털",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.136,
+        "y": 0.87,
+        "rx": 0.061,
+        "ry": 0.081
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "조개",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.484,
+        "y": 0.924,
+        "rx": 0.038,
+        "ry": 0.055
+      }
+    }
+  ]
+}

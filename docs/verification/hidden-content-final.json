@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-10-28T18:28:33.446Z",
+  "games": 60,
+  "hidden": 30,
+  "legacyRevisionsPreserved": 30,
+  "hiddenTargets": 250,
+  "byTheme": {
+    "동물": 5,
+    "일상": 5,
+    "동화": 5,
+    "공주": 5,
+    "우주": 5,
+    "교통": 5
+  },
+  "byDifficulty": {
+    "easy": 10,
+    "hard": 10,
+    "medium": 10
+  },
+  "items": [
+    {
+      "id": "hidden-animals-easy-01",
+      "title": "토끼의 작은 정원",
+      "targets": 7,
+      "gameplayRevision": "9d3ebb5a9e0ce43cb42a",
+      "contentRevision": "54036d92d6fa172e8410"
+    },
+    {
+      "id": "hidden-animals-easy-02",
+      "title": "숲속 친구들의 소풍",
+      "targets": 7,
+      "gameplayRevision": "0bdfce04e8dfc621be7e",
+      "contentRevision": "2225151393bb2ed91ffe"
+    },
+    {
+      "id": "hidden-animals-hard-05",
+      "title": "동물 마을의 가을 장터",
+      "targets": 10,
+      "gameplayRevision": "54022794ac0583156454",
+      "contentRevision": "978f9c20c6ea0e6104c1"
+    },
+    {
+      "id": "hidden-animals-medium-03",
+      "title": "다람쥐의 도토리 집",
+      "targets": 8,
+      "gameplayRevision": "4c2b694c4f79c4bee17b",
+      "contentRevision": "7fdb9067233a7d8b7ff6"
+    },
+    {
+      "id": "hidden-animals-medium-04",
+      "title": "바닷속 음악회",
+      "targets": 8,
+      "gameplayRevision": "9a699c01c9f42b94185c",
+      "contentRevision": "7ccaeccf974d1ceac0f3"
+    },
+    {
+      "id": "hidden-daily-easy-01",
+      "title": "우리 집 아침 식탁",
+      "targets": 7,
+      "gameplayRevision": "9fa70e7b05861f4504ee",
+      "contentRevision": "c4323d950f705cad638d"
+    },
+    {
+      "id": "hidden-daily-easy-02",
+      "title": "놀이터의 오후",
+      "targets": 7,
+      "gameplayRevision": "76a212b0cfe1003fc809",
+      "contentRevision": "d647960977709e1dead8"
+    },
+    {
+      "id": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targets": 10,
+      "gameplayRevision": "66e231f62ac7d3785288",
+      "contentRevision": "dddf22894912ea8ca8b2"
+    },
+    {
+      "id": "hidden-daily-hard-05",
+      "title": "즐거운 캠핑장",
+      "targets": 10,
+      "gameplayRevision": "d436b581f6865cf285c1",
+      "contentRevision": "9a701f3a86834428bc3f"
+    },
+    {
+      "id": "hidden-daily-medium-03",
+      "title": "우리 동네 도서관",
+      "targets": 8,
+      "gameplayRevision": "77dca01b84a2aaeee58a",
+      "contentRevision": "32e3e0d685e8464c4ee8"
+    },
+    {
+      "id": "hidden-fairytale-easy-01",
+      "title": "꼬마 용의 숲속 집",
+      "targets": 7,
+      "gameplayRevision": "7cc41b76c2b6839f822b",
+      "contentRevision": "3268790dd29b314b8479"
+    },
+    {
+      "id": "hidden-fairytale-easy-02",
+      "title": "요정의 꽃잎 배",
+      "targets": 7,
+      "gameplayRevision": "000a6314de43c6e73776",
+      "contentRevision": "56d37eeaef1ac2e7d52e"
+    },
+    {
+      "id": "hidden-fairytale-hard-05",
+      "title": "마법사의 장난감 가게",
+      "targets": 10,
+      "gameplayRevision": "59acb751dcc5da58f7a3",
+      "contentRevision": "8d167ff483935f4bab08"
+    },
+    {
+      "id": "hidden-fairytale-medium-03",
+      "title": "버섯 마을의 빵집",
+      "targets": 8,
+      "gameplayRevision": "01fc3b0bccfc6f162f5f",
+      "contentRevision": "2b93c2f40bc91062c2c4"
+    },
+    {
+      "id": "hidden-fairytale-medium-04",
+      "title": "구름 위의 놀이터",
+      "targets": 8,
+      "gameplayRevision": "629664572c8ea616070d",
+      "contentRevision": "e25ae0497ba0dced36aa"
+    },
+    {
+      "id": "hidden-princess-easy-01",
+      "title": "공주의 꽃다발",
+      "targets": 7,
+      "gameplayRevision": "85e54b16a2727ec75933",
+      "contentRevision": "8e3be14253bf3cc3b710"
+    },
+    {
+      "id": "hidden-princess-easy-02",
+      "title": "성의 작은 찻집",
+      "targets": 7,
+      "gameplayRevision": "9801a961115f9c2107a9",
+      "contentRevision": "2d1a8b74fe9d9e489826"
+    },
+    {
+      "id": "hidden-princess-hard-04",
+      "title": "보석 공방의 오후",
+      "targets": 10,
+      "gameplayRevision": "375331d9da1a689ed914",
+      "contentRevision": "9cf032c6d6fd73f4a918"
+    },
+    {
+      "id": "hidden-princess-hard-05",
+      "title": "장미 정원의 축제",
+      "targets": 10,
+      "gameplayRevision": "4698d3e4e597735c568b",
+      "contentRevision": "8945891b38bfb6e8510d"
+    },
+    {
+      "id": "hidden-princess-medium-03",
+      "title": "무도회 준비실",
+      "targets": 8,
+      "gameplayRevision": "81b7075a3ab63658add6",
+      "contentRevision": "3a1c627a0a9ddfaee245"
+    },
+    {
+      "id": "hidden-space-easy-01",
+      "title": "달 토끼의 산책",
+      "targets": 7,
+      "gameplayRevision": "4e73951f67e9b50c53d0",
+      "contentRevision": "04eb52a9c484d0a639de"
+    },
+    {
+      "id": "hidden-space-hard-04",
+      "title": "우주 정거장의 축제",
+      "targets": 10,
+      "gameplayRevision": "a79b1437bb1fb882c1b7",
+      "contentRevision": "177a2d244fe35c3cea25"
+    },
+    {
+      "id": "hidden-space-hard-05",
+      "title": "은하 도서관",
+      "targets": 10,
+      "gameplayRevision": "7c2182000593a21adda6",
+      "contentRevision": "45ed7a1bebb89b8c8e3d"
+    },
+    {
+      "id": "hidden-space-medium-02",
+      "title": "별빛 우주 정원",
+      "targets": 8,
+      "gameplayRevision": "9c4fd83aafae2d37c51d",
+      "contentRevision": "ddf92c9a979e2b030147"
+    },
+    {
+      "id": "hidden-space-medium-03",
+      "title": "로봇의 행성 탐험",
+      "targets": 8,
+      "gameplayRevision": "903c5ff59dce88053f44",
+      "contentRevision": "f47ae20581cb2ed88fe8"
+    },
+    {
+      "id": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "targets": 7,
+      "gameplayRevision": "78a47d1c65368a7b47e8",
+      "contentRevision": "d2725f42958b8ba663e3"
+    },
+    {
+      "id": "hidden-transport-hard-04",
+      "title": "북적북적 항구",
+      "targets": 10,
+      "gameplayRevision": "eb537a4fb36f29f4ecdb",
+      "contentRevision": "5de8becc7d26e3aa0816"
+    },
+    {
+      "id": "hidden-transport-hard-05",
+      "title": "눈 내리는 역",
+      "targets": 10,
+      "gameplayRevision": "5ea6dd6ea3fc468e3d54",
+      "contentRevision": "1782d7bd7203de24752e"
+    },
+    {
+      "id": "hidden-transport-medium-02",
+      "title": "꽃길을 달리는 기차",
+      "targets": 8,
+      "gameplayRevision": "b05145034f528b6072ad",
+      "contentRevision": "b0b9267182bd0614ee1b"
+    },
+    {
+      "id": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "targets": 8,
+      "gameplayRevision": "f97ddf785f7ab3093091",
+      "contentRevision": "2e26ed9fc82f18c3bcf1"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-transport-medium-02",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "달팽이",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.54,
+        "y": 0.576,
+        "rx": 0.047,
+        "ry": 0.043
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "양말",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.713,
+        "y": 0.253,
+        "rx": 0.045,
+        "ry": 0.086
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "우산",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.936,
+        "y": 0.519,
+        "rx": 0.043,
+        "ry": 0.059
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "초승달",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.576,
+        "y": 0.092,
+        "rx": 0.031,
+        "ry": 0.042
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "물고기",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.405,
+        "y": 0.433,
+        "rx": 0.04,
+        "ry": 0.032
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "빗",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.138,
+        "y": 0.741,
+        "rx": 0.044,
+        "ry": 0.041
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "깃털",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.032,
+        "y": 0.155,
+        "rx": 0.032,
+        "ry": 0.085
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "장갑",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.906,
+        "y": 0.812,
+        "rx": 0.067,
+        "ry": 0.094
+      }
+    }
+  ]
+}

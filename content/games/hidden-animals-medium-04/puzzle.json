@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-animals-medium-04",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "우산",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.089,
+        "y": 0.352,
+        "rx": 0.069,
+        "ry": 0.094
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "숟가락",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.91,
+        "y": 0.111,
+        "rx": 0.071,
+        "ry": 0.099
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "장갑",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.934,
+        "y": 0.438,
+        "rx": 0.039,
+        "ry": 0.071
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "하트",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.136,
+        "y": 0.127,
+        "rx": 0.038,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "오리머리",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.144,
+        "y": 0.738,
+        "rx": 0.056,
+        "ry": 0.061
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "왕관",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.526,
+        "y": 0.109,
+        "rx": 0.043,
+        "ry": 0.047
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "장화",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.908,
+        "y": 0.768,
+        "rx": 0.041,
+        "ry": 0.069
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "리본",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.551,
+        "y": 0.814,
+        "rx": 0.053,
+        "ry": 0.045
+      }
+    }
+  ]
+}

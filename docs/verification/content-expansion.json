@@ -1,0 +1,28 @@
+{
+  "recordedDate": "2026-10-14",
+  "generated": 17,
+  "preserved": 1,
+  "totalCandidates": 18,
+  "approvedGames": 0,
+  "publicBuildGames": 0,
+  "existingGameUnchanged": true,
+  "totalAnswers": 150,
+  "unitTests": {
+    "passed": 13
+  },
+  "browserTests": {
+    "passed": 11,
+    "skipped": 1,
+    "engines": [
+      "Chromium",
+      "WebKit"
+    ]
+  },
+  "screenshots": {
+    "landscape": 18,
+    "portrait": 18
+  },
+  "actualIpadVerified": false,
+  "childPlayVerified": false,
+  "publicDeployed": false
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-princess-easy-01",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "하트",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.101,
+        "y": 0.264,
+        "rx": 0.035,
+        "ry": 0.068
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "새의 날개",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.681,
+        "y": 0.65,
+        "rx": 0.042,
+        "ry": 0.056
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.87,
+        "y": 0.509,
+        "rx": 0.064,
+        "ry": 0.024
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "별",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.496,
+        "y": 0.807,
+        "rx": 0.03,
+        "ry": 0.043
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "열쇠",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.307,
+        "y": 0.295,
+        "rx": 0.02,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "초승달",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.758,
+        "y": 0.858,
+        "rx": 0.034,
+        "ry": 0.037
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "숟가락",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.153,
+        "y": 0.797,
+        "rx": 0.072,
+        "ry": 0.067
+      }
+    }
+  ]
+}

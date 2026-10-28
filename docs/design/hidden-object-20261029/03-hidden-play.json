@@ -1,0 +1,18 @@
+{
+  "kind": "ui-mockup",
+  "screen": "숨은그림 플레이",
+  "status": "approved-for-implementation",
+  "approved": true,
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "promptFile": "03-hidden-play.prompt.txt",
+  "artifact": "03-hidden-play.png",
+  "viewportConcept": {
+    "width": 1180,
+    "height": 820,
+    "orientation": "landscape"
+  },
+  "note": "화면 배치 시안. 실제 게임의 숨긴 물건 일치·정답 위치·난이도를 검증한 결과가 아님.",
+  "approvedAt": "2026-10-29",
+  "approval": "사용자: 시안대로 구현 진행. 서브에이전트로 컨텐츠 30개 생성."
+}

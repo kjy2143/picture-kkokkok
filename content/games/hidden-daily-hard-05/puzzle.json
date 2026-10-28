@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-hard-05",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "생쥐",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.075,
+        "y": 0.176,
+        "rx": 0.039,
+        "ry": 0.071
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "초승달",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.413,
+        "y": 0.159,
+        "rx": 0.034,
+        "ry": 0.048
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "거북이",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.751,
+        "y": 0.378,
+        "rx": 0.042,
+        "ry": 0.042
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "조개",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.485,
+        "y": 0.54,
+        "rx": 0.027,
+        "ry": 0.037
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "안경",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.642,
+        "y": 0.457,
+        "rx": 0.038,
+        "ry": 0.029
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "장화",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.909,
+        "y": 0.567,
+        "rx": 0.032,
+        "ry": 0.05
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "바나나",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.132,
+        "y": 0.752,
+        "rx": 0.068,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "도토리",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.477,
+        "y": 0.802,
+        "rx": 0.034,
+        "ry": 0.051
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "별",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.619,
+        "y": 0.843,
+        "rx": 0.025,
+        "ry": 0.031
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "물방울",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.89,
+        "y": 0.841,
+        "rx": 0.016,
+        "ry": 0.028
+      }
+    }
+  ]
+}

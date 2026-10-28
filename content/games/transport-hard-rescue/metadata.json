@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "transport-hard-rescue",
+  "title": "출동 준비 소방서",
+  "theme": "교통",
+  "difficulty": "hard",
+  "thumbnail": "thumbnail.webp"
+}

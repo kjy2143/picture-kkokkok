@@ -1,0 +1,132 @@
+{
+  "status": "complete-with-stated-verification-limits",
+  "completedAt": "2026-10-28T18:44:06.499Z",
+  "scope": "Approved game-type selection, separate libraries, hidden-picture play and30revised hidden games",
+  "registered": {
+    "differenceGames": 30,
+    "hiddenGames": 30,
+    "total": 60,
+    "hiddenTargets": 250,
+    "totalAnswers": 500,
+    "byTheme": {
+      "동물": 5,
+      "일상": 5,
+      "동화": 5,
+      "공주": 5,
+      "우주": 5,
+      "교통": 5
+    },
+    "byDifficulty": {
+      "easy": 10,
+      "hard": 10,
+      "medium": 10
+    }
+  },
+  "preservation": {
+    "legacyGameplayRevisionsUnchanged": 30,
+    "archive": "work/hidden-content/<id>/v1-archive and preserved intermediate attempts",
+    "legacyCatalogCompatible": "games keeps only difference entries; new app merges hiddenGames"
+  },
+  "implemented": [
+    "Game type selection, separate filtered libraries and direct links",
+    "Single scene with fixed goals and shared zoom/pan/hint/save/restart/completion",
+    "Neutral alpha-only goal images and same-ink/local-color camouflage",
+    "Pointer hit tolerance normalized by zoom",
+    "All scene/goal assets required for offline-ready"
+  ],
+  "verified": {
+    "unit": {
+      "passed": 24,
+      "files": 4,
+      "log": "hidden-unit-final.log"
+    },
+    "fullAppRegression": {
+      "status": "passed",
+      "evidence": "hidden-full-browser-20261029.json",
+      "note": "Earlier full-suite run after navigation/layout compatibility work. Existing WebKit CDP-only pinch injection remains skipped."
+    },
+    "finalHiddenBrowser": {
+      "passed": 12,
+      "engines": [
+        "Chromium",
+        "WebKit"
+      ],
+      "gamesPerEngine": 30,
+      "answerSelectionsPerEngine": 250,
+      "log": "hidden-browser-final.log"
+    },
+    "postUiFixBrowser": {
+      "passed": 4,
+      "scope": "Choice/library and five viewport layouts, including1505x1045 prototype size",
+      "log": "hidden-browser-fix.log"
+    },
+    "content": "hidden-content-final.json",
+    "productionBuild": {
+      "status": "passed",
+      "games": 60,
+      "releaseId": "084455384d1c916d",
+      "log": "hidden-build-final.log"
+    },
+    "localServer": {
+      "url": "http://127.0.0.1:5173/?mode=hidden",
+      "catalogReadback": {
+        "legacy": 30,
+        "hidden": 30,
+        "total": 60
+      }
+    },
+    "reviews": {
+      "content": "../../work/hidden-content/root-review/independent-findings.json",
+      "code": "../../work/hidden-content/root-review/code-findings.json",
+      "ui": "../../.impeccable/critique/hidden-ui-verdict.json",
+      "uiScope": "Reviewer scored three listed fixes resolved; disposition ship at that scope",
+      "documentation": "../../.impeccable/critique/hidden-design-documentation.json",
+      "designFiles": "Incumbent DESIGN.md and sidecar preserved for ordinary extension"
+    },
+    "screenshots": [
+      {
+        "path": ".impeccable/review/hidden-mode-selection.png",
+        "sha256": "aef911a34d80e3515b3e4c3e17b513cb2ce3f2a09825b4417649be3729b1ce7e"
+      },
+      {
+        "path": ".impeccable/review/hidden-library.png",
+        "sha256": "5dd683bd3dd44d558a77cb03e8e05b94ceab06294993e58afc6a0722d96da998"
+      },
+      {
+        "path": ".impeccable/review/hidden-play-1180.png",
+        "sha256": "818ef1f8b0a27b02a0bfd6c552deabf5c241c086b9e1d6124ee2bc328628f7f6"
+      },
+      {
+        "path": ".impeccable/review/hidden-play-1024.png",
+        "sha256": "e40743302c0e9fe7097255f906d40f2d187b5ed6f0fb585dce01e9765d78bf26"
+      },
+      {
+        "path": ".impeccable/review/hidden-play-820.png",
+        "sha256": "599881984dadb182210dafb0127ca86ebed20ba5a71c915e78c4b92b8f1ca6f2"
+      },
+      {
+        "path": ".impeccable/review/hidden-play-390.png",
+        "sha256": "76a0928fc52c33a90a1334bcacf1e7a8c44e4aabd2d80f0226817ea56f51ca60"
+      }
+    ]
+  },
+  "prototypeComparison": {
+    "method": "Retrospective final capture at1505x1045 with comp-spec and comp-diff",
+    "report": "../../.impeccable/review/diff/final/report.json",
+    "rawPlayScore": 0.5555,
+    "rawVerdict": "contradicted",
+    "interpretation": "Not a pixel-equivalence pass. User-directed content replacement, neutral goals, real game/state,30-card expansion and incumbent tool/type adaptation were assessed by the finish reviewer.",
+    "notClaimed": [
+      "Historical build-phase state or hero gate pass",
+      "Pixel-identical recreation"
+    ]
+  },
+  "unverified": [
+    "Physical iPad A16, Apple Pencil and real touch/palm behavior",
+    "Jooa difficulty assessment; some complete contour patterns can still be read quickly",
+    "Production deployment, access login and actual PWA install"
+  ],
+  "deploymentPerformed": false,
+  "committedOrPushed": false,
+  "pending": []
+}

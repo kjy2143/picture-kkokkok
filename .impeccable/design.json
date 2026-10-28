@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T15:04:35.098Z",
+  "title": "Design System: 그림콕콕",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "ink",
+        "tonalRamp": [
+          "oklch(15% 0.04787 172.76)",
+          "oklch(26% 0.04787 172.76)",
+          "oklch(38% 0.04787 172.76)",
+          "oklch(49% 0.04787 172.76)",
+          "oklch(61% 0.04787 172.76)",
+          "oklch(72% 0.04787 172.76)",
+          "oklch(84% 0.04787 172.76)",
+          "oklch(95% 0.04787 172.76)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.03277 151.35)",
+          "oklch(26% 0.03277 151.35)",
+          "oklch(38% 0.03277 151.35)",
+          "oklch(49% 0.03277 151.35)",
+          "oklch(61% 0.03277 151.35)",
+          "oklch(72% 0.03277 151.35)",
+          "oklch(84% 0.03277 151.35)",
+          "oklch(95% 0.03277 151.35)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "tonalRamp": [
+          "oklch(15% 0.01389 88.68)",
+          "oklch(26% 0.01389 88.68)",
+          "oklch(38% 0.01389 88.68)",
+          "oklch(49% 0.01389 88.68)",
+          "oklch(61% 0.01389 88.68)",
+          "oklch(72% 0.01389 88.68)",
+          "oklch(84% 0.01389 88.68)",
+          "oklch(95% 0.01389 88.68)"
+        ]
+      },
+      "yellow": {
+        "role": "primary",
+        "displayName": "yellow",
+        "tonalRamp": [
+          "oklch(15% 0.13887 81.65)",
+          "oklch(26% 0.13887 81.65)",
+          "oklch(38% 0.13887 81.65)",
+          "oklch(49% 0.13887 81.65)",
+          "oklch(61% 0.13887 81.65)",
+          "oklch(72% 0.13887 81.65)",
+          "oklch(84% 0.13887 81.65)",
+          "oklch(95% 0.13887 81.65)"
+        ]
+      },
+      "coral": {
+        "role": "secondary",
+        "displayName": "coral",
+        "tonalRamp": [
+          "oklch(15% 0.15117 35.29)",
+          "oklch(26% 0.15117 35.29)",
+          "oklch(38% 0.15117 35.29)",
+          "oklch(49% 0.15117 35.29)",
+          "oklch(61% 0.15117 35.29)",
+          "oklch(72% 0.15117 35.29)",
+          "oklch(84% 0.15117 35.29)",
+          "oklch(95% 0.15117 35.29)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "tonalRamp": [
+          "oklch(15% 0.01752 103.18)",
+          "oklch(26% 0.01752 103.18)",
+          "oklch(38% 0.01752 103.18)",
+          "oklch(49% 0.01752 103.18)",
+          "oklch(61% 0.01752 103.18)",
+          "oklch(72% 0.01752 103.18)",
+          "oklch(84% 0.01752 103.18)",
+          "oklch(95% 0.01752 103.18)"
+        ]
+      },
+      "accent-text": {
+        "role": "secondary",
+        "displayName": "accent-text",
+        "tonalRamp": [
+          "oklch(15% 0.14654 35.57)",
+          "oklch(26% 0.14654 35.57)",
+          "oklch(38% 0.14654 35.57)",
+          "oklch(49% 0.14654 35.57)",
+          "oklch(61% 0.14654 35.57)",
+          "oklch(72% 0.14654 35.57)",
+          "oklch(84% 0.14654 35.57)",
+          "oklch(95% 0.14654 35.57)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "oklch(15% 0.00818 91.48)",
+          "oklch(26% 0.00818 91.48)",
+          "oklch(38% 0.00818 91.48)",
+          "oklch(49% 0.00818 91.48)",
+          "oklch(61% 0.00818 91.48)",
+          "oklch(72% 0.00818 91.48)",
+          "oklch(84% 0.00818 91.48)",
+          "oklch(95% 0.00818 91.48)"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "on-ink",
+        "tonalRamp": [
+          "oklch(15% 0.01422 84.58)",
+          "oklch(26% 0.01422 84.58)",
+          "oklch(38% 0.01422 84.58)",
+          "oklch(49% 0.01422 84.58)",
+          "oklch(61% 0.01422 84.58)",
+          "oklch(72% 0.01422 84.58)",
+          "oklch(84% 0.01422 84.58)",
+          "oklch(95% 0.01422 84.58)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "control",
+        "tonalRamp": [
+          "oklch(15% 0.01688 88.00)",
+          "oklch(26% 0.01688 88.00)",
+          "oklch(38% 0.01688 88.00)",
+          "oklch(49% 0.01688 88.00)",
+          "oklch(61% 0.01688 88.00)",
+          "oklch(72% 0.01688 88.00)",
+          "oklch(84% 0.01688 88.00)",
+          "oklch(95% 0.01688 88.00)"
+        ]
+      },
+      "selected-control": {
+        "role": "neutral",
+        "displayName": "selected-control",
+        "tonalRamp": [
+          "oklch(15% 0.00693 88.64)",
+          "oklch(26% 0.00693 88.64)",
+          "oklch(38% 0.00693 88.64)",
+          "oklch(49% 0.00693 88.64)",
+          "oklch(61% 0.00693 88.64)",
+          "oklch(72% 0.00693 88.64)",
+          "oklch(84% 0.00693 88.64)",
+          "oklch(95% 0.00693 88.64)"
+        ]
+      },
+      "ink-hover": {
+        "role": "secondary",
+        "displayName": "ink-hover",
+        "tonalRamp": [
+          "oklch(15% 0.04553 172.57)",
+          "oklch(26% 0.04553 172.57)",
+          "oklch(38% 0.04553 172.57)",
+          "oklch(49% 0.04553 172.57)",
+          "oklch(61% 0.04553 172.57)",
+          "oklch(72% 0.04553 172.57)",
+          "oklch(84% 0.04553 172.57)",
+          "oklch(95% 0.04553 172.57)"
+        ]
+      },
+      "easy-bg": {
+        "role": "secondary",
+        "displayName": "easy-bg",
+        "tonalRamp": [
+          "oklch(15% 0.03253 91.66)",
+          "oklch(26% 0.03253 91.66)",
+          "oklch(38% 0.03253 91.66)",
+          "oklch(49% 0.03253 91.66)",
+          "oklch(61% 0.03253 91.66)",
+          "oklch(72% 0.03253 91.66)",
+          "oklch(84% 0.03253 91.66)",
+          "oklch(95% 0.03253 91.66)"
+        ]
+      },
+      "easy-text": {
+        "role": "secondary",
+        "displayName": "easy-text",
+        "tonalRamp": [
+          "oklch(15% 0.08583 78.21)",
+          "oklch(26% 0.08583 78.21)",
+          "oklch(38% 0.08583 78.21)",
+          "oklch(49% 0.08583 78.21)",
+          "oklch(61% 0.08583 78.21)",
+          "oklch(72% 0.08583 78.21)",
+          "oklch(84% 0.08583 78.21)",
+          "oklch(95% 0.08583 78.21)"
+        ]
+      },
+      "medium-bg": {
+        "role": "secondary",
+        "displayName": "medium-bg",
+        "tonalRamp": [
+          "oklch(15% 0.02660 132.98)",
+          "oklch(26% 0.02660 132.98)",
+          "oklch(38% 0.02660 132.98)",
+          "oklch(49% 0.02660 132.98)",
+          "oklch(61% 0.02660 132.98)",
+          "oklch(72% 0.02660 132.98)",
+          "oklch(84% 0.02660 132.98)",
+          "oklch(95% 0.02660 132.98)"
+        ]
+      },
+      "medium-text": {
+        "role": "secondary",
+        "displayName": "medium-text",
+        "tonalRamp": [
+          "oklch(15% 0.07963 141.44)",
+          "oklch(26% 0.07963 141.44)",
+          "oklch(38% 0.07963 141.44)",
+          "oklch(49% 0.07963 141.44)",
+          "oklch(61% 0.07963 141.44)",
+          "oklch(72% 0.07963 141.44)",
+          "oklch(84% 0.07963 141.44)",
+          "oklch(95% 0.07963 141.44)"
+        ]
+      },
+      "hard-bg": {
+        "role": "secondary",
+        "displayName": "hard-bg",
+        "tonalRamp": [
+          "oklch(15% 0.03175 37.14)",
+          "oklch(26% 0.03175 37.14)",
+          "oklch(38% 0.03175 37.14)",
+          "oklch(49% 0.03175 37.14)",
+          "oklch(61% 0.03175 37.14)",
+          "oklch(72% 0.03175 37.14)",
+          "oklch(84% 0.03175 37.14)",
+          "oklch(95% 0.03175 37.14)"
+        ]
+      },
+      "hard-text": {
+        "role": "secondary",
+        "displayName": "hard-text",
+        "tonalRamp": [
+          "oklch(15% 0.10547 35.66)",
+          "oklch(26% 0.10547 35.66)",
+          "oklch(38% 0.10547 35.66)",
+          "oklch(49% 0.10547 35.66)",
+          "oklch(61% 0.10547 35.66)",
+          "oklch(72% 0.10547 35.66)",
+          "oklch(84% 0.10547 35.66)",
+          "oklch(95% 0.10547 35.66)"
+        ]
+      },
+      "found": {
+        "role": "secondary",
+        "displayName": "found",
+        "tonalRamp": [
+          "oklch(15% 0.06954 155.91)",
+          "oklch(26% 0.06954 155.91)",
+          "oklch(38% 0.06954 155.91)",
+          "oklch(49% 0.06954 155.91)",
+          "oklch(61% 0.06954 155.91)",
+          "oklch(72% 0.06954 155.91)",
+          "oklch(84% 0.06954 155.91)",
+          "oklch(95% 0.06954 155.91)"
+        ]
+      },
+      "answer": {
+        "role": "secondary",
+        "displayName": "answer",
+        "tonalRamp": [
+          "oklch(15% 0.18831 31.58)",
+          "oklch(26% 0.18831 31.58)",
+          "oklch(38% 0.18831 31.58)",
+          "oklch(49% 0.18831 31.58)",
+          "oklch(61% 0.18831 31.58)",
+          "oklch(72% 0.18831 31.58)",
+          "oklch(84% 0.18831 31.58)",
+          "oklch(95% 0.18831 31.58)"
+        ]
+      },
+      "hint": {
+        "role": "secondary",
+        "displayName": "hint",
+        "tonalRamp": [
+          "oklch(15% 0.15830 91.38)",
+          "oklch(26% 0.15830 91.38)",
+          "oklch(38% 0.15830 91.38)",
+          "oklch(49% 0.15830 91.38)",
+          "oklch(61% 0.15830 91.38)",
+          "oklch(72% 0.15830 91.38)",
+          "oklch(84% 0.15830 91.38)",
+          "oklch(95% 0.15830 91.38)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "white",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "홈 안내",
+        "purpose": "홈의 두 줄 놀이 안내."
+      },
+      "headline": {
+        "displayName": "목록 제목",
+        "purpose": "카드 목록 제목."
+      },
+      "title": {
+        "displayName": "그림 제목",
+        "purpose": "카드 제목."
+      },
+      "body": {
+        "displayName": "안내",
+        "purpose": "홈 안내와 설정 행."
+      },
+      "label": {
+        "displayName": "상태",
+        "purpose": "주제, 난이도, 진행 안내."
+      },
+      "completion": {
+        "displayName": "완료 제목",
+        "purpose": "완료 대화상자 제목."
+      },
+      "play-title": {
+        "displayName": "플레이 제목",
+        "purpose": "도구 행의 한 줄 게임 제목. 20px/700, 줄높이 1.35이며 540px 이하에서 18px이다."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 5px 18px #3e493312",
+        "purpose": "카드 기본 상태."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 9px 24px #3e493321",
+        "purpose": "위로 3px 이동한 카드."
+      },
+      {
+        "name": "dialog",
+        "value": "0 18px 65px #1c352838",
+        "purpose": "설정·완료 대화상자."
+      },
+      {
+        "name": "play-help",
+        "value": "0 8px 24px #203b3230",
+        "purpose": "도구 아래 펼친 놀이 도움말."
+      }
+    ],
+    "motion": [
+      {
+        "name": "card-transition",
+        "value": "transform 0.18s ease-out, box-shadow 0.18s ease-out",
+        "purpose": "카드 호버."
+      },
+      {
+        "name": "completion-entry",
+        "value": "celebrate 1s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "translateY(22px) scale(0.94)에서 제자리로. reduced-motion에서 제거."
+      },
+      {
+        "name": "hint-duration",
+        "value": "2000ms",
+        "purpose": "힌트 표시 시간."
+      },
+      {
+        "name": "wrong-duration",
+        "value": "500ms",
+        "purpose": "오답의 중립 원 표시 시간."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "two-columns",
+        "value": "(max-width: 900px)"
+      },
+      {
+        "name": "hide-progress-bubbles",
+        "value": "(max-width: 1100px)"
+      },
+      {
+        "name": "wrapped-play-toolbar",
+        "value": "(max-width: 900px)"
+      },
+      {
+        "name": "one-column",
+        "value": "(max-width: 540px)"
+      },
+      {
+        "name": "stacked-boards",
+        "value": "(orientation: portrait)"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "(prefers-reduced-motion: reduce)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "다른 게임 고르기",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "현재 앱의 둥근 행동 버튼. 초점과 비활성 상태를 포함한다.",
+      "html": "<button class=\"ds-button-primary\">다른 게임 고르기</button>",
+      "css": ".ds-button-primary{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;background:var(--ink,#254b40);color:#fffaf0;border:0;border-radius:12px;padding:12px 22px;min-height:48px;font-weight:700;cursor:pointer}.ds-button-primary:hover{background:#163a30}.ds-button-primary:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-button-primary:disabled{opacity:.65;cursor:wait}"
+    },
+    {
+      "name": "다시 풀기",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "현재 앱의 둥근 행동 버튼. 초점과 비활성 상태를 포함한다.",
+      "html": "<button class=\"ds-button-secondary\">다시 풀기</button>",
+      "css": ".ds-button-secondary{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;background:#eee9dd;color:var(--ink,#254b40);border:0;border-radius:12px;padding:12px 22px;min-height:48px;font-weight:700;cursor:pointer}.ds-button-secondary:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-button-secondary:disabled{opacity:.65;cursor:wait}"
+    },
+    {
+      "name": "기록 초기화",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "현재 앱의 둥근 행동 버튼. 초점과 비활성 상태를 포함한다.",
+      "html": "<button class=\"ds-button-danger\">기록 초기화</button>",
+      "css": ".ds-button-danger{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;background:#a43f29;color:#fff;border:0;border-radius:12px;padding:12px 22px;min-height:48px;font-weight:700;cursor:pointer}.ds-button-danger:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-button-danger:disabled{opacity:.65;cursor:wait}"
+    },
+    {
+      "name": "소리 아이콘 버튼",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "홈에서 사용하는 44px 원형 제어. 플레이 도구 행은 별도의 48px 정사각형 제어를 사용한다.",
+      "html": "<button class=\"ds-icon\" aria-label=\"소리 끄기\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 9h4l5-4v14l-5-4H4zM17 8a6 6 0 0 1 0 8\"/></svg></button>",
+      "css": ".ds-icon{width:44px;height:44px;border:1px solid var(--line,#dddccf);border-radius:50%;background:transparent;color:var(--ink,#254b40);display:grid;place-items:center;cursor:pointer}.ds-icon svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ds-icon:hover{background:#f0e9d9}.ds-icon:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}"
+    },
+    {
+      "name": "주제 탐색",
+      "kind": "nav",
+      "refersTo": "chip-theme",
+      "description": "선택한 주제를 숲색 면으로 구분한다.",
+      "html": "<nav class=\"ds-themes\" aria-label=\"주제 필터\"><button aria-pressed=\"true\">전체</button><button aria-pressed=\"false\">동물</button><button aria-pressed=\"false\">우주</button></nav>",
+      "css": ".ds-themes{display:flex;gap:9px;flex-wrap:wrap}.ds-themes button{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;border:1px solid var(--line,#dddccf);background:transparent;color:var(--ink,#254b40);border-radius:24px;min-height:46px;padding:8px 22px;font-size:17px;cursor:pointer}.ds-themes button[aria-pressed=true]{background:var(--ink,#254b40);color:#fffaf0;border-color:var(--ink,#254b40)}.ds-themes button:hover:not([aria-pressed=true]){background:#efe9d9}.ds-themes button:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}"
+    },
+    {
+      "name": "난이도 선택",
+      "kind": "chip",
+      "description": "보조 면 안의 선택 면.",
+      "html": "<div class=\"ds-levels\"><button aria-pressed=\"true\">모두</button><button aria-pressed=\"false\">쉬움</button><button aria-pressed=\"false\">보통</button><button aria-pressed=\"false\">어려움</button></div>",
+      "css": ".ds-levels{display:inline-flex;gap:3px;background:#eee9dd;padding:4px;border-radius:12px}.ds-levels button{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;color:var(--ink,#254b40);border:0;background:transparent;padding:8px 13px;min-height:40px;border-radius:9px;cursor:pointer}.ds-levels button[aria-pressed=true]{background:#fffdf8}.ds-levels button:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}"
+    },
+    {
+      "name": "게임 카드",
+      "kind": "card",
+      "refersTo": "game-card",
+      "description": "이미지 아래 본문 영역의 실제 카드 표본. 외부 이미지 없이 제목·상태·행동을 표시한다.",
+      "html": "<button class=\"ds-card\"><h3>숲속 친구들의 소풍</h3><div class=\"ds-meta\">동물</div><div class=\"ds-bottom\"><span>새 게임</span><strong>시작하기 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></strong></div></button>",
+      "css": ".ds-card{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;color:var(--ink,#254b40);padding:17px 20px 20px;text-align:left;border:0;background:#fffdf7;border-radius:var(--radius,16px);box-shadow:0 5px 18px #3e493312;transition:transform .18s ease-out,box-shadow .18s ease-out;min-width:280px;cursor:pointer}.ds-card:hover{transform:translateY(-3px);box-shadow:0 9px 24px #3e493321}.ds-card:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-card h3{font-size:21px;font-weight:700;margin:0 0 7px}.ds-meta{font-size:13px;color:var(--muted,#586b5c);margin-bottom:16px}.ds-bottom{display:flex;justify-content:space-between;gap:6px;font-size:13px;color:var(--muted,#586b5c)}.ds-bottom strong{display:flex;gap:5px;align-items:center;color:var(--ink,#254b40)}.ds-bottom svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}@media(prefers-reduced-motion:reduce){.ds-card{transition:none}}"
+    },
+    {
+      "name": "정답과 힌트 원",
+      "kind": "custom",
+      "refersTo": "board-frame",
+      "description": "실선 정답과 점선 주변 힌트의 실제 SVG 선 규칙.",
+      "html": "<svg class=\"ds-rings\" viewBox=\"0 0 300 120\" aria-label=\"정답과 힌트 표시\"><ellipse class=\"ds-answer\" cx=\"75\" cy=\"60\" rx=\"40\" ry=\"30\"/><ellipse class=\"ds-hint\" cx=\"220\" cy=\"60\" rx=\"60\" ry=\"45\"/></svg>",
+      "css": ".ds-rings{width:300px;max-width:100%;background:#eee9dd;border-radius:12px}.ds-answer{fill:#f4bd5030;stroke:#dc4831;stroke-width:7;vector-effect:non-scaling-stroke}.ds-hint{fill:#f4bd503b;stroke:#ffd447;stroke-width:5;stroke-dasharray:10 6;vector-effect:non-scaling-stroke}"
+    },
+    {
+      "name": "플레이 도구 행",
+      "kind": "custom",
+      "refersTo": "button-play",
+      "description": "넓은 가로 화면의 최소 64px 도구 행. 진행 원은 24px이며 1100px 이하에서 숨긴다. 900px 이하에서는 줄바꿈한다. 행동과 음소거·도움말은 최소 48px 제어다.",
+      "html": "<div class=\"ds-play-toolbar\"><button class=\"ds-play-back\"><svg class=\"ds-play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m14 5-7 7 7 7\"/></svg>다른 게임</button><h1 title=\"키 큰 나무 아래 소풍\">키 큰 나무 아래 소풍</h1><div class=\"ds-play-progress\" role=\"status\" aria-label=\"0개 찾음, 전체 7개\"><span class=\"ds-progress-count\">0 / 7개</span><div class=\"ds-progress-bubbles\" aria-hidden=\"true\"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div></div><div class=\"ds-play-actions\"><button>다시 풀기</button><button class=\"ds-play-hint\"><svg class=\"ds-play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M9 18h6m-5 3h4M8 14a6 6 0 1 1 8 0c-1 1-1 2-1 3H9c0-1 0-2-1-3\"/></svg>힌트</button><button class=\"ds-play-sound\" aria-label=\"소리 켜기\" aria-pressed=\"false\"><svg class=\"ds-play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 9h4l5-4v14l-5-4H4zM17 9l5 6m0-6-5 6\"/></svg></button><details class=\"ds-play-help\"><summary aria-label=\"놀이 도움말\"><svg class=\"ds-play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20M9 9a3 3 0 1 1 5 2c-2 1-2 2-2 3M12 17h.01\"/></svg></summary><p>어느 그림이든 다른 곳을 콕 눌러요. 두 손가락으로 확대하고 움직일 수 있어요. 다시 풀기를 누르면 찾은 정답을 지우고 처음부터 시작해요.</p></details></div></div>",
+      "css": ".ds-play-toolbar{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;color:var(--ink,#254b40);line-height:1.5;display:flex;align-items:center;gap:16px;min-height:64px;border-bottom:1px solid var(--line,#dddccf)}.ds-play-toolbar h1{margin:0;font-size:20px;font-weight:700;line-height:1.35;flex:1;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.ds-play-back{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;color:inherit;border:0;background:transparent;display:flex;align-items:center;gap:4px;min-height:48px;padding:0;white-space:nowrap;font-size:18px;font-weight:700;line-height:1.5;cursor:pointer}.ds-play-progress{display:flex;align-items:center;gap:12px}.ds-progress-count{font-size:18px;font-weight:700;line-height:1.5;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-progress-bubbles{display:flex;gap:4px}.ds-progress-bubbles>span{width:24px;height:24px;border-radius:50%;border:1px solid #c9ccbc;color:#617161;display:grid;place-items:center;font-size:14px;font-variant-numeric:tabular-nums}.ds-progress-bubbles>span.ds-found{background:#447356;color:white;border-color:#447356}.ds-play-actions{display:flex;gap:8px}.ds-play-actions>button{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;color:inherit;display:flex;align-items:center;gap:7px;padding:10px 12px;min-height:48px;border:0;border-radius:10px;background:#eee9dd;font-size:18px;font-weight:700;line-height:1.5;white-space:nowrap;cursor:pointer}.ds-play-actions>button.ds-play-hint{background:#f4bd50;color:#513d06}.ds-play-actions>button.ds-play-sound{width:48px;height:48px;padding:0;display:grid;place-items:center}.ds-play-actions>button.ds-play-sound:hover{background:#f0e9d9}.ds-play-toolbar button:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-play-toolbar button:disabled{opacity:.65;cursor:wait}@media(max-width:1100px){.ds-progress-bubbles{display:none}}@media(max-width:900px){.ds-play-toolbar{flex-wrap:wrap;gap:8px 12px;padding-bottom:8px}.ds-play-toolbar h1{flex-basis:calc(100% - 130px)}.ds-play-actions{margin-left:auto;max-width:100%;flex-wrap:wrap;justify-content:flex-end}}@media(max-width:540px){.ds-play-toolbar h1{font-size:18px}.ds-play-back{font-size:16px}.ds-play-actions>button{padding:9px 11px;font-size:16px}.ds-play-actions>button.ds-play-sound{padding:0}}.ds-play-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-play-help{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;position:relative;color:var(--ink,#254b40)}.ds-play-help summary{width:48px;height:48px;display:grid;place-items:center;cursor:pointer;list-style:none;border-radius:10px;background:#eee9dd;touch-action:manipulation}.ds-play-help summary::-webkit-details-marker{display:none}.ds-play-help summary:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-play-help p{position:absolute;z-index:2;top:calc(100% + 12px);right:0;width:min(340px,calc(100vw - 32px));margin:0;padding:16px;background:#fffdf7;border-radius:12px;box-shadow:0 8px 24px #203b3230;font-size:16px;font-weight:400;line-height:1.7}.ds-play-toolbar,.ds-play-toolbar button,.ds-play-help p{box-sizing:border-box}"
+    },
+    {
+      "name": "접힌 놀이 도움말",
+      "kind": "custom",
+      "refersTo": "button-play-icon",
+      "description": "native details/summary로 여는 48px 도움말 제어와 16px/1.7 본문. 키보드 초점과 실제 SVG 아이콘을 포함한다.",
+      "html": "<details class=\"ds-play-help\"><summary aria-label=\"놀이 도움말\"><svg class=\"ds-play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20M9 9a3 3 0 1 1 5 2c-2 1-2 2-2 3M12 17h.01\"/></svg></summary><p>어느 그림이든 다른 곳을 콕 눌러요. 두 손가락으로 확대하고 움직일 수 있어요. 다시 풀기를 누르면 찾은 정답을 지우고 처음부터 시작해요.</p></details>",
+      "css": ".ds-play-help{font-family:\"NanumSquareRound\",\"Apple SD Gothic Neo\",sans-serif;position:relative;color:var(--ink,#254b40)}.ds-play-help summary{width:48px;height:48px;display:grid;place-items:center;cursor:pointer;list-style:none;border-radius:10px;background:#eee9dd;touch-action:manipulation}.ds-play-help summary::-webkit-details-marker{display:none}.ds-play-help summary:focus-visible{outline:3px solid var(--coral,#da674a);outline-offset:4px}.ds-play-help p{position:absolute;z-index:2;top:calc(100% + 12px);right:0;width:min(340px,calc(100vw - 32px));margin:0;padding:16px;background:#fffdf7;border-radius:12px;box-shadow:0 8px 24px #203b3230;font-size:16px;font-weight:400;line-height:1.7}.ds-play-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-play-help p{box-sizing:border-box}"
+    }
+  ],
+  "narrative": {
+    "northStar": "동화책의 놀이책장",
+    "overview": "따뜻한 종이 위에 선명한 그림을 올리는 놀이책장이다. 짙은 숲색 글자와 둥근 한국어 글꼴이 안내를 맡는다. 노란 도구와 주황색 정답 표시는 그림을 관찰하는 행동을 드러낸다.\n\n큰 이미지와 여유 있는 간격이 화면의 중심이다. 부드러운 모서리와 얕은 그림자로 카드와 대화상자를 구분한다. 이 문서는 src/style.css, src/App.tsx, src/Board.tsx의 현재 로컬 구현과 .impeccable/review의 브라우저 에뮬레이션 스크린샷을 기록한다. 색은 기존 구현 판단이다. 2026-10-14에 사용자가 NanumSquareRound 적용, 플레이 헤더 축소, 4:5 세로 시범 게임 제작을 승인했다. 콘텐츠 승인과 공개는 별도다.\n\n플레이는 넓은 가로 화면의 64px 도구 행과 원본 비율을 보존한 비교 그림을 사용한다. 48px 제어와 접힌 도움말이 그림에 남는 공간을 확보한다. 비교 그림은 남은 100dvh 높이에 맞추고 실제 그림 가장자리 사이 간격을 16px로 유지한다. 현재 모든 게임의 4:5 그림에 같은 비교 규칙을 적용한다.",
+    "keyCharacteristics": [
+      "선명한 그림과 따뜻한 종이색",
+      "숲색 글자와 자체 호스팅 한국어 글꼴",
+      "둥근 제어와 얕은 그림자",
+      "양쪽 그림에 함께 나타나는 정답·힌트 표시"
+    ],
+    "rules": [
+      {
+        "name": "Tool and Answer",
+        "body": "노란색은 힌트와 놀이 도구에, 주황색 원은 찾은 정답에 쓴다. 찾은 진행 상태는 숲색 체크로 구분한다.",
+        "section": "colors"
+      },
+      {
+        "name": "Quiet Supporting Type",
+        "body": "제목은 크게, 주제와 진행 안내는 작게 둔다. 색과 아이콘만으로 상태를 전달하지 않고 텍스트와 체크를 함께 쓴다.",
+        "section": "typography"
+      },
+      {
+        "name": "Soft Lift",
+        "body": "카드는 기본 상태에서도 얕게 떠 있다. 호버에서만 조금 더 올라가며 대화상자는 가장 깊은 그림자를 쓴다.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do 이미지의 비율을 유지하고 두 그림의 확대 상태를 공유한다.",
+      "Do 키보드 초점에 주황색 외곽선을 유지한다.",
+      "Do reduced-motion 설정에서 애니메이션과 전환을 끈다.",
+      "Do 실제 주제·난이도·진행·오프라인 상태를 텍스트로 표시한다."
+    ],
+    "donts": [
+      "Don't 정답 원과 힌트 원을 같은 선 스타일로 만든다.",
+      "Don't 확대·이동 동작을 정답 탭으로 처리한다.",
+      "Don't 플레이 중 앱 업데이트 동작을 노출한다."
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build-content/
+public/games/
+public/catalog.json
+work/
+reviews/
+.wrangler/
+.env*
+!.env.example
+test-results/
+playwright-report/
+.impeccable/review/
+.impeccable/build/
+.playwright-mcp/
+.cache/
+output/playwright/

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-princess-medium-03",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "깃털",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.076,
+        "y": 0.192,
+        "rx": 0.04,
+        "ry": 0.075
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "반지",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.572,
+        "y": 0.083,
+        "rx": 0.024,
+        "ry": 0.034
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.905,
+        "y": 0.083,
+        "rx": 0.052,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "새의 날개",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.554,
+        "y": 0.4,
+        "rx": 0.037,
+        "ry": 0.068
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "양말",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.128,
+        "y": 0.857,
+        "rx": 0.065,
+        "ry": 0.061
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "열쇠",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.786,
+        "y": 0.355,
+        "rx": 0.015,
+        "ry": 0.038
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "조개",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.708,
+        "y": 0.831,
+        "rx": 0.036,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "빗",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.183,
+        "y": 0.486,
+        "rx": 0.036,
+        "ry": 0.024
+      }
+    }
+  ]
+}

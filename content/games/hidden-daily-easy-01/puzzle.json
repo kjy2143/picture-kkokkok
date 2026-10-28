@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-easy-01",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "토끼",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.089,
+        "y": 0.157,
+        "rx": 0.032,
+        "ry": 0.079
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "종",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.462,
+        "y": 0.129,
+        "rx": 0.1,
+        "ry": 0.093
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.684,
+        "y": 0.125,
+        "rx": 0.042,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "숟가락",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.14,
+        "y": 0.69,
+        "rx": 0.075,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "별",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.48,
+        "y": 0.357,
+        "rx": 0.03,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "나뭇잎",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.863,
+        "y": 0.553,
+        "rx": 0.029,
+        "ry": 0.056
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "나비",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.043,
+        "y": 0.37,
+        "rx": 0.038,
+        "ry": 0.058
+      }
+    }
+  ]
+}

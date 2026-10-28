@@ -1,0 +1,25 @@
+{
+  "recordedDate": "2026-10-14",
+  "scope": "local first implementation; not a public release",
+  "unitTests": {
+    "passed": 13
+  },
+  "browserTests": {
+    "passed": 11,
+    "skipped": 1,
+    "engines": [
+      "Chromium",
+      "WebKit"
+    ],
+    "skipReason": "CDP touch injection unavailable in WebKit"
+  },
+  "skillValidation": "passed",
+  "contentCandidates": 18,
+  "approvedGames": 0,
+  "publicBuildGames": 0,
+  "deployGate": "blocked before upload: 18 approved games missing",
+  "actualIpadVerified": false,
+  "childPlayVerified": false,
+  "publicDeployed": false,
+  "manualReleaseRequired": true
+}

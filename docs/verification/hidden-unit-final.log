@@ -1,0 +1,13 @@
+
+> picture-kkokkok@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.4 /Users/honest/Sites/github/public/kjy2143/picture-kkokkok
+
+
+ Test Files  4 passed (4)
+      Tests  24 passed (24)
+   Start at  03:21:19
+   Duration  2.64s (tests 96%, import 3%)
+

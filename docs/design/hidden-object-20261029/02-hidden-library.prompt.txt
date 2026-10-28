@@ -1,0 +1,13 @@
+Use case: ui-mockup.
+Create ONE high fidelity app UI screenshot, flat front-on landscape 1180:820 ratio, no tablet body, no perspective. This is screen 2 (hidden picture game library) in the same Korean children's iPad app as reference image 1.
+Reference image 1 = approved-for-exploration newly generated game selection mock: preserve its brand logo, warm ivory #faf6ec background, dark forest green #254b40, sunny yellow #f4bd50, burnt orange #b84c30, rounded Korean NanumSquareRound-style text and storybook illustration style. Preserve its actual forest picnic concept. Reference image 2 = existing app home, inherits component proportions and library filters; do not reproduce its dense collection of existing games.
+
+STRUCTURE:
+Top slim brand header with "그림콕콕", sound and settings outline-icon buttons, thin rule.
+A clearly visible "‹ 놀이 선택" back link, then a compact page title "숨은그림찾기" with short sentence "그림 속에 꼭꼭 숨은 물건을 찾아봐요.".
+One row of calm topic chips: "전체" selected dark green, "동물", "우주", "공주", "동화", "교통", "일상".
+Next row: heading "그림을 골라봐요" plus small count "1"; at right difficulty segmented control "모두" selected, "쉬움", "보통", "어려움".
+
+Content is ONE generous full-width horizontal game card, because the first release genuinely has one hidden picture game. No fake extra games, no empty placeholder cards, no 'coming soon', no repeated tiles. This single large library row has a beautiful 4:3 forest picnic illustration on the left roughly 55% of card width; right 45% clean ivory content with generous padding. Show 7 small cleverly embedded recognizable silhouettes in the forest drawing. It must feel like a new scene in same picture-book universe as reference, not copied existing art.
+Right column: small warm yellow badge "쉬움 · 7개", large title "숲속 친구들의 소풍", subdued category "동물". Show very small leaf, spoon, butterfly, key, heart, fish, sock illustration thumbnails in one row with no individual raised cards; these are targets to recognize, not geometric symbols. Below them clear short progress text "2 / 7 찾았어요" and a simple short green progress line showing 2 of 7. Then prominent dark green rounded button "이어하기 →". Bottom small quiet device/save icon text "오프라인 가능". Card should fit wholly inside viewport with generous bottom margin. Rounded corners 16px, very subtle offset soft shadow, no nested card shells, illustrations must remain the focus.
+A polished practical interface, crisp legible Korean, all text spelled exactly, large touch targets, no decorative English, no timestamps or extra features.

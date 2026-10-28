@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-space-hard-05",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "연필",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.07,
+        "y": 0.076,
+        "rx": 0.057,
+        "ry": 0.038
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "안경",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.867,
+        "y": 0.103,
+        "rx": 0.062,
+        "ry": 0.047
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "주전자",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.165,
+        "y": 0.255,
+        "rx": 0.053,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "오리",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.473,
+        "y": 0.168,
+        "rx": 0.043,
+        "ry": 0.044
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "사과",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.882,
+        "y": 0.749,
+        "rx": 0.027,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "버섯",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.103,
+        "y": 0.461,
+        "rx": 0.033,
+        "ry": 0.049
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "숟가락",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.518,
+        "y": 0.885,
+        "rx": 0.021,
+        "ry": 0.057
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "장갑",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.122,
+        "y": 0.83,
+        "rx": 0.036,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "왕관",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.927,
+        "y": 0.919,
+        "rx": 0.043,
+        "ry": 0.063
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "물고기",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.95,
+        "y": 0.416,
+        "rx": 0.038,
+        "ry": 0.074
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+
+> picture-kkokkok@0.1.0 test:browser
+> playwright test tests/browser/hidden.spec.ts
+
+[WebServer] (node:73347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:73383) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer]  WARN  inlineDynamicImports option is deprecated, please use codeSplitting: false instead.
+[WebServer] 
+[WebServer] (node:73406) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:73413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/hidden.spec.ts:22:1 › 첫 화면에서 놀이를 선택하고 해당 목록으로 들어간다 (857ms)
+  ✓   2 [chromium] › tests/browser/hidden.spec.ts:84:1 › 단일 그림의 정답·중복 선택·저장·힌트·복귀·다시 풀기가 연결된다 (1.0s)
+  ✓   3 [chromium] › tests/browser/hidden.spec.ts:117:1 › 숨은그림의 뒤로가기·앞으로가기·새로고침이 종류와 진행을 유지한다 (820ms)
+  ✓   4 [chromium] › tests/browser/hidden.spec.ts:138:1 › 목표 파일까지 저장된 숨은그림은 오프라인에서 복원된다 (965ms)
+  ✓   5 [chromium] › tests/browser/hidden.spec.ts:176:1 › 가로·세로·휴대폰에서 본그림과 모든 목표가 잘리지 않는다 (1.2s)
+  ✓   6 [chromium] › tests/browser/hidden.spec.ts:226:1 › 등록된 모든 숨은그림의 목표와 완료 판정 (33.4s)
+(node:74216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [webkit] › tests/browser/hidden.spec.ts:22:1 › 첫 화면에서 놀이를 선택하고 해당 목록으로 들어간다 (1.1s)
+  ✓   8 [webkit] › tests/browser/hidden.spec.ts:84:1 › 단일 그림의 정답·중복 선택·저장·힌트·복귀·다시 풀기가 연결된다 (1.3s)
+  ✓   9 [webkit] › tests/browser/hidden.spec.ts:117:1 › 숨은그림의 뒤로가기·앞으로가기·새로고침이 종류와 진행을 유지한다 (1.3s)
+  ✓  10 [webkit] › tests/browser/hidden.spec.ts:138:1 › 목표 파일까지 저장된 숨은그림은 오프라인에서 복원된다 (1.4s)
+  ✓  11 [webkit] › tests/browser/hidden.spec.ts:176:1 › 가로·세로·휴대폰에서 본그림과 모든 목표가 잘리지 않는다 (1.3s)
+  ✓  12 [webkit] › tests/browser/hidden.spec.ts:226:1 › 등록된 모든 숨은그림의 목표와 완료 판정 (29.1s)
+
+  12 passed (1.4m)

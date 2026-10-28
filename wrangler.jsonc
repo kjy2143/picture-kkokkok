@@ -1,0 +1,11 @@
+{
+  "name": "picture-kkokkok",
+  "account_id": "e24be4e0c38762763ccb6c9199f7f465",
+  "compatibility_date": "2026-10-13",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

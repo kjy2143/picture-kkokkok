@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "transport-medium-train",
+  "width": 1120,
+  "height": 1400,
+  "original": "original.png",
+  "modified": "modified.png",
+  "differences": [
+    {
+      "id": "difference-1",
+      "description": "아이 모자 색깔",
+      "left": {
+        "x": 0.433,
+        "y": 0.5,
+        "rx": 0.046,
+        "ry": 0.024
+      },
+      "right": {
+        "x": 0.433,
+        "y": 0.5,
+        "rx": 0.046,
+        "ry": 0.024
+      }
+    },
+    {
+      "id": "difference-2",
+      "description": "기관차 입 표정",
+      "left": {
+        "x": 0.86,
+        "y": 0.428,
+        "rx": 0.05,
+        "ry": 0.021
+      },
+      "right": {
+        "x": 0.86,
+        "y": 0.428,
+        "rx": 0.05,
+        "ry": 0.021
+      }
+    },
+    {
+      "id": "difference-3",
+      "description": "승강장 비둘기 수",
+      "left": {
+        "x": 0.729,
+        "y": 0.755,
+        "rx": 0.11,
+        "ry": 0.052
+      },
+      "right": {
+        "x": 0.729,
+        "y": 0.755,
+        "rx": 0.11,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "difference-4",
+      "description": "역 시계 테두리 모양",
+      "left": {
+        "x": 0.247,
+        "y": 0.128,
+        "rx": 0.081,
+        "ry": 0.069
+      },
+      "right": {
+        "x": 0.247,
+        "y": 0.128,
+        "rx": 0.081,
+        "ry": 0.069
+      }
+    },
+    {
+      "id": "difference-5",
+      "description": "아빠 조끼 무늬",
+      "left": {
+        "x": 0.334,
+        "y": 0.435,
+        "rx": 0.035,
+        "ry": 0.06
+      },
+      "right": {
+        "x": 0.334,
+        "y": 0.435,
+        "rx": 0.035,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "difference-6",
+      "description": "신호기 위 새 유무",
+      "left": {
+        "x": 0.905,
+        "y": 0.105,
+        "rx": 0.038,
+        "ry": 0.024
+      },
+      "right": {
+        "x": 0.905,
+        "y": 0.105,
+        "rx": 0.038,
+        "ry": 0.024
+      }
+    },
+    {
+      "id": "difference-7",
+      "description": "여행 가방의 열기구 그림 모양",
+      "left": {
+        "x": 0.465,
+        "y": 0.861,
+        "rx": 0.028,
+        "ry": 0.029
+      },
+      "right": {
+        "x": 0.465,
+        "y": 0.861,
+        "rx": 0.028,
+        "ry": 0.029
+      }
+    },
+    {
+      "id": "difference-8",
+      "description": "기관차 전조등 색깔",
+      "left": {
+        "x": 0.851,
+        "y": 0.286,
+        "rx": 0.043,
+        "ry": 0.035
+      },
+      "right": {
+        "x": 0.851,
+        "y": 0.286,
+        "rx": 0.043,
+        "ry": 0.035
+      }
+    }
+  ]
+}

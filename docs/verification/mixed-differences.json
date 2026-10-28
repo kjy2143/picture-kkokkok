@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-15",
+  "version": "mixed-v3",
+  "scope": "animals-easy-picnic-portrait",
+  "games": 19,
+  "answers": 157,
+  "differences": {
+    "color": 1,
+    "expression": 1,
+    "count": 2,
+    "shape": 1,
+    "presence": 1,
+    "pattern": 1
+  },
+  "checks": {
+    "typecheck": "passed",
+    "content": "19 games passed",
+    "unitTests": 13,
+    "browserTests": 6,
+    "browsers": [
+      "Chromium",
+      "WebKit"
+    ],
+    "gameplayRevisionChanged": true,
+    "previousGameplayRevision": "c1debab92dfa6c8d5b60",
+    "currentGameplayRevision": "be13230f6df9d103b501",
+    "otherGameFilesUnchanged": 91,
+    "manualImageInspection": "planned differences and answer ellipses checked"
+  },
+  "realIPadVerified": false,
+  "childDifficultyValidated": false,
+  "contentApproved": false,
+  "deployed": false
+}

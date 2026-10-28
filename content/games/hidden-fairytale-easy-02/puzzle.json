@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-fairytale-easy-02",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "새의 날개",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.465,
+        "y": 0.193,
+        "rx": 0.067,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "하트",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.83,
+        "y": 0.137,
+        "rx": 0.038,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.226,
+        "y": 0.641,
+        "rx": 0.063,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "열쇠",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.921,
+        "y": 0.483,
+        "rx": 0.034,
+        "ry": 0.095
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "숟가락",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.227,
+        "y": 0.763,
+        "rx": 0.105,
+        "ry": 0.049
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "초승달",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.878,
+        "y": 0.806,
+        "rx": 0.041,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "안경",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.531,
+        "y": 0.806,
+        "rx": 0.075,
+        "ry": 0.06
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+
+> picture-kkokkok@0.1.0 build
+> npm run check && node scripts/content.mjs export && vite build && node scripts/content.mjs audit
+
+
+> picture-kkokkok@0.1.0 check
+> tsc --noEmit && node scripts/content.mjs check
+
+60개 게임 데이터 검사 통과
+60개 등록 게임 내보내기
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 26 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/manifest.webmanifest                          0.41 kB
+dist/index.html                                    0.76 kB │ gzip:  0.47 kB
+dist/assets/NanumSquareRoundB-Bm1hOxAf.woff2     232.07 kB
+dist/assets/NanumSquareRoundR-vkh4jiU1.woff2     247.22 kB
+dist/assets/index-BMGA-Fmd.css                    18.31 kB │ gzip:  4.60 kB
+dist/assets/workbox-window.prod.es5-Bd17z0YL.js    5.65 kB │ gzip:  2.20 kB
+dist/assets/index-DQjJvVn9.js                    258.93 kB │ gzip: 81.03 kB
+
+✓ built in 682ms
+
+PWA v2.0.0
+Building src/sw.ts service worker ("es" format)...
+vite v8.3.4 building client environment for production...
+
+ WARN  inlineDynamicImports option is deprecated, please use codeSplitting: false instead.
+
+transforming...
+✓ 61 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/sw.mjs  16.30 kB │ gzip: 5.48 kB
+
+✓ built in 21ms
+
+PWA v2.0.0
+mode      injectManifest
+format:   es
+precache  14 entries (1017.22 KiB)
+files generated
+  dist/sw.js
+배포 산출물 60개 게임 검사 통과

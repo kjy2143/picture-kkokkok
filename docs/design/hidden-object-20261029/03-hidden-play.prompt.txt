@@ -1,0 +1,22 @@
+Use case: ui-mockup.
+Create ONE high-fidelity Korean children's iPad app gameplay UI screen, flat front-on screenshot, landscape 1180:820 ratio. No tablet frame or perspective. Screen 3 of same app as references.
+Reference 1 = game selection UI, preserve its brand palette and rounded Korean typography.
+Reference 2 = hidden picture library UI, reuse the SAME forest friends picnic premise and cartoon style but improve camouflage: the illustration inside the card was just an early preview, this gameplay must embed shapes in scene structure rather than place isolated objects on top.
+Reference 3 = real children's hidden picture book, borrow ONLY how objects are cleverly camouflaged in other silhouettes and patterns. Do not copy book artwork or show hands, book, keyboard.
+
+LAYOUT HAS ONLY TWO REGIONS:
+1. COMPACT toolbar about 64px high across very top. NO brand/logo/home hero, no giant heading. From left: back-chevron and "다른 그림", medium title "숲속 친구들의 소풍", then space, outline secondary button "다시 풀기", sunny yellow button with lightbulb "힌트", small sound icon and help "?" icon. Match existing warm ivory #faf6ec, forest ink #254b40, burnt orange #b84c30, yellow #f4bd50, restrained soft 12-16px corners and crisp line icons.
+2. Below thin rule and small gap, main workspace fills remainder. Left approximately 78% width is ONE large 4:3 scene with all its edges visible and no cropping, no text or instructions over it. Right approximately 22% is a quiet fixed target checklist on ivory ground, not overlaying scene. This is the focal layout decision.
+
+SCENE: a newly invented bright richly detailed children's book illustration of friendly bear with hat, rabbit, fox and squirrel having picnic on checked cloth beside a river under a big tree, clear outlines, warm lively color, child-appropriate. Seven hidden-object silhouettes are embedded into the scenery:
+- a leaf shape in a group of larger leaves (found);
+- spoon silhouette in the long wood grain of a picnic-basket handle;
+- butterfly silhouette within a flower/leaf cluster rather than a floating living butterfly;
+- key silhouette formed by a connected tree-branch fork and small knot, not a yellow loose key;
+- heart-shaped tree bark knot (found);
+- fish-shaped flowing water/ripple contour;
+- sock silhouette in an outlined fold/pattern of the picnic blanket, not a hanging sock.
+No loose object floating in sky, no target icon pasted into the scene. Camouflage looks deliberate and recognizable at child-friendly scale, not tiny photorealism. Place just TWO thin orange elliptical answer outlines on the leaf cluster at upper right and heart bark knot at upper left. Keep the rest unmarked. This is only a concept artwork, not a validated puzzle.
+
+TARGET PANEL: title "찾을 물건" with short progress "2 / 7 찾았어요". ALL seven target mini-illustrations visible at once in a comfortable two-column grid, four rows, last single item centered. Use actual small natural illustrations, not emoji or typographic symbols. Labels exactly "나뭇잎", "숟가락", "나비", "열쇠", "하트", "물고기", "양말". Show green check mark and subtle pale sage background ONLY on leaf and heart, retain icons and labels legible. All other targets plain cream, no heavy nested card borders or shadows. Each target is large enough to recognize and compare. Quiet bottom instruction "숨은 물건을 콕 눌러요.".
+No time, score, lives, ads, bottom navigation, zoom-reset button, magnifying toolbar, modal or extra interface. Clear real touchscreen interface. Exact Korean spelling, small quiet toolbar, scene dominates with target panel always visible.

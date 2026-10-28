@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-space-medium-02",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "왕관",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.102,
+        "y": 0.086,
+        "rx": 0.05,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "달팽이",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.912,
+        "y": 0.123,
+        "rx": 0.075,
+        "ry": 0.075
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "종",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.457,
+        "y": 0.182,
+        "rx": 0.043,
+        "ry": 0.063
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "찻잔",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.129,
+        "y": 0.836,
+        "rx": 0.052,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "깃털",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.946,
+        "y": 0.48,
+        "rx": 0.043,
+        "ry": 0.126
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "배",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.925,
+        "y": 0.821,
+        "rx": 0.038,
+        "ry": 0.063
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "연",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.509,
+        "y": 0.87,
+        "rx": 0.064,
+        "ry": 0.094
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "나비",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.081,
+        "y": 0.292,
+        "rx": 0.076,
+        "ry": 0.091
+      }
+    }
+  ]
+}

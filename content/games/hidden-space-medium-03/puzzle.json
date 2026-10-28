@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-space-medium-03",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "기타",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.123,
+        "y": 0.148,
+        "rx": 0.059,
+        "ry": 0.118
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "왕관",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.911,
+        "y": 0.077,
+        "rx": 0.041,
+        "ry": 0.043
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "토끼머리",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.102,
+        "y": 0.475,
+        "rx": 0.059,
+        "ry": 0.096
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "돛단배",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.921,
+        "y": 0.285,
+        "rx": 0.053,
+        "ry": 0.069
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "우산",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.586,
+        "y": 0.437,
+        "rx": 0.047,
+        "ry": 0.073
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "주전자",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.811,
+        "y": 0.826,
+        "rx": 0.073,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "버섯",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.122,
+        "y": 0.818,
+        "rx": 0.043,
+        "ry": 0.058
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "아이스크림",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.432,
+        "y": 0.869,
+        "rx": 0.031,
+        "ry": 0.066
+      }
+    }
+  ]
+}

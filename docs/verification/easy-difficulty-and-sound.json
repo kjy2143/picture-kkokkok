@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-15",
+  "scope": "animals-easy-picnic-portrait",
+  "games": 19,
+  "answers": 157,
+  "unitTests": {
+    "passed": 13
+  },
+  "browserTests": {
+    "passed": 15,
+    "skipped": 1,
+    "skipReason": "WebKit CDP touch injection"
+  },
+  "build": "passed",
+  "sound": {
+    "defaultEnabled": true,
+    "storedMutePreserved": true,
+    "wrongTone": "180Hz/140ms",
+    "playbackCallsCheckedIn": [
+      "Chromium",
+      "WebKit"
+    ],
+    "realDeviceAudibilityVerified": false
+  },
+  "difficulty": {
+    "colourOnly": 0,
+    "shape": 4,
+    "presence": 1,
+    "pattern": 1,
+    "count": 1,
+    "childDifficultyValidated": false
+  },
+  "revisionChanged": true,
+  "contentApproved": false,
+  "deployed": false
+}

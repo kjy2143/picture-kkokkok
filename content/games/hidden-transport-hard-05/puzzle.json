@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-transport-hard-05",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "장화",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.118,
+        "y": 0.129,
+        "rx": 0.045,
+        "ry": 0.068
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "바나나",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.43,
+        "y": 0.118,
+        "rx": 0.044,
+        "ry": 0.049
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.902,
+        "y": 0.393,
+        "rx": 0.038,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "주전자",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.108,
+        "y": 0.632,
+        "rx": 0.072,
+        "ry": 0.079
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "도토리",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.507,
+        "y": 0.355,
+        "rx": 0.027,
+        "ry": 0.046
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "나비",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.627,
+        "y": 0.494,
+        "rx": 0.043,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "빗",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.936,
+        "y": 0.713,
+        "rx": 0.038,
+        "ry": 0.037
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "조개",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.184,
+        "y": 0.734,
+        "rx": 0.045,
+        "ry": 0.059
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "열쇠",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.568,
+        "y": 0.845,
+        "rx": 0.028,
+        "ry": 0.056
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "하트",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.858,
+        "y": 0.89,
+        "rx": 0.052,
+        "ry": 0.063
+      }
+    }
+  ]
+}

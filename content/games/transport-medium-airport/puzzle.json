@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "transport-medium-airport",
+  "width": 1120,
+  "height": 1400,
+  "original": "original.png",
+  "modified": "modified.png",
+  "differences": [
+    {
+      "id": "difference-1",
+      "description": "바람자루 무늬",
+      "left": {
+        "x": 0.833,
+        "y": 0.064,
+        "rx": 0.118,
+        "ry": 0.045
+      },
+      "right": {
+        "x": 0.833,
+        "y": 0.064,
+        "rx": 0.118,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "difference-2",
+      "description": "격납고 깃발 색",
+      "left": {
+        "x": 0.817,
+        "y": 0.151,
+        "rx": 0.04,
+        "ry": 0.032
+      },
+      "right": {
+        "x": 0.817,
+        "y": 0.151,
+        "rx": 0.04,
+        "ry": 0.032
+      }
+    },
+    {
+      "id": "difference-3",
+      "description": "하늘 구름 유무",
+      "left": {
+        "x": 0.222,
+        "y": 0.087,
+        "rx": 0.219,
+        "ry": 0.081
+      },
+      "right": {
+        "x": 0.222,
+        "y": 0.087,
+        "rx": 0.219,
+        "ry": 0.081
+      }
+    },
+    {
+      "id": "difference-4",
+      "description": "격납고 위 새",
+      "left": {
+        "x": 0.923,
+        "y": 0.146,
+        "rx": 0.032,
+        "ry": 0.027
+      },
+      "right": {
+        "x": 0.923,
+        "y": 0.146,
+        "rx": 0.032,
+        "ry": 0.027
+      }
+    },
+    {
+      "id": "difference-5",
+      "description": "안전 고깔 개수",
+      "left": {
+        "x": 0.062,
+        "y": 0.778,
+        "rx": 0.061,
+        "ry": 0.073
+      },
+      "right": {
+        "x": 0.062,
+        "y": 0.778,
+        "rx": 0.061,
+        "ry": 0.073
+      }
+    },
+    {
+      "id": "difference-6",
+      "description": "공구 상자 모양",
+      "left": {
+        "x": 0.886,
+        "y": 0.902,
+        "rx": 0.107,
+        "ry": 0.066
+      },
+      "right": {
+        "x": 0.886,
+        "y": 0.902,
+        "rx": 0.107,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "difference-7",
+      "description": "토끼 조종사 입 표정",
+      "left": {
+        "x": 0.754,
+        "y": 0.428,
+        "rx": 0.03,
+        "ry": 0.026
+      },
+      "right": {
+        "x": 0.754,
+        "y": 0.428,
+        "rx": 0.03,
+        "ry": 0.026
+      }
+    },
+    {
+      "id": "difference-8",
+      "description": "아이 스웨터 색",
+      "left": {
+        "x": 0.22,
+        "y": 0.499,
+        "rx": 0.112,
+        "ry": 0.085
+      },
+      "right": {
+        "x": 0.22,
+        "y": 0.499,
+        "rx": 0.112,
+        "ry": 0.085
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-transport-medium-03",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "고래",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.193,
+        "y": 0.108,
+        "rx": 0.071,
+        "ry": 0.05
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "사과",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.387,
+        "y": 0.77,
+        "rx": 0.049,
+        "ry": 0.054
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "왕관",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.856,
+        "y": 0.348,
+        "rx": 0.056,
+        "ry": 0.05
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "포크",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.0967,
+        "y": 0.495,
+        "rx": 0.039,
+        "ry": 0.112
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "별",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.207,
+        "y": 0.358,
+        "rx": 0.027,
+        "ry": 0.034
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "리본",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.428,
+        "y": 0.612,
+        "rx": 0.046,
+        "ry": 0.064
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "신발",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.776,
+        "y": 0.805,
+        "rx": 0.069,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "종",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.937,
+        "y": 0.169,
+        "rx": 0.048,
+        "ry": 0.06
+      }
+    }
+  ]
+}

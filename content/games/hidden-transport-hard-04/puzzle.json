@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-transport-hard-04",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "거북이",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.222,
+        "y": 0.489,
+        "rx": 0.098,
+        "ry": 0.063
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "찻잔",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.425,
+        "y": 0.434,
+        "rx": 0.05,
+        "ry": 0.036
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "서양배",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.759,
+        "y": 0.322,
+        "rx": 0.026,
+        "ry": 0.047
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "안경",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.28,
+        "y": 0.6,
+        "rx": 0.1,
+        "ry": 0.053
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "망치",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.555,
+        "y": 0.501,
+        "rx": 0.081,
+        "ry": 0.124
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "버섯",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.833,
+        "y": 0.483,
+        "rx": 0.088,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "초승달",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.125,
+        "y": 0.805,
+        "rx": 0.048,
+        "ry": 0.07
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "생쥐",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.4,
+        "y": 0.768,
+        "rx": 0.084,
+        "ry": 0.078
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "촛불",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.61,
+        "y": 0.769,
+        "rx": 0.034,
+        "ry": 0.097
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "오리",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.851,
+        "y": 0.782,
+        "rx": 0.125,
+        "ry": 0.105
+      }
+    }
+  ]
+}

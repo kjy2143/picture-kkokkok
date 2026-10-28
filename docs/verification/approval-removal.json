@@ -1,0 +1,14 @@
+{
+  "change": "manual review and approval removed",
+  "registeredGamesIncluded": true,
+  "approvalFilesRequired": false,
+  "manualReleaseGateRequired": false,
+  "qualityGuideRetained": true,
+  "unitPassed": 14,
+  "browserPassed": 25,
+  "browserSkipped": 1,
+  "skipReason": "WebKit CDP touch injection",
+  "productionBuild": "passed",
+  "deployDryRun": "passed",
+  "uploaded": false
+}

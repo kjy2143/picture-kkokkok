@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-easy-02",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "고양이",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.133,
+        "y": 0.125,
+        "rx": 0.066,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "우산",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.831,
+        "y": 0.108,
+        "rx": 0.09,
+        "ry": 0.085
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "당근",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.303,
+        "y": 0.425,
+        "rx": 0.058,
+        "ry": 0.1
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "장갑",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.06,
+        "y": 0.504,
+        "rx": 0.035,
+        "ry": 0.052
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "나비",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.557,
+        "y": 0.828,
+        "rx": 0.059,
+        "ry": 0.046
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "사과",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.85,
+        "y": 0.494,
+        "rx": 0.046,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "열쇠",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.886,
+        "y": 0.839,
+        "rx": 0.035,
+        "ry": 0.071
+      }
+    }
+  ]
+}

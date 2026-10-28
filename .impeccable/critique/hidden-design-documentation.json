@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "hidden_design_documentation",
+  "reviewedOn": "2026-10-29",
+  "mode": "ordinary-extension-system-check",
+  "status": "fits-incumbent-system",
+  "writeBoundary": ".impeccable/critique/hidden-design-documentation.json",
+  "systemFiles": {
+    "preserved": ["DESIGN.md", ".impeccable/design.json"],
+    "regenerated": false,
+    "reason": "기존 동화책의 놀이책장을 확장한 기능이다. 새 시각 세계나 전역 토큰 교체 근거가 없으며 이번 작업은 기존 시스템 파일 보존을 명시했다."
+  },
+  "evidenceChecked": {
+    "operatingReference": "/Users/honest/.agents/skills/impeccable/reference/document.md",
+    "product": "PRODUCT.md",
+    "direction": ".impeccable/direction-hidden.md",
+    "registeredSurface": ".impeccable/surfaces/src-app-tsx.md",
+    "source": ["src/style.css", "src/App.tsx", "src/ModeSelection.tsx", "src/HiddenTargets.tsx", "src/Board.tsx"],
+    "incumbentSystem": ["DESIGN.md", ".impeccable/design.json"],
+    "capturesVisuallyInspected": [
+      {"path": ".impeccable/review/hidden-mode-selection.png", "size": "1180x820", "observation": "같은 크기 놀이 선택 두 개, 실제 그림, 종이 배경, 숲색 제목과 주황 강조를 확인했다."},
+      {"path": ".impeccable/review/hidden-library.png", "size": "1180x820", "observation": "세 열의 실제 그림 카드, 목표 예시, 주제 필터와 숲색 활성 난이도 모두를 확인했다."},
+      {"path": ".impeccable/review/hidden-play-1180.png", "size": "1180x820", "observation": "왼쪽 장면과 오른쪽 일곱 목표, 낮은 도구 행, 마지막 홀수 목표의 가운데 배치를 확인했다."},
+      {"path": ".impeccable/review/hidden-play-1024.png", "size": "1024x768", "observation": "장면과 목표의 가로 배치, 모든 일곱 목표와 글자 표시를 확인했다."},
+      {"path": ".impeccable/review/hidden-play-820.png", "size": "820x1180", "observation": "줄바꿈한 도구 행, 자르지 않은 장면, 아래의 다섯 열 목표 목록을 확인했다."},
+      {"path": ".impeccable/review/hidden-play-390.png", "size": "390x844", "observation": "장면 아래 네 열 목표 목록과 일곱 목표의 이름, 작은 화면의 도구 행을 확인했다."}
+    ],
+    "relatedVerdictRead": ".impeccable/critique/hidden-ui-verdict.json"
+  },
+  "incumbentTokenEvidence": {
+    "palette": {
+      "source": "src/style.css:15",
+      "values": {"ink": "#254b40", "muted": "#586b5c", "paper": "#faf6ec", "yellow": "#f4bd50", "coral": "#da674a", "line": "#dddccf"},
+      "reuse": "선택 화면, 숨은 목록과 목표 패널이 같은 루트 색을 상속한다. 제목 강조 #b84c30, 카드 면 #fffdf7, 밝은 글자 #fffaf0도 기존 DESIGN.md의 값이다."
+    },
+    "type": {
+      "source": "src/style.css:1",
+      "fontFamily": "NanumSquareRound, Apple SD Gothic Neo, sans-serif",
+      "realFontWeights": [400, 700],
+      "base": {"fontSize": "16px", "lineHeight": 1.5},
+      "observedRoles": [
+        {"role": "놀이 선택 안내", "size": "clamp(30px, 3.3vw, 44px)", "lineHeight": 1.35, "letterSpacing": "-0.03em", "source": "src/style.css:941"},
+        {"role": "놀이 선택 카드 제목", "size": "clamp(26px, 2.8vw, 36px)", "smallScreen": "28px at max-width:700px", "source": "src/style.css:1019"},
+        {"role": "기존 목록 제목", "size": "24px", "source": "src/style.css:241"},
+        {"role": "플레이 제목", "size": "20px; 18px at max-width:540px", "source": "src/style.css:474"},
+        {"role": "목표 제목", "size": "26px; 23px in portrait or at max-width:700px", "source": "src/style.css:1093"},
+        {"role": "목표 개수", "size": "22px; 20px in portrait or at max-width:700px", "weight": 700, "numeric": "tabular-nums", "source": "src/style.css:1099"},
+        {"role": "목표 이름", "size": "15px; 13px at max-width:700px", "source": "src/style.css:1141"}
+      ],
+      "decision": "동일 글꼴의 기능별 크기 변형이다. 위 크기를 새 전역 type ramp로 승격하지 않는다."
+    },
+    "shapeAndSpacing": {
+      "source": "src/style.css:938",
+      "evidence": ["선택 카드 16px 모서리, 내부 그림과 목표 항목 12px 모서리", "선택 카드 간격 24px, 숨은 플레이 장면과 목표 간격 20px", "목표 패널 내부 간격 12px, 목표 격자 간격 8px, 휴대폰 6px", "기존 주제 필터 24px 모서리와 난이도 버튼 9px 모서리 재사용"],
+      "decision": "기존 8/12/16/20/24px 간격과 둥근 모서리 언어 안의 구현이다. 동적인 목표 행 수는 데이터에 따른 배치 값이다."
+    },
+    "depthAndInteraction": {
+      "source": "src/style.css:959",
+      "cardRest": "0 5px 18px #3e493312",
+      "cardHover": "0 9px 24px #3e493321; translateY(-3px)",
+      "modeCardTransition": "box-shadow 0.2s ease-out, transform 0.2s ease-out",
+      "focus": "3px solid #da674a, outline-offset:4px",
+      "reducedMotion": "전역 prefers-reduced-motion 규칙 및 선택 카드 transition:none",
+      "decision": "기존 Soft Lift와 초점 언어를 재사용한다. 0.2s 선택 카드 전환은 전역 motion 토큰 변경이 아니다."
+    }
+  },
+  "componentEvidence": [
+    {
+      "component": "놀이 선택",
+      "source": ["src/ModeSelection.tsx", "src/style.css:954"],
+      "observation": "실제 button 두 개가 각 놀이로 이동한다. 넓은 화면은 같은 크기 두 열, 700px 이하에서는 한 열이다. 실제 비교 그림 한 쌍과 숨은 장면 및 투명 목표 예시를 사용한다.",
+      "scope": "첫 화면의 기능별 구성"
+    },
+    {
+      "component": "숨은그림 목록",
+      "source": ["src/App.tsx:769", "src/style.css:267", "src/style.css:1047", "src/style.css:1181"],
+      "observation": "기존 게임 카드·주제·난이도 제어를 재사용한다. 숨은 목록은 901px 이상에서 세 열이며 썸네일은 4:3이다. 하나만 남은 목록은 별도 가로 카드를 사용한다. 활성 난이도의 ink/on-ink는 .hidden-library 범위에만 적용된다.",
+      "scope": "숨은 목록 변형; 기존 틀린그림의 활성 난이도와 열 수 규칙을 대체하지 않음"
+    },
+    {
+      "component": "단일 장면과 목표 패널",
+      "source": ["src/App.tsx:984", "src/Board.tsx:231", "src/HiddenTargets.tsx", "src/style.css:1068", "src/style.css:1205"],
+      "observation": "Board 내부 SVG 그룹만 확대·이동하며 HiddenTargets는 형제 요소다. 가로 화면에서는 minmax(0,1fr)와 clamp(208px,20vw,280px) 패널, 세로 또는 700px 이하에서는 장면 아래 목표를 배치한다. 여기서 고정은 장면 변환의 영향을 받지 않는다는 의미이며 viewport position:fixed/sticky가 아니다.",
+      "scope": "숨은그림의 서명 구성; 모든 놀이의 전역 배치 규칙으로 일반화하지 않음"
+    },
+    {
+      "component": "목표 상태와 정답 표시",
+      "source": ["src/HiddenTargets.tsx", "src/Board.tsx:278", "src/style.css:1146"],
+      "observation": "목표는 클릭 선택을 요구하지 않는 li와 이름으로 표시한다. 찾음 상태는 #e4efdd 면과 #447356 SVG 체크, 힌트 상태는 #f4bd50 외곽선이다. Board는 기존 answer-ring과 hint-ring을 사용한다. 상태 개수는 role=status로 제공한다.",
+      "scope": "기존 Tool and Answer 및 Quiet Supporting Type 규칙의 기능별 적용; 캡처는 찾음 0개 상태만 포함"
+    }
+  ],
+  "namedRuleFit": [
+    {"name": "The Tool and Answer Rule", "evidence": "기존 노란 힌트 버튼·힌트 강조와 정답 원을 재사용하며 목표의 찾음 체크가 숲색 계열이다."},
+    {"name": "The Quiet Supporting Type Rule", "evidence": "선택 제목·목표 제목과 작은 안내·이름을 구분하며 목표 그림에 이름과 찾음 체크를 함께 둔다."},
+    {"name": "The Soft Lift Rule", "evidence": "놀이 선택과 게임 카드가 같은 기본·호버 그림자와 -3px 이동을 사용한다."}
+  ],
+  "newDurableSystemNeeds": {
+    "globalPaletteOrFontOrWorldChangeRequired": false,
+    "incumbentFileRewriteRequiredForThisExtension": false,
+    "surfacePatternsAlreadyRecorded": ["놀이 선택의 두 규칙 미리보기", "숨은 목록의 세 열·목표 예시·숲색 활성 난이도", "장면 변환과 분리한 목표 목록", "2D 잉크 윤곽·평면 현지색 장면과 중성색 투명 목표"],
+    "recordLocation": ".impeccable/surfaces/src-app-tsx.md",
+    "uncanonizedLocalValues": ["#e9eedc 숨은 놀이 선택 면", "#dbe5d0 숨은 놀이 미리보기 바탕", "#faf6eced 목표 예시 받침", "23px 목표 체크와 기능별 글자 크기"],
+    "reason": "기능 내부의 변형과 소재 표현이다. 새 전역 색·형태·금지 규칙으로 채택할 재사용 근거가 없다. 향후 공유 컴포넌트가 되면 별도 승인된 문서 갱신에서 다룰 수 있다."
+  },
+  "preexistingDriftNotRepaired": [
+    {
+      "finding": "DESIGN.md의 예전 본문·frontmatter와 후반 2026-10-29 갱신 절이 일부 다른 수치를 보유한다.",
+      "evidence": "초기 본문에는 카드 보조 글자 13px·난이도 최소 높이 40px·썸네일 cover·도움말 details/summary가 남아 있다. 후반 갱신 절과 실제 소스는 카드 보조 글자 14px·최소 44px·contain·일반 흐름의 button 도움말을 기록한다.",
+      "reason": "이번 숨은 기능 이전의 incumbent 문서 조정 사항이다. 보존 지시와 쓰기 경계에 따라 정리하지 않았다."
+    },
+    {
+      "finding": "기존 sidecar의 카드·난이도·도움말 예시는 이전 구현을 담는다.",
+      "evidence": ".impeccable/design.json의 ds-card는 13px 보조 글자, ds-levels는 min-height:40px, ds-play-help는 details/summary와 absolute 본문을 사용한다. 현재 source의 도움말은 button aria-expanded와 일반 문서 흐름이다.",
+      "reason": "새 기능을 근거로 이전 sidecar를 재작성하지 않았다. 오래된 예시를 현재 권장 규칙으로 재채택하지 않는다."
+    },
+    {
+      "finding": "기존 시스템 서술은 모든 놀이를 비교 그림으로 지칭하며 삭제된 시범 게임과 과거 승인 경계를 포함한다.",
+      "evidence": "DESIGN.md의 초기 Layout과 검증 한계 문장은 animals-easy-picnic-portrait와 과거 콘텐츠 승인을 언급한다. 최신 PRODUCT.md와 표면 계약은 해당 게임 제거·등록 콘텐츠 포함·별도 숨은 모드 범위를 기록한다.",
+      "reason": "제품 이력의 문서 차이이며 새 시각 규칙의 필요로 해석하지 않는다. 제품과 표면 계약을 현재 기능 범위의 근거로 사용했다."
+    }
+  ],
+  "notCanonized": {
+    "craftFloorViolationsObservedInSample": [],
+    "statement": "표본에서 kicker·eyebrow·glyph icon·hard offset shadow·system display font를 새 규칙으로 채택할 근거를 찾지 못했다. 이번 표본에서 그 결함을 새로 확인하지도 않았다. 오래된 sidecar 수치와 과거 절차는 규칙으로 승격하거나 수리하지 않았다."
+  },
+  "limitations": [
+    "소스와 기존 PNG 여섯 장을 검사했다. 이 문서화 작업에서 앱 실행·computed style 측정·빌드·내보내기·검사를 수행하지 않았다.",
+    "플레이 PNG 네 장은 같은 쉬움 게임의 7개 목표·미완료 상태다. 모든 30개 장면·8개와 10개 목표·힌트·찾음·완료·오류 상태를 시각 검수한 증거가 아니다.",
+    "목표의 배경 없는 외형은 PNG에서 관찰했다. 실제 alpha 값, 전체 콘텐츠 대응과 판정 영역은 이 패스에서 독립 검증하지 않았다.",
+    "원본 비율 보존과 목표의 확대 분리는 소스에서 확인했다. 스크린샷은 정지 상태이므로 실제 제스처 실행의 증거가 아니다.",
+    "실제 iPad A16·Apple Pencil·주아의 체감 난이도·공개 배포를 확인하지 않았다.",
+    "관련 UI verdict는 세 가지 수정에 대한 ship으로 범위를 제한하며 raw comp score 0.5555와 contradicted 결과를 공개한다. 이 시스템 적합 판정은 수치 comp-fidelity 통과나 과거 hero gate 실행을 의미하지 않는다."
+  ],
+  "systemSummary": [
+    "팔레트: 종이 #faf6ec·숲색 #254b40·노랑 #f4bd50·주황 강조 #b84c30을 재사용한다.",
+    "글자: NanumSquareRound 400/700, 기본 16px/1.5와 기존 20px 플레이 제목을 유지한다.",
+    "크기: 선택 안내 30–44px·목표 제목 26/23px·목표 이름 15/13px은 기능별 변형이다.",
+    "규칙: Tool and Answer와 Quiet Supporting Type이 목표의 힌트·체크·이름에도 적용된다.",
+    "형태: Soft Lift 그림자, 12/16px 모서리와 기존 간격 리듬을 잇는다."
+  ]
+}

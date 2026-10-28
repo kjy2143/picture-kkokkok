@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-animals-hard-05",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "가위",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.084,
+        "y": 0.146,
+        "rx": 0.067,
+        "ry": 0.08
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "연",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.9,
+        "y": 0.11,
+        "rx": 0.05,
+        "ry": 0.068
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "버섯",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.483,
+        "y": 0.081,
+        "rx": 0.029,
+        "ry": 0.038
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "장갑",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.956,
+        "y": 0.522,
+        "rx": 0.027,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "베어문사과",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.093,
+        "y": 0.394,
+        "rx": 0.032,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "장화",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.164,
+        "y": 0.625,
+        "rx": 0.049,
+        "ry": 0.069
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "숟가락",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.087,
+        "y": 0.816,
+        "rx": 0.061,
+        "ry": 0.061
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "달팽이",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.548,
+        "y": 0.852,
+        "rx": 0.061,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "왕관",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.241,
+        "y": 0.952,
+        "rx": 0.029,
+        "ry": 0.031
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "코끼리머리",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.964,
+        "y": 0.26,
+        "rx": 0.035,
+        "ry": 0.067
+      }
+    }
+  ]
+}

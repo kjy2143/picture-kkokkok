@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-hard-04",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "고래",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.289,
+        "y": 0.087,
+        "rx": 0.056,
+        "ry": 0.038
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "리본",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.59,
+        "y": 0.12,
+        "rx": 0.037,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "종",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.792,
+        "y": 0.117,
+        "rx": 0.076,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "망치",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.134,
+        "y": 0.412,
+        "rx": 0.04,
+        "ry": 0.048
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "오리",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.44,
+        "y": 0.553,
+        "rx": 0.039,
+        "ry": 0.058
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "물뿌리개",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.731,
+        "y": 0.486,
+        "rx": 0.054,
+        "ry": 0.053
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "포크",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.172,
+        "y": 0.857,
+        "rx": 0.026,
+        "ry": 0.088
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "버섯",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.469,
+        "y": 0.778,
+        "rx": 0.035,
+        "ry": 0.049
+      }
+    },
+    {
+      "id": "target-9",
+      "label": "촛불",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.676,
+        "y": 0.779,
+        "rx": 0.02,
+        "ry": 0.051
+      }
+    },
+    {
+      "id": "target-10",
+      "label": "신발",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.908,
+        "y": 0.922,
+        "rx": 0.061,
+        "ry": 0.046
+      }
+    }
+  ]
+}

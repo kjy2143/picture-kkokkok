@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "princess-easy-tea",
+  "width": 1120,
+  "height": 1400,
+  "original": "original.png",
+  "modified": "modified.png",
+  "differences": [
+    {
+      "id": "difference-1",
+      "description": "찻주전자 장미 색깔",
+      "left": {
+        "x": 0.495,
+        "y": 0.52,
+        "rx": 0.047,
+        "ry": 0.035
+      },
+      "right": {
+        "x": 0.495,
+        "y": 0.52,
+        "rx": 0.047,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "difference-2",
+      "description": "공주의 입 표정",
+      "left": {
+        "x": 0.386,
+        "y": 0.368,
+        "rx": 0.028,
+        "ry": 0.017
+      },
+      "right": {
+        "x": 0.386,
+        "y": 0.368,
+        "rx": 0.028,
+        "ry": 0.017
+      }
+    },
+    {
+      "id": "difference-3",
+      "description": "새 목욕통 위 새 개수",
+      "left": {
+        "x": 0.868,
+        "y": 0.699,
+        "rx": 0.11,
+        "ry": 0.034
+      },
+      "right": {
+        "x": 0.868,
+        "y": 0.699,
+        "rx": 0.11,
+        "ry": 0.034
+      }
+    },
+    {
+      "id": "difference-4",
+      "description": "컵케이크 개수",
+      "left": {
+        "x": 0.644,
+        "y": 0.516,
+        "rx": 0.038,
+        "ry": 0.03
+      },
+      "right": {
+        "x": 0.644,
+        "y": 0.516,
+        "rx": 0.038,
+        "ry": 0.03
+      }
+    },
+    {
+      "id": "difference-5",
+      "description": "왕관 가운데 보석 모양",
+      "left": {
+        "x": 0.37,
+        "y": 0.24,
+        "rx": 0.021,
+        "ry": 0.023
+      },
+      "right": {
+        "x": 0.37,
+        "y": 0.24,
+        "rx": 0.021,
+        "ry": 0.023
+      }
+    },
+    {
+      "id": "difference-6",
+      "description": "테이블보의 무늬",
+      "left": {
+        "x": 0.512,
+        "y": 0.636,
+        "rx": 0.224,
+        "ry": 0.06
+      },
+      "right": {
+        "x": 0.512,
+        "y": 0.636,
+        "rx": 0.224,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "difference-7",
+      "description": "하늘 나비 유무",
+      "left": {
+        "x": 0.283,
+        "y": 0.141,
+        "rx": 0.051,
+        "ry": 0.041
+      },
+      "right": {
+        "x": 0.283,
+        "y": 0.141,
+        "rx": 0.051,
+        "ry": 0.041
+      }
+    }
+  ]
+}

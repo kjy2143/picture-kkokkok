@@ -1,0 +1,168 @@
+{
+  "assessment": "B",
+  "target": [
+    "src/App.tsx",
+    "src/Board.tsx"
+  ],
+  "detector": {
+    "runCount": 1,
+    "exitCode": 0,
+    "raw": [],
+    "count": 0,
+    "rules": [],
+    "files": [],
+    "falsePositives": [],
+    "resultFile": ".impeccable/critique/20261029-b-detector.json"
+  },
+  "browser": {
+    "nativeBrowser": "iab",
+    "freshTab": "1",
+    "viewports": [
+      {
+        "width": 1180,
+        "height": 820
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "states": [
+      "home",
+      "settings",
+      "game",
+      "help"
+    ],
+    "mutableInjection": {
+      "supported": false,
+      "reason": "Documented native Playwright evaluate APIs are read-only. Browser capabilities: visibility and viewport. Tab capabilities: pageAssets and webmcp. No supported mutable title or script insertion API is exposed."
+    },
+    "overlay": {
+      "injected": false,
+      "visible": false,
+      "consoleDetectorRun": false
+    },
+    "liveServer": {
+      "started": false,
+      "cleanup": "not applicable"
+    },
+    "viewportReset": true,
+    "tabClosed": true,
+    "appServer5173": "untouched",
+    "tempFiles": "none; evidence files retained"
+  },
+  "measurements": {
+    "ipadLandscape": {
+      "viewport": [
+        1180,
+        820
+      ],
+      "playHeadingHeight": 64,
+      "boards": {
+        "each": [
+          566,
+          707.5
+        ],
+        "ratio": 0.8,
+        "totalViewportAreaFraction": 0.8277077304671352
+      },
+      "overflow": false,
+      "gameTitleFont": 20,
+      "gameActionFont": 18,
+      "progressFont": 18,
+      "gameActionHeight": 48,
+      "homeHeadingFont": 47.2,
+      "homeH2Font": 24,
+      "homeCardTitleFont": 21,
+      "themeTargetsHeight": 46,
+      "difficultyTargetsHeight": 40,
+      "settingsDialog": [
+        460,
+        535.586
+      ],
+      "settingsCloseTarget": [
+        41.125,
+        44
+      ]
+    },
+    "phonePortrait": {
+      "viewport": [
+        390,
+        844
+      ],
+      "playHeadingHeight": 113,
+      "boards": {
+        "each": [
+          271.59375,
+          339.4921875
+        ],
+        "ratio": 0.8,
+        "totalViewportAreaFraction": 0.5602379165076444
+      },
+      "overflow": false,
+      "gameTitleFont": 18,
+      "gameActionFont": 16,
+      "progressFont": 18,
+      "gameActionHeight": 48,
+      "homeHeadingFont": 34,
+      "homeH2Font": 22,
+      "homeCardTitleFont": 21,
+      "homeCardMetadataFont": 13,
+      "homeThemeTargetsHeight": 43,
+      "homeDifficultyTargetsHeight": 40,
+      "homeBrandTargetHeight": 37.5,
+      "homeFirstCardTop": 513,
+      "homeFirstCardBottom": 872.164,
+      "homeDocumentHeight": 11464,
+      "helpPanel": {
+        "left": 34,
+        "top": 128,
+        "width": 340,
+        "height": 113.586,
+        "fontSize": 16,
+        "overlapWithFirstBoardHeight": 104.586
+      }
+    }
+  },
+  "manualEvidence": [
+    {
+      "issue": "Keyboard-only board operation unavailable",
+      "location": "src/Board.tsx:160-168",
+      "evidence": "Interactive SVG has role img and pointer handlers, without tabindex or keyboard handlers. Native AX exposes both boards as images. No keyboard answer selection path is provided.",
+      "classification": "Manual accessibility observation, outside detector rule result."
+    },
+    {
+      "issue": "Sub-44px secondary targets",
+      "location": "src/style.css:236-241,650-654,804-807",
+      "evidence": "Difficulty buttons are40px high on both tested viewports; settings close41.125×44px; phone theme43px high and brand37.5px high. Gameplay buttons/help remain48px high.",
+      "classification": "Minor usability observation; 44px is a conservative touch target heuristic, not a claim of WCAG2.2 AA failure."
+    },
+    {
+      "issue": "Help overlays first board while open",
+      "location": "src/style.css:557-568",
+      "evidence": "Phone help occupiesx34..374,y128..241.586; first image startsy137. Help overlaps104.586px of first image height. Same help button toggles it closed.",
+      "classification": "Tradeoff; not a blocker and not evidence of overflow."
+    },
+    {
+      "issue": "Home choice density and vertical travel",
+      "location": "src/App.tsx:549-577 and src/style.css:809-818",
+      "evidence": "7 theme choices plus4 difficulty choices precede29 games. Phone first card startsy513; card is itself clickable although card CTA falls below viewport. Home document11464px high.",
+      "classification": "Manual cognitive and hierarchy observation; avoid claiming first game inaccessible."
+    }
+  ],
+  "assumptions": [
+    "Local development build only; no device proof.",
+    "No pointer/pinch gesture emulation or completed-game mutation was performed.",
+    "No source or UI edits; game load may prepare its normal offline cache.",
+    "Pinned font,4:5 comparison and64px tablet header are satisfied in observed states; no zoom-reset or approval UI observed.",
+    "Old reports and docs were not used as current evidence."
+  ],
+  "cleanup": {
+    "browserTab": "closed",
+    "viewport": "reset",
+    "visualizationServer": "not started",
+    "appServer5173": "untouched",
+    "temporaryFiles": "none; requested evidence retained"
+  },
+  "ignoreList": "No .impeccable/critique/ignore.md exists."
+}

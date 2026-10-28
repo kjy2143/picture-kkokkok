@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-fairytale-medium-03",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "target-1",
+      "label": "하트",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.203,
+        "y": 0.083,
+        "rx": 0.028,
+        "ry": 0.033
+      }
+    },
+    {
+      "id": "target-2",
+      "label": "안경",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.527,
+        "y": 0.159,
+        "rx": 0.05,
+        "ry": 0.035
+      }
+    },
+    {
+      "id": "target-3",
+      "label": "새의 날개",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.211,
+        "y": 0.629,
+        "rx": 0.055,
+        "ry": 0.048
+      }
+    },
+    {
+      "id": "target-4",
+      "label": "물고기",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.454,
+        "y": 0.493,
+        "rx": 0.073,
+        "ry": 0.057
+      }
+    },
+    {
+      "id": "target-5",
+      "label": "열쇠",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.905,
+        "y": 0.352,
+        "rx": 0.025,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-6",
+      "label": "초승달",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.855,
+        "y": 0.927,
+        "rx": 0.035,
+        "ry": 0.047
+      }
+    },
+    {
+      "id": "target-7",
+      "label": "뱀",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.526,
+        "y": 0.775,
+        "rx": 0.09,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "target-8",
+      "label": "깃털",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.128,
+        "y": 0.75,
+        "rx": 0.046,
+        "ry": 0.081
+      }
+    }
+  ]
+}
