@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Seoul",
+  "sourceCommit": "e9dffc3d84dcf22506330519741ffe58e3e0ccc7",
+  "url": "https://picture-kkokkok.jooa-bingo.workers.dev",
+  "releaseId": "084455384d1c916d",
+  "versionId": "815fcc2a-7b4a-4471-b83a-f1e7ca4f33d5",
+  "initialPrivateVersionId": "c3ce6a14-dbe8-473b-922e-c79f440ab840",
+  "deployedAt": "2026-10-28T22:51:30.904Z",
+  "games": {
+    "differences": 30,
+    "hidden": 30,
+    "total": 60,
+    "answers": 500
+  },
+  "access": {
+    "scope": "exact hostname and Worker production/preview traffic",
+    "allowedEmailCount": 1,
+    "sessionDuration": "168h",
+    "policy": "picture-kkokkok-family-only",
+    "savedConfigurationVerifiedInDashboard": true,
+    "unauthenticatedRequests": [
+      {
+        "path": "/",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/?mode=hidden",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/catalog.json",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/assets/index-DQjJvVn9.js",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/sw.js",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/games/hidden-animals-easy-01/54036d92d6fa172e8410/puzzle.json",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/games/hidden-animals-easy-01/54036d92d6fa172e8410/scene.webp",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/games/hidden-animals-easy-01/54036d92d6fa172e8410/target-01.png",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      },
+      {
+        "path": "/games/animals-easy-garden/0642e0b9946e546e77e6/original.png",
+        "status": 302,
+        "redirectHost": "mac-local.cloudflareaccess.com",
+        "redirectPath": "/cdn-cgi/access/login/picture-kkokkok.jooa-bingo.workers.dev",
+        "blockedByAccess": true
+      }
+    ],
+    "allBlockedByAccess": true
+  },
+  "routing": {
+    "workersDevEnabled": true,
+    "previewsEnabled": false
+  },
+  "checks": {
+    "sourceCommitSecretScan": "passed; no parent emails in staged files",
+    "releaseCheck": "passed",
+    "deployDryRun": "passed",
+    "productionDeployment": "passed",
+    "anonymousRequestChecks": 9
+  },
+  "unverified": [
+    "Allowed-parent Access application login and rejected-email login",
+    "iPad Safari/Home Screen PWA install, expiration and offline behavior"
+  ],
+  "pushedToGitHub": false
+}
