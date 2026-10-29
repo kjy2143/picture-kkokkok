@@ -113,6 +113,16 @@ p {
   font-weight: 700;
   padding: 0;
 }
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+  gap: 3px;
+}
+.brand-dedication {
+  font-size: 14px;
+}
 .brand-accent {
   color: #b84c30;
 }

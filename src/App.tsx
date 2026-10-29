@@ -647,13 +647,16 @@ export default function App() {
           <button
             className="brand"
             onClick={() => chooseMode(null)}
-            aria-label="그림콕콕 홈"
+            aria-label="주아를 위한 그림콕콕 홈"
           >
             <span className="brand-mark">
               <Icon name="search" />
             </span>
-            <span>
-              그림<span className="brand-accent">콕콕</span>
+            <span className="brand-copy">
+              <span className="brand-dedication">주아를 위한</span>
+              <span>
+                그림<span className="brand-accent">콕콕</span>
+              </span>
             </span>
           </button>
           <div className="header-actions">
