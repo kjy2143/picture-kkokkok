@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-hard-jua-family-attic",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "acorn",
+      "label": "도토리",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.091,
+        "y": 0.089,
+        "rx": 0.055,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "fish",
+      "label": "물고기",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.444,
+        "y": 0.103,
+        "rx": 0.06,
+        "ry": 0.049
+      }
+    },
+    {
+      "id": "glasses",
+      "label": "안경",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.089,
+        "y": 0.302,
+        "rx": 0.055,
+        "ry": 0.054
+      }
+    },
+    {
+      "id": "mushroom",
+      "label": "버섯",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.112,
+        "y": 0.863,
+        "rx": 0.06,
+        "ry": 0.074
+      }
+    },
+    {
+      "id": "carrot",
+      "label": "당근",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.891,
+        "y": 0.096,
+        "rx": 0.085,
+        "ry": 0.09
+      }
+    },
+    {
+      "id": "feather",
+      "label": "깃털",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.953,
+        "y": 0.441,
+        "rx": 0.047,
+        "ry": 0.09
+      }
+    },
+    {
+      "id": "heart",
+      "label": "하트",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.058,
+        "y": 0.605,
+        "rx": 0.047,
+        "ry": 0.074
+      }
+    },
+    {
+      "id": "butterfly",
+      "label": "나비",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.878,
+        "y": 0.862,
+        "rx": 0.1,
+        "ry": 0.1
+      }
+    },
+    {
+      "id": "fork",
+      "label": "포크",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.61,
+        "y": 0.757,
+        "rx": 0.06,
+        "ry": 0.06
+      }
+    },
+    {
+      "id": "crescent",
+      "label": "초승달",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.638,
+        "y": 0.141,
+        "rx": 0.04,
+        "ry": 0.06
+      }
+    }
+  ]
+}

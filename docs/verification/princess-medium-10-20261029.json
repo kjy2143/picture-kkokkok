@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-29",
+  "status": "complete",
+  "requested": {
+    "kind": "differences",
+    "theme": "공주",
+    "difficulty": "medium",
+    "count": 10
+  },
+  "added": {
+    "games": 10,
+    "answers": 80,
+    "files": 50
+  },
+  "registered": {
+    "differenceGames": 41,
+    "hiddenGames": 31,
+    "totalGames": 72
+  },
+  "preservation": {
+    "previousGames": 60,
+    "previousFiles": 520,
+    "allHashesUnchanged": true,
+    "otherConcurrentChangesPreserved": true
+  },
+  "geometry": {
+    "sides": 2,
+    "areas": 160,
+    "pairsChecked": 560,
+    "boundarySamplesPerEllipse": 1440,
+    "overlaps": 0
+  },
+  "validation": {
+    "unit": {
+      "status": "passed",
+      "files": 4,
+      "tests": 24
+    },
+    "browser": {
+      "status": "passed",
+      "projects": [
+        "chromium",
+        "webkit"
+      ],
+      "tests": 2,
+      "differenceGamesPerProject": 41,
+      "answersPerProject": 337,
+      "newGamesPerProject": 10,
+      "newAnswersPerProject": 80,
+      "landscapeScreenshots": true,
+      "portraitScreenshots": true
+    },
+    "build": {
+      "status": "passed",
+      "command": "npm run build",
+      "registeredGames": 72,
+      "releaseId": "1cbc59c53fe59fd6",
+      "catalogSha256": "68deda0e04a874032d1314ff03cb08671fdd01f267d65f529924ffddb3439130",
+      "productionBuild": true
+    },
+    "visual": {
+      "plannedDifferencesChecked": 80,
+      "hitAreasChecked": 160,
+      "allFullPairsChecked": true,
+      "outsideRegionsChecked": true,
+      "browserLandscapeAndPortraitInspected": true
+    },
+    "commands": [
+      "npm test",
+      "npx playwright test tests/browser/catalog.spec.ts",
+      "npm run build",
+      "git diff --check"
+    ]
+  },
+  "unverified": [
+    "실제 iPad A16·Apple Pencil 조작",
+    "아이의 체감 난이도"
+  ],
+  "published": false,
+  "games": [
+    {
+      "id": "princess-medium-library-20261029",
+      "title": "공주의 햇살 도서관",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "shape": 2,
+        "expression": 1,
+        "color": 2,
+        "pattern": 1,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "63887031df841ff88080354561ac9307fb1153fe8d4dd147529016a861fe5fca",
+        "puzzle.json": "e144539be82839b44cab0793fc9020ee3a15e6845b17818a530d91bb97cf6758",
+        "original.png": "9bb5dc9d8b50834590b1958e9e337192871995a4f2646dc13b022b799b76631c",
+        "modified.png": "84ae1c3c3293150c6d4ac3631be3a9f08ee69b96241aa0c6ad10f9573f7a5201",
+        "thumbnail.webp": "2ea73d5ad3506b45ae6eeb6731058b83c132ba4cd4551a2b72ce777170a8cc6f"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-library-20261029",
+      "reviewImage": "work/content/princess-medium-library-20261029/review.png",
+      "detailImage": "work/content/princess-medium-library-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-library-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-library-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-bakery-20261029",
+      "title": "공주의 딸기 제과실",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "color": 2,
+        "presence": 1,
+        "shape": 2,
+        "count": 1,
+        "pattern": 1,
+        "expression": 1
+      },
+      "hashes": {
+        "metadata.json": "fea259f2a2b5b04cea451ad3b2bd895132ed4bb92dc3cc5a182f17f6bb5b0f02",
+        "puzzle.json": "8d47d8f77324eef315b28315d45a69bfc987597d0f8d39cde841af7e09977ca2",
+        "original.png": "3e47b5a18b81d7e35e5f54a2905314fc1c36f5fd896477941f667b69d2662274",
+        "modified.png": "57859318cad1f1a805015421a3e9522618e289f97ce47eb69b51aa93c51b81f6",
+        "thumbnail.webp": "0494ea41e5e22de3e7c350fdd419669d4b2f8d6e1e207f9bbaec4ef6f4b4bd80"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-bakery-20261029",
+      "reviewImage": "work/content/princess-medium-bakery-20261029/review.png",
+      "detailImage": "work/content/princess-medium-bakery-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-bakery-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-bakery-20261029/prompt-modified.txt",
+      "repairPrompt": "work/content/princess-medium-bakery-20261029/prompt-repair-v2.txt"
+    },
+    {
+      "id": "princess-medium-concert-20261029",
+      "title": "공주의 정원 음악회",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "color": 2,
+        "pattern": 1,
+        "expression": 1,
+        "count": 1,
+        "shape": 2
+      },
+      "hashes": {
+        "metadata.json": "66f5a0d2986d3b65c37f917a204bea05465d1bb75b4c90f4aecc262f3793ebdf",
+        "puzzle.json": "890ac4b1624aeea2c7ad9a8b7ff86c1cb0084894c972b98292904b64b0bd1b18",
+        "original.png": "a9b0afb9a2d7b03b7f7fa93ab6bb3b2127f73a0d167f3649a9f0d541cc7214f8",
+        "modified.png": "f33c2ffc5834c908bfdd595be31ccca7db887164d800e98fab4667db2ce58871",
+        "thumbnail.webp": "a3521d9c551ce4de89df3fb1bbcad6b80a0a0522fbadf68783c439ed9dba09cb"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-concert-20261029",
+      "reviewImage": "work/content/princess-medium-concert-20261029/review.png",
+      "detailImage": "work/content/princess-medium-concert-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-concert-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-concert-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-snow-20261029",
+      "title": "공주의 겨울 선물방",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "shape": 2,
+        "color": 2,
+        "pattern": 1,
+        "expression": 1,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "f74d82c058f1e6b7e933d071efd3f6c7101c6ab5c1ed056e57e3c5f860031016",
+        "puzzle.json": "ea4c7ad5655b359a2554061288b54fb959cf82e33eceec5cafc5a513b599bf5b",
+        "original.png": "796c9455f07087cba5a24687aedbb25695a16b6e1648270b6a1383b33ee2d96d",
+        "modified.png": "90a82e146c38b718c690f432fc527069b3d58358bc11382c634089dc061777d0",
+        "thumbnail.webp": "2214ff4d5959e5629d8cde5a614b6dd85577d1edc57d0f7f0082ca2de8bb2080"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-snow-20261029",
+      "reviewImage": "work/content/princess-medium-snow-20261029/review.png",
+      "detailImage": "work/content/princess-medium-snow-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-snow-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-snow-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-boat-20261029",
+      "title": "공주의 연못 나들이",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "color": 2,
+        "expression": 1,
+        "pattern": 1,
+        "shape": 2,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "0d27d7f2ed818d47c3e8d491b42105c1f1c6442c50c361f516b9b2679b09cb61",
+        "puzzle.json": "a1d62bd5368ae5ae793bd3eb198e89e6a5ac41bde0160a70edc8391c1603cf3b",
+        "original.png": "06d5535895af859026d11714595fdcd351cc29f3a189626a173b4b53300d1ca8",
+        "modified.png": "f8a937b6d6370d72ff4cc5ce487750c26c64d2cb4fa15ec100451f3fc4e2d5aa",
+        "thumbnail.webp": "e32d215d8b86d9e62fef77bef5547559dc8091fd2426628614349a7f994ea426"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-boat-20261029",
+      "reviewImage": "work/content/princess-medium-boat-20261029/review.png",
+      "detailImage": "work/content/princess-medium-boat-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-boat-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-boat-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-greenhouse-20261029",
+      "title": "공주의 무지개 온실",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "color": 2,
+        "presence": 1,
+        "shape": 1,
+        "expression": 1,
+        "pattern": 2,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "3c5eb99b87d907cb96df2733b8f13e85d585eef68103b9ff0629ec3568dc9a0f",
+        "puzzle.json": "0acd8658c8f0810e0745faddbee8382fca1c2b5fc1cd01b09c022ba0ab2f4be1",
+        "original.png": "ae0130fd9324912511b6d8107022a030c6dd068624518855033abb0df7e19a70",
+        "modified.png": "5b3c32b7af7518c0ece633f2be74a916e40bbce7547342d6e075d4c1d2676e60",
+        "thumbnail.webp": "639e33da3c7de5b46a5faf76662a472b8c275ca825f2ef96632bb9cce808942b"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-greenhouse-20261029",
+      "reviewImage": "work/content/princess-medium-greenhouse-20261029/review.png",
+      "detailImage": "work/content/princess-medium-greenhouse-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-greenhouse-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-greenhouse-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-stars-20261029",
+      "title": "공주의 별빛 발코니",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "shape": 2,
+        "pattern": 1,
+        "color": 2,
+        "expression": 1,
+        "presence": 1,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "6f125ef958141bf0acb750acb1e1ce5629d8a4a7eb2bb5f1ed2da90e2a22b203",
+        "puzzle.json": "65c564fe79b4d57031f6901353cd1aab81c0921771c006987f97820d77785979",
+        "original.png": "eaae2406cceb9e05f721044018a1a0d0625e601bb2c2040b594a70e4c6e21b3a",
+        "modified.png": "ce3fafc89b89240f0c3a44abe70515708d4d76e85256a579ef2c7c621076668a",
+        "thumbnail.webp": "b0f5979e57b1d6a9d437b5fad5c42f861dbee0d57851910d26539df5f30f478d"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-stars-20261029",
+      "reviewImage": "work/content/princess-medium-stars-20261029/review.png",
+      "detailImage": "work/content/princess-medium-stars-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-stars-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-stars-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-picnic-20261029",
+      "title": "공주의 들꽃 소풍",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "shape": 2,
+        "color": 2,
+        "expression": 1,
+        "count": 1,
+        "pattern": 1,
+        "presence": 1
+      },
+      "hashes": {
+        "metadata.json": "888471096fb7981ae1b2c1a2d15c7d255ddc6b80e1bef713a2f5fb21997f93ed",
+        "puzzle.json": "002578c7c2898536328d56efc6be6cc7d3b78a3b1a50d8158dbb877a9da64a1b",
+        "original.png": "05608da76182715407263babcf840d32f3058c750b84d3052e44703375d46516",
+        "modified.png": "6180f7afa5da89f4d664008dd7ff3f8434db25d883d1bcf3f084629d5dffd16a",
+        "thumbnail.webp": "5f14144ca191798c9366f06eaa09933a68b23400de911212e086b3807a86abfc"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-picnic-20261029",
+      "reviewImage": "work/content/princess-medium-picnic-20261029/review.png",
+      "detailImage": "work/content/princess-medium-picnic-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-picnic-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-picnic-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-sewing-20261029",
+      "title": "공주의 리본 작업실",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "shape": 2,
+        "expression": 1,
+        "pattern": 1,
+        "color": 2,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "d8f52096ac40426ed59d682abedf4a374f172e26cda96e933007d44acfe3763d",
+        "puzzle.json": "a5745782e4509742ce83c2b14a1bddfbf77abce12148e183dd76694b964e0b07",
+        "original.png": "adcca83ff7195d6101b6eeedafcd7b9ef6f1f79d3d871e3cc75c861962e462ee",
+        "modified.png": "e974f6b17300c408b4157a38f5272c691fa0eef775dcc02128d9c2d18758be8a",
+        "thumbnail.webp": "ceeb9bcdb44a03d7e3a20e31b8e38647a186eba757d412e7e1804d5fe2d75603"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-sewing-20261029",
+      "reviewImage": "work/content/princess-medium-sewing-20261029/review.png",
+      "detailImage": "work/content/princess-medium-sewing-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-sewing-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-sewing-20261029/prompt-modified.txt"
+    },
+    {
+      "id": "princess-medium-harvest-20261029",
+      "title": "공주의 가을 과수원",
+      "difficulty": "medium",
+      "answers": 8,
+      "width": 1120,
+      "height": 1400,
+      "typeDistribution": {
+        "presence": 1,
+        "shape": 2,
+        "color": 2,
+        "expression": 1,
+        "pattern": 1,
+        "count": 1
+      },
+      "hashes": {
+        "metadata.json": "8e1a315b244ba049e4894d08077c0cb09dd63a3b4387d5d480548b00fc2eafac",
+        "puzzle.json": "171b1f52d00b392b4f23c3ad21326f72a2993bf6eee70359d5de5cf21ed77d6b",
+        "original.png": "b413df7d6603a9852b776ebe8021d87677b6275c9a80cddf7c8a8f231e8000ea",
+        "modified.png": "31fa3c327143899030a3495d476d55167ce3a2c158a8ba9ca6494aa9a5749c56",
+        "thumbnail.webp": "70bc08462fb059c57cae87591cde9844f74dc18828994a69a9fd0fe121f5247a"
+      },
+      "gameUrl": "http://127.0.0.1:5173/?game=princess-medium-harvest-20261029",
+      "reviewImage": "work/content/princess-medium-harvest-20261029/review.png",
+      "detailImage": "work/content/princess-medium-harvest-20261029/planned-detail-review.png",
+      "promptOriginal": "work/content/princess-medium-harvest-20261029/prompt-original.txt",
+      "promptModified": "work/content/princess-medium-harvest-20261029/prompt-modified.txt"
+    }
+  ]
+}

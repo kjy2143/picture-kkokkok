@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "princess-medium-picnic-20261029",
+  "width": 1120,
+  "height": 1400,
+  "original": "original.png",
+  "modified": "modified.png",
+  "differences": [
+    {
+      "id": "difference-1",
+      "description": "하늘 연 모양",
+      "left": {
+        "x": 0.207,
+        "y": 0.065,
+        "rx": 0.048,
+        "ry": 0.048
+      },
+      "right": {
+        "x": 0.207,
+        "y": 0.065,
+        "rx": 0.048,
+        "ry": 0.048
+      }
+    },
+    {
+      "id": "difference-2",
+      "description": "나비 날개 색깔",
+      "left": {
+        "x": 0.909,
+        "y": 0.075,
+        "rx": 0.057,
+        "ry": 0.045
+      },
+      "right": {
+        "x": 0.909,
+        "y": 0.075,
+        "rx": 0.057,
+        "ry": 0.045
+      }
+    },
+    {
+      "id": "difference-3",
+      "description": "토끼 입 표정",
+      "left": {
+        "x": 0.222,
+        "y": 0.472,
+        "rx": 0.026,
+        "ry": 0.024
+      },
+      "right": {
+        "x": 0.222,
+        "y": 0.472,
+        "rx": 0.026,
+        "ry": 0.024
+      }
+    },
+    {
+      "id": "difference-4",
+      "description": "보온병 색깔",
+      "left": {
+        "x": 0.872,
+        "y": 0.57,
+        "rx": 0.055,
+        "ry": 0.086
+      },
+      "right": {
+        "x": 0.872,
+        "y": 0.57,
+        "rx": 0.055,
+        "ry": 0.086
+      }
+    },
+    {
+      "id": "difference-5",
+      "description": "바구니 배 개수",
+      "left": {
+        "x": 0.166,
+        "y": 0.728,
+        "rx": 0.097,
+        "ry": 0.055
+      },
+      "right": {
+        "x": 0.166,
+        "y": 0.728,
+        "rx": 0.097,
+        "ry": 0.055
+      }
+    },
+    {
+      "id": "difference-6",
+      "description": "샌드위치 모양",
+      "left": {
+        "x": 0.574,
+        "y": 0.731,
+        "rx": 0.075,
+        "ry": 0.044
+      },
+      "right": {
+        "x": 0.574,
+        "y": 0.731,
+        "rx": 0.075,
+        "ry": 0.044
+      }
+    },
+    {
+      "id": "difference-7",
+      "description": "찻잔 무늬",
+      "left": {
+        "x": 0.829,
+        "y": 0.736,
+        "rx": 0.073,
+        "ry": 0.054
+      },
+      "right": {
+        "x": 0.829,
+        "y": 0.736,
+        "rx": 0.073,
+        "ry": 0.054
+      }
+    },
+    {
+      "id": "difference-8",
+      "description": "앞쪽 부츠 유무",
+      "left": {
+        "x": 0.825,
+        "y": 0.892,
+        "rx": 0.146,
+        "ry": 0.085
+      },
+      "right": {
+        "x": 0.825,
+        "y": 0.892,
+        "rx": 0.146,
+        "ry": 0.085
+      }
+    }
+  ]
+}

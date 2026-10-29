@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-29",
+  "scope": "주아 가족 어려움 틀린그림 3개 및 숨은그림 3개 추가",
+  "games": [
+    {
+      "id": "daily-hard-jua-family-camping",
+      "title": "주아 가족의 별빛 캠핑",
+      "kind": "differences",
+      "answers": 10,
+      "width": 1120,
+      "height": 1400,
+      "gameplayRevision": "01b297c44021ee641987",
+      "files": [
+        "original.webp",
+        "modified.webp",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "original.webp": "4080972b5d951f3318565bc385ff29fb653283766c76a1f95b9a031bc0df18e9",
+        "modified.webp": "a7830eb538fcd377bc2e4a8d552b47d2748bc04e5f54315c4b12acbb5c85dded",
+        "thumbnail.webp": "32086b151ea8901a797817db63ff0890358c94e054582961392dca8587e30e86",
+        "puzzle.json": "8954fc0f83eba4c7fc625e12d159f04cc4f759d08423151086e4beb47c8492a4",
+        "metadata.json": "7303cf034d5ad647788c24bd083fe32e8c89a84f32ea390b73de5a4f3c03fafe"
+      },
+      "review": "work/content/daily-hard-jua-family-camping/review.json"
+    },
+    {
+      "id": "daily-hard-jua-family-bakery",
+      "title": "주아 가족의 빵 굽는 날",
+      "kind": "differences",
+      "answers": 10,
+      "width": 1120,
+      "height": 1400,
+      "gameplayRevision": "d39bfdd4a6c2c0e57fbf",
+      "files": [
+        "original.webp",
+        "modified.webp",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "original.webp": "84db656d41bad0f8768920d79c381e4fd2aba14f591e89ab8832f76f425f1431",
+        "modified.webp": "97abcf57ddfd1542723897ea5d0ffa09ce31d4d373197c04a227e1fa61150f00",
+        "thumbnail.webp": "2d331951c567e79a0173a3dfcfa4ffc8849ba7f3fb8bc332d6654fa7c39e25e9",
+        "puzzle.json": "3453b85c31f850fc0bd563c4b79ef96fdb122fdfc05ead40b7204f03d2aadab9",
+        "metadata.json": "36443f9fe2875948eecb4ebfa60b9f75cef0abe893a401086c8f0b636119ee15"
+      },
+      "review": "work/content/daily-hard-jua-family-bakery/review.json"
+    },
+    {
+      "id": "daily-hard-jua-family-seaside",
+      "title": "주아 가족의 바닷가 탐험",
+      "kind": "differences",
+      "answers": 10,
+      "width": 1120,
+      "height": 1400,
+      "gameplayRevision": "a9fed58ebac603c245f8",
+      "files": [
+        "original.webp",
+        "modified.webp",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "original.webp": "a5ed5756ad1666057322add7b57179e97ff5ef4c01bf612bc7b240b37227c252",
+        "modified.webp": "0b4b7cb6beed1f24e08fc88d120b8b9c985c998de30d982b81242186d946fa71",
+        "thumbnail.webp": "f09cca1adaae03be443cdaa4a7ac952dbe74440bf2f78f43fd3b822d55d276fd",
+        "puzzle.json": "9d1cfccf34a71e73ee2a26d7c7a0251f306fb5cda9172c3613e3a153084de1a7",
+        "metadata.json": "dbe0b3a57698914655b406f4e1acc32fd63c835cc9a29890c16e82b45e3f69a5"
+      },
+      "review": "work/content/daily-hard-jua-family-seaside/review.json"
+    },
+    {
+      "id": "hidden-daily-hard-jua-family-library",
+      "title": "주아 가족의 숲속 도서관",
+      "kind": "hidden",
+      "answers": 10,
+      "width": 1448,
+      "height": 1086,
+      "gameplayRevision": "ae9ed1b4b80b017314be",
+      "files": [
+        "scene.webp",
+        "target-01.png",
+        "target-02.png",
+        "target-03.png",
+        "target-04.png",
+        "target-05.png",
+        "target-06.png",
+        "target-07.png",
+        "target-08.png",
+        "target-09.png",
+        "target-10.png",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "scene.webp": "2f190158e6cb96d9bbba1a37e9b4fe606e2c18dd7ef56f5c0a60c50b7ae668a8",
+        "target-01.png": "ec7be76b332735f479efee33b247393dbe318f555fe693ccad7a8459f14081ac",
+        "target-02.png": "6597cfa61b4bb4c7bf6201e630bed0235dd8427dac7704f717c6b5ce80ea506c",
+        "target-03.png": "5c737f6e023183fd87e9eacc5dcb82f0e48eede2ed4aec652fd35cd1ec4bffe9",
+        "target-04.png": "4e800f81f432fedbab1e4abe13f65fe3c4dff5b9d151cd710b8861412de00f65",
+        "target-05.png": "1236d123435852fd46f5088c604559ec51f46cb2ee91630dd7e3382ac0500d13",
+        "target-06.png": "e2f090028aa112c28ee95f3e991696bdbe6f57f4105eea97058627e122e2be36",
+        "target-07.png": "3aca484d68fa4abb5f6a96742d67c0db051756deea12f4c521764b68a53d56e1",
+        "target-08.png": "46517f6666e98e4353cf42ae16664b8e7c192c4ee9f96483e1031dbf68b65e27",
+        "target-09.png": "59501c85584ae44edb41cd999430bf8753fdcd4c5eee29684ed04d1b7707f744",
+        "target-10.png": "cdaa1675ab74abab9d048c6dd6dd40d5eb8841359a2764093fd580dd1fe1ebe3",
+        "thumbnail.webp": "43ed41e74fa45c5009c48ef66e0d8695380b9733a53e69c591c8658607d549dd",
+        "puzzle.json": "b9a7d908d92dc9e568fd7a6adedbcd678ee173af565c939764255f53e6d702c0",
+        "metadata.json": "1fec7faea683f7e66d3b4080902095cac88576b2d55ef2fae69d06114f95078d"
+      },
+      "review": "work/hidden-content/hidden-daily-hard-jua-family-library/review.json"
+    },
+    {
+      "id": "hidden-daily-hard-jua-family-aquarium",
+      "title": "주아 가족의 수족관 탐험",
+      "kind": "hidden",
+      "answers": 10,
+      "width": 1448,
+      "height": 1086,
+      "gameplayRevision": "99cefc2c850a81f41d2a",
+      "files": [
+        "scene.webp",
+        "target-01.png",
+        "target-02.png",
+        "target-03.png",
+        "target-04.png",
+        "target-05.png",
+        "target-06.png",
+        "target-07.png",
+        "target-08.png",
+        "target-09.png",
+        "target-10.png",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "scene.webp": "d856fed811e23bc3f46492eb7c3a4dbf0c2e60010697cd0dbb3dfcb45776a139",
+        "target-01.png": "e0a1c0418f37f166e0158f89cb0628dca5c4c4ef2c6a03e02a7657b5789b6469",
+        "target-02.png": "2e00a01fefb6116d7cb7b768f97191cd6baca6b3e636a65337d7985659b5d6bc",
+        "target-03.png": "96d08fd3a89bb6124c56362b327842f56bef6352e8b2619582dd1975f9ba8d91",
+        "target-04.png": "0a1da572389fd4fa2adb894dedb7e2e2b782cd3d6ebac1d8f7b11e76847c00a4",
+        "target-05.png": "83c517f1aa6f831c3c90ec05a8e6ebe482d11e5aea92425a3c614b5af48e23ed",
+        "target-06.png": "165ed25bae36045f082c38d98fbac757e299c17c8d570d82dcdc90d205209bc4",
+        "target-07.png": "44ccfd6fb86bc0def2319a0d7aeb5491beafba65ebed6a3e8c6e9f1aad77960a",
+        "target-08.png": "e01483723d26b86c19da4efb84268a0f7b05bac07ae6cfe4b09580998f60b9e8",
+        "target-09.png": "06d209f2eaa9490b787de2779a71815c17d464b907a604d1780827020b8e6198",
+        "target-10.png": "24d8d2b8eec00618c8c6d9ea4d85fb931f87a92bfde512c86c81165b38d77981",
+        "thumbnail.webp": "922a93329c9945e8dd8df2c7fd21c4084e4c05f28125e1281f664d4961bf414a",
+        "puzzle.json": "194e8e4e5879723dd0cf7879122ce3acf03519d83355cca10d62e150ec9efa97",
+        "metadata.json": "7ad6dd6783b91b5d9d3fd05dbf26b58f05d9d3f50ac61ac31d1230eae1512b0b"
+      },
+      "review": "work/hidden-content/hidden-daily-hard-jua-family-aquarium/review.json"
+    },
+    {
+      "id": "hidden-daily-hard-jua-family-attic",
+      "title": "주아 가족의 겨울 다락방",
+      "kind": "hidden",
+      "answers": 10,
+      "width": 1448,
+      "height": 1086,
+      "gameplayRevision": "8d7515e7860e6031d69f",
+      "files": [
+        "scene.webp",
+        "target-01.png",
+        "target-02.png",
+        "target-03.png",
+        "target-04.png",
+        "target-05.png",
+        "target-06.png",
+        "target-07.png",
+        "target-08.png",
+        "target-09.png",
+        "target-10.png",
+        "thumbnail.webp",
+        "puzzle.json",
+        "metadata.json"
+      ],
+      "hashes": {
+        "scene.webp": "29bf5416c2c0cac5256ba6c9bfce281579a3aa7ca5a0040487bdb47639e65c9b",
+        "target-01.png": "593d0fab68c254fdd5bb02e3180e9816f5dacb8e5e82c84556afbbd4d8c27960",
+        "target-02.png": "df303c76e618a667560554a137cef8d25142acd043d91fe9f9d17aa720330704",
+        "target-03.png": "5ec124716d7379960a89f5189d14d5f8f0b1209df38afae20b71a32dde0982f1",
+        "target-04.png": "f3e631cbfc58435816fc64b6c2033c3151a831da43dd9c1481bc2754ab550019",
+        "target-05.png": "371e18779e59413c761a473aef74d4a21a795e1f5b953733577ddbae977803f3",
+        "target-06.png": "115993485ea30ace725b901aea774236620b3cadf9475a206cb6de3c9e25190f",
+        "target-07.png": "bce3e372006d34053fa96f151f24bc2de38e6d6b61ac4ae428bd245d7acde78f",
+        "target-08.png": "ad255ef24b8fb03c4cdc674803087469d8ebd3621abe46f90fcd91212cf77e25",
+        "target-09.png": "338869d64b65a9b0f294e14e1d34ef3eed070074c10e86fb4035a2111957fe4a",
+        "target-10.png": "28d2ab5652c22f42dbd9aa3c604e4a805b0a45a692e9d7a04f1a28d3cc83aad4",
+        "thumbnail.webp": "eb0980bdeae209db772fa76c8f7e5cfebbe514f2e33c6f619848eacbe1715d11",
+        "puzzle.json": "083f6d0757733619cf51816ab99ba59cec93471d7e9bf0a4bc6886ec4c7ca2d4",
+        "metadata.json": "995a7ca673bb4839fa4dcecf27a428428ca77795cfda799422e241149f974d95"
+      },
+      "review": "work/hidden-content/hidden-daily-hard-jua-family-attic/review.json"
+    }
+  ],
+  "addedGames": 6,
+  "addedAnswers": 60,
+  "addedFiles": 57,
+  "preservation": {
+    "baselineFiles": 536,
+    "changed": [],
+    "totals": {
+      "games": 78,
+      "differences": 44,
+      "hidden": 34,
+      "differenceAnswers": 367,
+      "hiddenAnswers": 287
+    }
+  },
+  "verification": {
+    "dataCheck": {
+      "passed": true,
+      "games": 78
+    },
+    "unitTests": {
+      "passed": 24
+    },
+    "browserTests": {
+      "passed": 12,
+      "projects": [
+        "chromium",
+        "webkit"
+      ],
+      "viewportSizes": [
+        [
+          1180,
+          820
+        ],
+        [
+          820,
+          1180
+        ]
+      ],
+      "file": "tests/browser/family-hard-content.spec.ts",
+      "coverage": [
+        "differences: all 10 answers on both sides",
+        "hidden: all 10 answers in both orientations",
+        "duplicate tap, hint, restart, saved progress restoration"
+      ],
+      "storageBoundary": "Reload assertions wait for IndexedDB saved count. They do not guarantee a page killed before the last asynchronous write commits."
+    },
+    "productionBuild": {
+      "passed": true,
+      "games": 78
+    },
+    "artifactAudit": {
+      "passed": true,
+      "games": 78
+    },
+    "unverified": [
+      "실제 iPad A16",
+      "Apple Pencil",
+      "주아의 체감 난이도",
+      "공개 배포"
+    ]
+  },
+  "deployed": false,
+  "committed": false
+}

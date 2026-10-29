@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-hard-jua-family-library",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "pencil",
+      "label": "연필",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.089,
+        "y": 0.085,
+        "rx": 0.033,
+        "ry": 0.085
+      }
+    },
+    {
+      "id": "glasses",
+      "label": "안경",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.804,
+        "y": 0.083,
+        "rx": 0.067,
+        "ry": 0.043
+      }
+    },
+    {
+      "id": "fish",
+      "label": "물고기",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.366,
+        "y": 0.123,
+        "rx": 0.052,
+        "ry": 0.04
+      }
+    },
+    {
+      "id": "mitten",
+      "label": "장갑",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.04,
+        "y": 0.368,
+        "rx": 0.038,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "key",
+      "label": "열쇠",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.963,
+        "y": 0.305,
+        "rx": 0.032,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "teapot",
+      "label": "주전자",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.541,
+        "y": 0.102,
+        "rx": 0.07,
+        "ry": 0.08
+      }
+    },
+    {
+      "id": "sock",
+      "label": "양말",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.103,
+        "y": 0.632,
+        "rx": 0.05,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "pear",
+      "label": "배",
+      "image": "target-08.png",
+      "area": {
+        "x": 0.848,
+        "y": 0.905,
+        "rx": 0.045,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "feather",
+      "label": "깃털",
+      "image": "target-09.png",
+      "area": {
+        "x": 0.477,
+        "y": 0.916,
+        "rx": 0.08,
+        "ry": 0.065
+      }
+    },
+    {
+      "id": "crown",
+      "label": "왕관",
+      "image": "target-10.png",
+      "area": {
+        "x": 0.926,
+        "y": 0.65,
+        "rx": 0.055,
+        "ry": 0.06
+      }
+    }
+  ]
+}

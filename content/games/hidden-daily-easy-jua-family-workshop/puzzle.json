@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "hidden",
+  "id": "hidden-daily-easy-jua-family-workshop",
+  "width": 1448,
+  "height": 1086,
+  "original": "scene.webp",
+  "targets": [
+    {
+      "id": "fish",
+      "label": "물고기",
+      "image": "target-01.png",
+      "area": {
+        "x": 0.197,
+        "y": 0.089,
+        "rx": 0.05,
+        "ry": 0.042
+      }
+    },
+    {
+      "id": "rabbit",
+      "label": "토끼",
+      "image": "target-02.png",
+      "area": {
+        "x": 0.885,
+        "y": 0.107,
+        "rx": 0.059,
+        "ry": 0.107
+      }
+    },
+    {
+      "id": "key",
+      "label": "열쇠",
+      "image": "target-03.png",
+      "area": {
+        "x": 0.94,
+        "y": 0.305,
+        "rx": 0.041,
+        "ry": 0.066
+      }
+    },
+    {
+      "id": "sock",
+      "label": "양말",
+      "image": "target-04.png",
+      "area": {
+        "x": 0.111,
+        "y": 0.692,
+        "rx": 0.053,
+        "ry": 0.1
+      }
+    },
+    {
+      "id": "umbrella",
+      "label": "우산",
+      "image": "target-05.png",
+      "area": {
+        "x": 0.906,
+        "y": 0.76,
+        "rx": 0.075,
+        "ry": 0.1
+      }
+    },
+    {
+      "id": "spoon",
+      "label": "숟가락",
+      "image": "target-06.png",
+      "area": {
+        "x": 0.432,
+        "y": 0.762,
+        "rx": 0.125,
+        "ry": 0.037
+      }
+    },
+    {
+      "id": "star",
+      "label": "별",
+      "image": "target-07.png",
+      "area": {
+        "x": 0.643,
+        "y": 0.924,
+        "rx": 0.073,
+        "ry": 0.066
+      }
+    }
+  ]
+}
