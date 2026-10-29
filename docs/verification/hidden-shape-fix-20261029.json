@@ -1,0 +1,4877 @@
+{
+  "date": "2026-10-29",
+  "status": "completed",
+  "originalAudit": "docs/verification/hidden-shape-audit-20261029.json",
+  "counts": {
+    "registeredGames": 60,
+    "hiddenGames": 30,
+    "hiddenTargets": 250,
+    "correctedGames": 19,
+    "correctedTargets": 35,
+    "scenesChanged": 18,
+    "cardsChanged": 35,
+    "targetsInspectedInChangedGames": 157,
+    "unchangedGames": 41,
+    "unchangedDifferenceGames": 30,
+    "unchangedHiddenGames": 11,
+    "changedFiles": 85
+  },
+  "validation": {
+    "data": {
+      "games": 60,
+      "result": "passed"
+    },
+    "build": {
+      "result": "passed",
+      "log": "work/hidden-shape-fix-20261029/build.log"
+    },
+    "unit": {
+      "command": "npm test -- tests/hidden-content.test.ts",
+      "passed": 5,
+      "failed": 0
+    },
+    "browser": {
+      "command": "npx playwright test tests/browser/hidden.spec.ts",
+      "passed": 12,
+      "failed": 0,
+      "engines": [
+        "chromium",
+        "webkit"
+      ],
+      "hiddenGamesPerEngine": 30,
+      "targetsPerEngine": 250,
+      "duration": "1.4m",
+      "initialSandboxAttempt": "listen EPERM on localhost:4173; rerun with sandbox override succeeded"
+    },
+    "visual": {
+      "games": 19,
+      "targets": 157,
+      "correctedTargets": 35
+    },
+    "realDevice": "not checked",
+    "deployment": "not performed"
+  },
+  "preservation": {
+    "baselineFileCount": 520,
+    "unchangedGameIds": [
+      "animals-easy-garden",
+      "animals-easy-picnic",
+      "animals-hard-bakery",
+      "animals-medium-aquarium",
+      "animals-medium-snow",
+      "daily-easy-kitchen",
+      "daily-easy-laundry",
+      "daily-hard-market",
+      "daily-hard-workshop",
+      "daily-medium-camping",
+      "fairytale-easy-beanstalk",
+      "fairytale-easy-dragon",
+      "fairytale-hard-library",
+      "fairytale-medium-forest",
+      "fairytale-medium-windmill",
+      "hidden-animals-easy-02",
+      "hidden-animals-hard-05",
+      "hidden-daily-medium-03",
+      "hidden-fairytale-easy-02",
+      "hidden-fairytale-hard-05",
+      "hidden-fairytale-medium-03",
+      "hidden-princess-hard-04",
+      "hidden-princess-hard-05",
+      "hidden-space-easy-01",
+      "hidden-space-medium-03",
+      "hidden-transport-medium-02",
+      "princess-easy-lake",
+      "princess-easy-tea",
+      "princess-hard-greenhouse",
+      "princess-hard-workshop",
+      "princess-medium-seaside",
+      "space-easy-moon",
+      "space-hard-observatory",
+      "space-hard-station",
+      "space-medium-garden",
+      "space-medium-rover",
+      "transport-easy-bus",
+      "transport-hard-harbor",
+      "transport-hard-rescue",
+      "transport-medium-airport",
+      "transport-medium-train"
+    ],
+    "originals": "work/hidden-shape-fix-20261029/<game-id>/before",
+    "targetIdsAndLabelsPreserved": true
+  },
+  "changedFiles": [
+    "hidden-animals-easy-01/puzzle.json",
+    "hidden-animals-easy-01/scene.webp",
+    "hidden-animals-easy-01/target-06.png",
+    "hidden-animals-easy-01/thumbnail.webp",
+    "hidden-animals-medium-03/target-08.png",
+    "hidden-animals-medium-04/puzzle.json",
+    "hidden-animals-medium-04/scene.webp",
+    "hidden-animals-medium-04/target-03.png",
+    "hidden-animals-medium-04/target-08.png",
+    "hidden-animals-medium-04/thumbnail.webp",
+    "hidden-daily-easy-01/puzzle.json",
+    "hidden-daily-easy-01/scene.webp",
+    "hidden-daily-easy-01/target-02.png",
+    "hidden-daily-easy-01/target-04.png",
+    "hidden-daily-easy-01/target-07.png",
+    "hidden-daily-easy-01/thumbnail.webp",
+    "hidden-daily-easy-02/scene.webp",
+    "hidden-daily-easy-02/target-06.png",
+    "hidden-daily-easy-02/thumbnail.webp",
+    "hidden-daily-hard-04/puzzle.json",
+    "hidden-daily-hard-04/scene.webp",
+    "hidden-daily-hard-04/target-02.png",
+    "hidden-daily-hard-04/target-03.png",
+    "hidden-daily-hard-04/target-04.png",
+    "hidden-daily-hard-04/target-07.png",
+    "hidden-daily-hard-04/target-10.png",
+    "hidden-daily-hard-04/thumbnail.webp",
+    "hidden-daily-hard-05/scene.webp",
+    "hidden-daily-hard-05/target-09.png",
+    "hidden-daily-hard-05/thumbnail.webp",
+    "hidden-fairytale-easy-01/puzzle.json",
+    "hidden-fairytale-easy-01/scene.webp",
+    "hidden-fairytale-easy-01/target-03.png",
+    "hidden-fairytale-easy-01/target-05.png",
+    "hidden-fairytale-easy-01/thumbnail.webp",
+    "hidden-fairytale-medium-04/puzzle.json",
+    "hidden-fairytale-medium-04/scene.webp",
+    "hidden-fairytale-medium-04/target-06.png",
+    "hidden-fairytale-medium-04/thumbnail.webp",
+    "hidden-princess-easy-01/puzzle.json",
+    "hidden-princess-easy-01/scene.webp",
+    "hidden-princess-easy-01/target-05.png",
+    "hidden-princess-easy-01/thumbnail.webp",
+    "hidden-princess-easy-02/puzzle.json",
+    "hidden-princess-easy-02/scene.webp",
+    "hidden-princess-easy-02/target-01.png",
+    "hidden-princess-easy-02/target-06.png",
+    "hidden-princess-easy-02/thumbnail.webp",
+    "hidden-princess-medium-03/puzzle.json",
+    "hidden-princess-medium-03/scene.webp",
+    "hidden-princess-medium-03/target-01.png",
+    "hidden-princess-medium-03/thumbnail.webp",
+    "hidden-space-hard-04/puzzle.json",
+    "hidden-space-hard-04/scene.webp",
+    "hidden-space-hard-04/target-02.png",
+    "hidden-space-hard-04/thumbnail.webp",
+    "hidden-space-hard-05/scene.webp",
+    "hidden-space-hard-05/target-07.png",
+    "hidden-space-hard-05/thumbnail.webp",
+    "hidden-space-medium-02/scene.webp",
+    "hidden-space-medium-02/target-05.png",
+    "hidden-space-medium-02/thumbnail.webp",
+    "hidden-transport-easy-01/puzzle.json",
+    "hidden-transport-easy-01/scene.webp",
+    "hidden-transport-easy-01/target-02.png",
+    "hidden-transport-easy-01/target-04.png",
+    "hidden-transport-easy-01/target-06.png",
+    "hidden-transport-easy-01/target-07.png",
+    "hidden-transport-easy-01/thumbnail.webp",
+    "hidden-transport-hard-04/puzzle.json",
+    "hidden-transport-hard-04/scene.webp",
+    "hidden-transport-hard-04/target-05.png",
+    "hidden-transport-hard-04/thumbnail.webp",
+    "hidden-transport-hard-05/puzzle.json",
+    "hidden-transport-hard-05/scene.webp",
+    "hidden-transport-hard-05/target-08.png",
+    "hidden-transport-hard-05/target-10.png",
+    "hidden-transport-hard-05/thumbnail.webp",
+    "hidden-transport-medium-03/puzzle.json",
+    "hidden-transport-medium-03/scene.webp",
+    "hidden-transport-medium-03/target-03.png",
+    "hidden-transport-medium-03/target-04.png",
+    "hidden-transport-medium-03/target-06.png",
+    "hidden-transport-medium-03/target-08.png",
+    "hidden-transport-medium-03/thumbnail.webp"
+  ],
+  "games": [
+    {
+      "id": "hidden-animals-easy-01",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        6
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-6",
+          "label": "초승달",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 천의 양 끝이 모두 둥글고 두껍다. 뾰족한 두 끝과 안쪽 원호를 가진 초승달보다 구부러진 양말·콩 형태에 가깝다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "9d3ebb5a9e0ce43cb42a",
+        "contentRevision": "54036d92d6fa172e8410"
+      },
+      "after": {
+        "gameplayRevision": "11a48333724dfa54ed88",
+        "contentRevision": "2380d773ba4e39ff7c15"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.115,
+            "y": 0.203,
+            "rx": 0.029,
+            "ry": 0.033
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.266,
+            "y": 0.871,
+            "rx": 0.066,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "숟가락",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.461,
+            "y": 0.337,
+            "rx": 0.031,
+            "ry": 0.086
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "나비",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.872,
+            "y": 0.259,
+            "rx": 0.053,
+            "ry": 0.061
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.576,
+            "y": 0.096,
+            "rx": 0.033,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.91,
+            "y": 0.719,
+            "rx": 0.026,
+            "ry": 0.038
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.26,
+            "y": 0.424,
+            "rx": 0.036,
+            "ry": 0.049
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "27b70a30d5c7d1747798efb76094e8f166ccbf14fefdec20c4ec991fda91b77e",
+        "target-01.png": "a505be88db094263b195af3ff3eea026d90dfa348bceaf01721776a8af4ab3c9",
+        "target-02.png": "5d6560ef8655ac00c751d981b7ed7f987cce20bb4d936b453b710b0269ce9de3",
+        "target-03.png": "9ac7d9abb1593a537fb558953816795d1bdd76f8d9fdd462fb37e8f8aff306b3",
+        "target-04.png": "5eafd9e3cbd4798fd95974a33094ec23b93cca853f4716729c4b675b28ace9b7",
+        "target-05.png": "503b3d5116d34b0c2df78ff52063d9df12f84023cf836af4fa59cbd77a902572",
+        "target-06.png": "6fb4ae9aca01531b4c0e5a79ec018afbd0d5bc4625ababdd5dd288940daabf39",
+        "target-07.png": "28ffcf60ac9c11b00260ccf44827798f29892d1de0959207e444ba8479da7f0e",
+        "thumbnail.webp": "cb493709ba1b6a04bf037eb994258de271524f9eaa21bc9458e1f824072ea662",
+        "puzzle.json": "d11b39db487b6e649d699d691b2d28711a373bd7eb703c8ac0924567c0481696",
+        "metadata.json": "e8e9741f952ebe415bdec886e57a77acdca6e2fe55b1554c004656cbf6397330"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 128.3697520661157
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 63.35456611570248
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 43.947685950413224
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 130.27956611570247
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 97.08568181818181
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 91.11611570247933
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 64.27884297520662
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-animals-easy-01/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-animals-easy-01/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-animals-easy-01/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-animals-easy-01/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "토끼의 작은 정원"
+    },
+    {
+      "id": "hidden-animals-medium-03",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": false,
+      "changedTargetNumbers": [
+        8
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-8",
+          "label": "나비",
+          "originalStatus": "recheck",
+          "originalObservation": "카드는 둥글고 넓은 윗날개다. 장면은 끝이 좁아지고 톱니가 있는 잎 모양 윗날개다. 몸통과 더듬이는 확인된다.",
+          "resolution": "corrected",
+          "method": "target-card matched to existing scene"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "4c2b694c4f79c4bee17b",
+        "contentRevision": "7fdb9067233a7d8b7ff6"
+      },
+      "after": {
+        "gameplayRevision": "098fcdd7c71677b2eaab",
+        "contentRevision": "c3b91c1bef97c77cf5a1"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "우산",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.19,
+            "y": 0.091,
+            "rx": 0.072,
+            "ry": 0.059
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.823,
+            "y": 0.167,
+            "rx": 0.057,
+            "ry": 0.038
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "닻",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.562,
+            "y": 0.792,
+            "rx": 0.043,
+            "ry": 0.044
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "장갑",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.937,
+            "y": 0.507,
+            "rx": 0.044,
+            "ry": 0.067
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "열쇠",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.241,
+            "y": 0.83,
+            "rx": 0.057,
+            "ry": 0.05
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "별",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.545,
+            "y": 0.148,
+            "rx": 0.036,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.546,
+            "y": 0.708,
+            "rx": 0.053,
+            "ry": 0.022
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "나비",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.883,
+            "y": 0.87,
+            "rx": 0.068,
+            "ry": 0.091
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "6be68ff7582d9cb286d1fb114f7d96312eb8405fd1ffd88f47395ac0f62214ee",
+        "target-01.png": "dff73a3d60abb827ac2df94179c518f66a5e9bcb13a56c89d7225214619464c4",
+        "target-02.png": "573200d1d3d5b1230d3617be24a15a0ec03ac5fe19969c570075a864f26e1aee",
+        "target-03.png": "1a7c34ada0ca2a01ff1f2021fd141aba942dc6d99430a2bbad91df41c74f1294",
+        "target-04.png": "f827709feb1769a51eb4e9d2c6779fe10c091482202fdb7f2e3fb07bd7d0d4de",
+        "target-05.png": "b4850ce605c90f0985376d25489dc724e82670cc645630ebc40d5f088bc6d689",
+        "target-06.png": "0ac1d18437810d3efbd5b9d46fd8a9b225ca24950c472aa7e3bee13f6b02f008",
+        "target-07.png": "736b473b38367e5963b8113154401c62778b6d3b623e64dbd5573531e6a980d9",
+        "target-08.png": "718758030ef26e3dc00c0b3ef63c68d9d5a5c5a713347655cab1ab1edbc0486c",
+        "thumbnail.webp": "d78f80ecb502c5fa20ba9784bdf17cba81049484c7c0599b7b86c4b1f589f8bc",
+        "puzzle.json": "5dd289e3b6bc6840b1400ebb423619e28ffec50a69eac973a9de2ce0a7367afb",
+        "metadata.json": "3cc70a1783a6923f3f1ac4d512a743d3f294ea905af80e1bac44d7f85f262cd2"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 65.56522727272727
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 73.35076446280992
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 48.59421487603306
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 97.40964876033058
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 60.303078512396695
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 93.27902892561984
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 31.757747933884296
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 128.4184917355372
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-animals-medium-03/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-animals-medium-03/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-animals-medium-03/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-animals-medium-03/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "다람쥐의 도토리 집"
+    },
+    {
+      "id": "hidden-animals-medium-04",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        3,
+        8
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-8",
+          "label": "리본",
+          "originalStatus": "fix",
+          "originalObservation": "카드는 좌우 매듭 고리만 있다. 장면에는 매듭 아래로 내려오는 긴 끈 두 가닥이 추가된다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-3",
+          "label": "장갑",
+          "originalStatus": "recheck",
+          "originalObservation": "장갑 카드와 산호 윤곽 모두 긴 중앙 부분의 좌우에 돌출부가 있다. 엄지가 두 개인 벙어리장갑으로 오해할 수 있다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "9a699c01c9f42b94185c",
+        "contentRevision": "7ccaeccf974d1ceac0f3"
+      },
+      "after": {
+        "gameplayRevision": "762515b11f43f2935799",
+        "contentRevision": "e61bb35c28cc8f728a19"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "우산",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.089,
+            "y": 0.352,
+            "rx": 0.069,
+            "ry": 0.094
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "숟가락",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.91,
+            "y": 0.111,
+            "rx": 0.071,
+            "ry": 0.099
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "장갑",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.934,
+            "y": 0.448,
+            "rx": 0.05,
+            "ry": 0.092
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "하트",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.136,
+            "y": 0.127,
+            "rx": 0.038,
+            "ry": 0.045
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "오리머리",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.144,
+            "y": 0.738,
+            "rx": 0.056,
+            "ry": 0.061
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "왕관",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.526,
+            "y": 0.109,
+            "rx": 0.043,
+            "ry": 0.047
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "장화",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.908,
+            "y": 0.768,
+            "rx": 0.041,
+            "ry": 0.069
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "리본",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.55,
+            "y": 0.828,
+            "rx": 0.06,
+            "ry": 0.076
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "009e6ba0933f7a8b16c056a41fc90e5ecb0af6c059ba7f9438b045f530066d48",
+        "target-01.png": "bb4117512059e8f9f57cf2c1530f4937e6d76a285bdab736036305ab09e2c724",
+        "target-02.png": "641ac9cd8075eab0db6b128b800da4475a91b1a882371728f3222b771c037ef7",
+        "target-03.png": "2752833d50b9555648b658650676ff5de9d3d45fb351e43e7bc0218883dae6f7",
+        "target-04.png": "ae8f576e42ede33b12905b0fa28c890517d41542b01281a04a336c93c10643a3",
+        "target-05.png": "23973e26c127c855fdd980565dc8f8e554369ade23acf8410b17d349829b3dee",
+        "target-06.png": "92acb9a889ef15b4de61cd594bb8a7888cb14eab542d0aed32552ac8f06dc840",
+        "target-07.png": "017800072ff1d63c19f9bad707712576d90ed3a3de59a39d973634420ca50b71",
+        "target-08.png": "7f4828cce6b0b613e1cd7e31b86c6b9669c5dd0da7c0d45aa4b1858c3758bb9c",
+        "thumbnail.webp": "01c6fc06af9bef729b2f61e4fe0163b82dbfaeecfe386945857da8ac453c4826",
+        "puzzle.json": "7d48e402eb56fd26f23e6d4315b2e6b98cba7b749af34af5235d7a9f4c4b2d3e",
+        "metadata.json": "b8cda313d502330e5e18461800367724dda422a420e36f812e419cc37bec5c9b"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 74.80611570247935
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 55.76107438016529
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 128.84066115702478
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 116.31351239669422
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 108.88820247933884
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 87.40632231404959
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 84.35836776859504
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 134.55452479338842
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-animals-medium-04/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-animals-medium-04/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-animals-medium-04/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-animals-medium-04/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "바닷속 음악회"
+    },
+    {
+      "id": "hidden-daily-easy-01",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        2,
+        4,
+        7
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-2",
+          "label": "종",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 장면 모두 전등갓이다. 종을 구분하는 종추가 없고 천장 전선과 연결된다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-4",
+          "label": "숟가락",
+          "originalStatus": "fix",
+          "originalObservation": "카드는 한쪽에만 뜨는 부분이 있다. 의자 무늬는 양 끝이 타원으로 부풀고 가운데가 잘록해 양쪽 머리 형태다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-7",
+          "label": "나비",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 장면 모두 가운데 매듭과 아래로 늘어진 끈 두 가닥이 있다. 나비의 몸통·더듬이가 없고 커튼을 묶는 리본으로 읽힌다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "9fa70e7b05861f4504ee",
+        "contentRevision": "c4323d950f705cad638d"
+      },
+      "after": {
+        "gameplayRevision": "4d2f9a663e7d1d2971c2",
+        "contentRevision": "8ce0701767956a9a92bb"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "토끼",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.089,
+            "y": 0.157,
+            "rx": 0.032,
+            "ry": 0.079
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "종",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.459,
+            "y": 0.109,
+            "rx": 0.027,
+            "ry": 0.036
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.684,
+            "y": 0.125,
+            "rx": 0.042,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "숟가락",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.138,
+            "y": 0.688,
+            "rx": 0.087,
+            "ry": 0.062
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.48,
+            "y": 0.357,
+            "rx": 0.03,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "나뭇잎",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.863,
+            "y": 0.553,
+            "rx": 0.029,
+            "ry": 0.056
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "나비",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.043,
+            "y": 0.348,
+            "rx": 0.04,
+            "ry": 0.058
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "3fca6e432165b50040757b7b7aafc3928346dc233d74622b92ea796d96a450e0",
+        "target-01.png": "5ba2a28c886ba7ed51ecb8301e7d14c8fe4098a0a740e9af5bc09de5c617eb6a",
+        "target-02.png": "95530969261950669f97fabc14235e7a3065b9201c6cb9ed71569c5fc06d3d2c",
+        "target-03.png": "dc23f86d9be143425aede6fac506a5d3c0ca71a8aa9ceadcff6de0a260e6fb49",
+        "target-04.png": "97ba59808c7ade65747be055830c97b506da06d98630e06fa85f042ee98e3d30",
+        "target-05.png": "e501d8650acd18c6a811a056fb8993f60c16fd277e812fffa688727bda9ed0d9",
+        "target-06.png": "e84ec844e182eef5071476e1a4fb482e27f541b0b11d9aac49ef702d4d7f562d",
+        "target-07.png": "a29634fef14ada4c0050e3333c48c2c12643653fb07a5e88a03726c2bd51d165",
+        "thumbnail.webp": "0d778d1e94d15c549265c6626cdcaad04ed9b4ab866dea80eefa417bf8f67191",
+        "puzzle.json": "5574d48ada0d6adbdf33f8e7f19bc50f8020ebe8483d58634881aa2c5874286d",
+        "metadata.json": "93d640e1d906f165d86a6feb6c06ea3dfc6439190e25bdb8919742d91c5fc268"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 57.25277083333334
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 122.62471074380166
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 46.495416666666664
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 38.88873966942149
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 44.960791666666665
+        },
+        {
+          "targetId": "target-6",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 47.568083333333334
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 123.70018595041323
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-daily-easy-01/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-daily-easy-01/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-daily-easy-01/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-daily-easy-01/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "우리 집 아침 식탁"
+    },
+    {
+      "id": "hidden-daily-easy-02",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        6
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-6",
+          "label": "사과",
+          "originalStatus": "recheck",
+          "originalObservation": "장면은 하트형 잎에 가깝고 카드에 있는 사과 꼭지가 명확하지 않다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "76a212b0cfe1003fc809",
+        "contentRevision": "d647960977709e1dead8"
+      },
+      "after": {
+        "gameplayRevision": "7647bf73af39299d28e5",
+        "contentRevision": "7a0f52780472df164ba8"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "고양이",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.133,
+            "y": 0.125,
+            "rx": 0.066,
+            "ry": 0.06
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "우산",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.831,
+            "y": 0.108,
+            "rx": 0.09,
+            "ry": 0.085
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "당근",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.303,
+            "y": 0.425,
+            "rx": 0.058,
+            "ry": 0.1
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "장갑",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.06,
+            "y": 0.504,
+            "rx": 0.035,
+            "ry": 0.052
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "나비",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.557,
+            "y": 0.828,
+            "rx": 0.059,
+            "ry": 0.046
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "사과",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.85,
+            "y": 0.494,
+            "rx": 0.046,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.886,
+            "y": 0.839,
+            "rx": 0.035,
+            "ry": 0.071
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "e994bde5312ca8b3e8fa7bc37f9390c627df84bb386b13cbe1c8c1bf9097bbb8",
+        "target-01.png": "1e5f939022c980cf53f449cdd65bf18dc79ccf4fa6577b14cd93d59a37d79713",
+        "target-02.png": "79028c1d913306381aab823d484fd01411f9502369a91d878be6a0af27b11914",
+        "target-03.png": "37938449507ac067d0df0b3751d72b2b94ded750e822eaf03cadf2f7e1e86e9b",
+        "target-04.png": "8a12d5eb71750fb9e3057a600b36a08fb6c4d8a7c38061c5b7558bd9a296b772",
+        "target-05.png": "a0200ad61a57f0f46547c67d0df42b2cfef87a6cd3cdf28e2bdfdc36f141be25",
+        "target-06.png": "5ca04ead4e463e6136295c2dfc03f606e81c236d4d4c7ae86f23a5897f0fa538",
+        "target-07.png": "481b00ad518a61e2fb04ed692bc6ed10ddbde44db3c3be723c9b12ca53902be4",
+        "thumbnail.webp": "98e3a65e4db0d1c3827c216421f9fcaa3b98d52fa6ec3e42871c31527798a110",
+        "puzzle.json": "eb3b4c584b97046b2488332f10510f6d91da853fcc93a13388a83235b449e2f2",
+        "metadata.json": "0e441aad8e500a07a37a8d2417a9bf9f0ee3e1fe179dfe9599bf5aec969cf962"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 90.86254166666667
+        },
+        {
+          "targetId": "target-2",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 67.68047916666667
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 62.406875
+        },
+        {
+          "targetId": "target-4",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.37258333333333
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 60.86425
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 140.8962603305785
+        },
+        {
+          "targetId": "target-7",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 28.9071875
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-daily-easy-02/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-daily-easy-02/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-daily-easy-02/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-daily-easy-02/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "놀이터의 오후"
+    },
+    {
+      "id": "hidden-daily-hard-04",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        2,
+        3,
+        4,
+        7,
+        10
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-3",
+          "label": "종",
+          "originalStatus": "fix",
+          "originalObservation": "갓 아래 물방울형 전구와 전선이 보인다. 카드도 전구를 그대로 그려 종보다 조명으로 읽힌다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-4",
+          "label": "망치",
+          "originalStatus": "fix",
+          "originalObservation": "카드의 망치 머리는 반듯한 직사각형이다. 상자 무늬의 머리는 굴곡과 잘록한 부분이 있는 다른 윤곽이다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-7",
+          "label": "포크",
+          "originalStatus": "fix",
+          "originalObservation": "장면의 도구 끝은 막혀 있고 내부에 길쭉한 구멍 세 개가 있다. 카드의 포크처럼 끝이 갈라진 살이 없다. 구멍 난 뒤집개로 보인다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-2",
+          "label": "리본",
+          "originalStatus": "recheck",
+          "originalObservation": "리본의 고리·늘어진 부분이 모두 잎으로 이어져 카드의 리본 끈 끝과 다르다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-10",
+          "label": "신발",
+          "originalStatus": "recheck",
+          "originalObservation": "카드는 둥근 앞코와 굽·밑창이 있는 신발이다. 돌바닥 무늬는 각진 윤곽과 끈 위주여서 앞코와 밑창의 대응이 약하다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "66e231f62ac7d3785288",
+        "contentRevision": "dddf22894912ea8ca8b2"
+      },
+      "after": {
+        "gameplayRevision": "3b80e9489af554350ee8",
+        "contentRevision": "6fedd61e7b7f930c7cc8"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "고래",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.289,
+            "y": 0.087,
+            "rx": 0.056,
+            "ry": 0.038
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "리본",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.59,
+            "y": 0.12,
+            "rx": 0.037,
+            "ry": 0.045
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "종",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.792,
+            "y": 0.102,
+            "rx": 0.026,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "망치",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.134,
+            "y": 0.412,
+            "rx": 0.04,
+            "ry": 0.048
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "오리",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.44,
+            "y": 0.553,
+            "rx": 0.039,
+            "ry": 0.058
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "물뿌리개",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.731,
+            "y": 0.486,
+            "rx": 0.054,
+            "ry": 0.053
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "포크",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.172,
+            "y": 0.857,
+            "rx": 0.026,
+            "ry": 0.088
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "버섯",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.469,
+            "y": 0.778,
+            "rx": 0.035,
+            "ry": 0.049
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "촛불",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.676,
+            "y": 0.779,
+            "rx": 0.02,
+            "ry": 0.051
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "신발",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.908,
+            "y": 0.922,
+            "rx": 0.061,
+            "ry": 0.046
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "df9d28f4bac43da9439b80f6631d7ea1b46e0f3b5d046219945244714588bacf",
+        "target-01.png": "72bb58d6b900780bce6b48e39f914c07cd6478fc3643915256c76039c1d41365",
+        "target-02.png": "c301885261ebbbbb06dcb59829370227a741fa4bfd101c23d7a510ca0a33c74e",
+        "target-03.png": "5373d43f00c53119f76dc8414a3771508b2fc47eeb67fe2b24afa3b742b7705e",
+        "target-04.png": "a3201770b9e6ff5b40d51832fc3cededf124dc5b1376202eb98ce996f8d71972",
+        "target-05.png": "4b79bbc6b6793dd8ab9e45c81ec44a38850f0efefc29ee36f5408608c708e6cc",
+        "target-06.png": "c616cf978a422f1c468ac5cbfa025d5c24d9a3ed7f3188124e90ecc36e694406",
+        "target-07.png": "501b75a79ae3bb58c12565b4a266fa771f63bf5f3eabd6e970a94c5baa72679e",
+        "target-08.png": "68ea79c31c80b2b13784f4981d42809c9d18d7ced18db15a5976399f4b025985",
+        "target-09.png": "ee8c2ba0f474ae654acbd68b68cc79d288b01530ddf70e0f99bd18124be15eb2",
+        "target-10.png": "1626cb902afe9597c717386b060aa9d7e2c0f30470ab70c9a637b24c6a1a7970",
+        "thumbnail.webp": "11934efa82d5892d18c9a43a1bcf3ede1389c7bebf4fe6a424fe8b75d399e10b",
+        "puzzle.json": "924a162a87468438be1787b97d0e1682ddf84ac8c52ad86bfd461ddafeeb6619",
+        "metadata.json": "aed468d66e90ad0abe8c14b002f70a7912b009df2c96a330c05df499ae3fdb57"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.28895833333333
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 126.89564049586777
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 118.14061983471075
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 74.62805785123967
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 53.229479166666664
+        },
+        {
+          "targetId": "target-6",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 86.72220833333333
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 56.81566115702479
+        },
+        {
+          "targetId": "target-8",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.434270833333336
+        },
+        {
+          "targetId": "target-9",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 33.6088125
+        },
+        {
+          "targetId": "target-10",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 107.6225
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-daily-hard-04/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-daily-hard-04/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-daily-hard-04/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-daily-hard-04/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "시끌벅적 과일 가게"
+    },
+    {
+      "id": "hidden-daily-hard-05",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        9
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-9",
+          "label": "별",
+          "originalStatus": "fix",
+          "originalObservation": "정답 위치에는 가운데 노란 꽃술과 둥근 흰 꽃잎 다섯 장이 있다. 카드의 별 윤곽과 다르고 꽃으로 읽힌다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "d436b581f6865cf285c1",
+        "contentRevision": "9a701f3a86834428bc3f"
+      },
+      "after": {
+        "gameplayRevision": "57ac512b1dff38da343d",
+        "contentRevision": "f9c83a121fafad1f5dec"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "생쥐",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.075,
+            "y": 0.176,
+            "rx": 0.039,
+            "ry": 0.071
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "초승달",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.413,
+            "y": 0.159,
+            "rx": 0.034,
+            "ry": 0.048
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "거북이",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.751,
+            "y": 0.378,
+            "rx": 0.042,
+            "ry": 0.042
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "조개",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.485,
+            "y": 0.54,
+            "rx": 0.027,
+            "ry": 0.037
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "안경",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.642,
+            "y": 0.457,
+            "rx": 0.038,
+            "ry": 0.029
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "장화",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.909,
+            "y": 0.567,
+            "rx": 0.032,
+            "ry": 0.05
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "바나나",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.132,
+            "y": 0.752,
+            "rx": 0.068,
+            "ry": 0.045
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "도토리",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.477,
+            "y": 0.802,
+            "rx": 0.034,
+            "ry": 0.051
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "별",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.619,
+            "y": 0.843,
+            "rx": 0.025,
+            "ry": 0.031
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "물방울",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.89,
+            "y": 0.841,
+            "rx": 0.016,
+            "ry": 0.028
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "9f800bc9907c7ec96e43623437f23859a08a6d4c07ff54ce692c3aeed06bdabe",
+        "target-01.png": "de8f8a590115ec93f61f3335129de350c72fe0070f83f51a514522904d70ff8a",
+        "target-02.png": "891f6e027d82ae07dd840d3f3c3a85204e515d3aa2f438fbe3ba59cbef09b803",
+        "target-03.png": "c0d614055d5a51a81ed8c45f056e8f11892ee187f4a4209dccfc7b21deb3aa0a",
+        "target-04.png": "0db644db5138d67aec3dd4d72e1bc399e13fb8ef22a04914d9cc4152533cffc6",
+        "target-05.png": "f62efe90d7d04058c030be745288d41712c06a5982ee10d5a40598468050e723",
+        "target-06.png": "45c4b2e6b1248828f42a7aabbbe991e4c79a6e3e590cdae5bd85e698de81d5e3",
+        "target-07.png": "294bec87a10aa2a7e8aa6c2e5d83d015023f26a1cb6c079e7bec90e51b6a4336",
+        "target-08.png": "7832a9c12507846b9ccd9b39456379960dd76bf2f0f290364ad0dea2da571a93",
+        "target-09.png": "7aded88692f73e8f2555a2d0e7d5cbd6c15a0985ab38677cd36e5a65f2007d6c",
+        "target-10.png": "d057e511f9c80d8fc71fc2680819daab3c61adacb68ad305497e338fb967508c",
+        "thumbnail.webp": "ba39404d38e764c4d3db8ea0537dc12d9f2d002852789d58d0b57d59c47ea7df",
+        "puzzle.json": "c84116ebf68a6c01e4a21be989702f34a8a8776ebee461fa38991519f5965083",
+        "metadata.json": "bb125a142412f5d5222ad66b3dd550abfeaec72978feb37f3e282e15e2bf8a99"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.1805625
+        },
+        {
+          "targetId": "target-2",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 31.518645833333334
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 54.723645833333336
+        },
+        {
+          "targetId": "target-4",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.10729166666667
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 38.458395833333334
+        },
+        {
+          "targetId": "target-6",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 103.6814375
+        },
+        {
+          "targetId": "target-7",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 64.06714583333333
+        },
+        {
+          "targetId": "target-8",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 57.93375
+        },
+        {
+          "targetId": "target-9",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 107.41512396694215
+        },
+        {
+          "targetId": "target-10",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 35.24575
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-daily-hard-05/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-daily-hard-05/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-daily-hard-05/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-daily-hard-05/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "즐거운 캠핑장"
+    },
+    {
+      "id": "hidden-fairytale-easy-01",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        3,
+        5
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-3",
+          "label": "물고기",
+          "originalStatus": "recheck",
+          "originalObservation": "카드는 가늘고 긴 몸에 두 갈래 꼬리가 있다. 장면의 물결은 더 넓은 몸을 만들며 꼬리가 주변 물결과 합쳐져 있다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-5",
+          "label": "깃털",
+          "originalStatus": "recheck",
+          "originalObservation": "장면에서는 고사리 잎의 갈라지는 잔잎으로 읽힌다. 카드의 하나로 이어진 깃털 가장자리와 구조가 다르다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "7cc41b76c2b6839f822b",
+        "contentRevision": "3268790dd29b314b8479"
+      },
+      "after": {
+        "gameplayRevision": "4d941237d019bc27d9d2",
+        "contentRevision": "658ae066a9079ebf4eda"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.125,
+            "y": 0.075,
+            "rx": 0.04,
+            "ry": 0.054
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.09,
+            "y": 0.424,
+            "rx": 0.036,
+            "ry": 0.042
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.832,
+            "y": 0.611,
+            "rx": 0.085,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.325,
+            "y": 0.338,
+            "rx": 0.016,
+            "ry": 0.043
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.108,
+            "y": 0.807,
+            "rx": 0.066,
+            "ry": 0.112
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.868,
+            "y": 0.748,
+            "rx": 0.035,
+            "ry": 0.043
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "안경",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.923,
+            "y": 0.424,
+            "rx": 0.054,
+            "ry": 0.026
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "3bf7b77fdfb4dbf2785908d4c76e7e16f5b2e1581abb7edd46b74835952078a4",
+        "target-01.png": "7d6b9209f54e9cfc6c22e42eb6c851418520d9128e8512820918b46f86638070",
+        "target-02.png": "6151dc63011bb868fb26973fa1730e84d3cdfb0449cc9a2ed86b66cb1b9eeb1c",
+        "target-03.png": "f5e66335ea5c6879c5ac55530ca891ad857cbe844b164ef55e36b6310f804912",
+        "target-04.png": "d8ce196482fc5b7f4c38e7bb848f9e5f883be988f803d4dc3db745ee57c17e22",
+        "target-05.png": "e6a314c1ef296fffa9a0425d03405b8a10dd83f929ee001e856d1afc3b0bac5e",
+        "target-06.png": "7d8b1de43234fab22b06a672cbba9c7a5b56467a9c485460010e3d7446c366fb",
+        "target-07.png": "94aea64ab567cae61cf2ba9da0c5c1558a914ebe9cec0c13d7ef90644f2f7d7d",
+        "thumbnail.webp": "a372d45690c95891efdcd08a983c043df344643dfda054f9702c2941992f37a8",
+        "puzzle.json": "a897cf7312d707f3cd4a883517f9b371ff084bb2d0c798806b50139538bf6596",
+        "metadata.json": "c8cd5d6e6f6402ea01e610b8991d4dec1b9043d4aaf94a39cc03358402dc9937"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 68.94952479338843
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 86.14578512396695
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 56.64028925619835
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.557004132231405
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 80.76814049586777
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 71.89006198347107
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 35.240929752066116
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-fairytale-easy-01/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-fairytale-easy-01/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-fairytale-easy-01/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-fairytale-easy-01/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "꼬마 용의 숲속 집"
+    },
+    {
+      "id": "hidden-fairytale-medium-04",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        6
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-6",
+          "label": "하트",
+          "originalStatus": "recheck",
+          "originalObservation": "카드 자체가 하트와 큰 나선의 결합이다. 장면은 구름 소용돌이와 경계가 이어져 일반적인 하트의 두 둥근 윗부분과 아래 꼭짓점이 약하다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "629664572c8ea616070d",
+        "contentRevision": "e25ae0497ba0dced36aa"
+      },
+      "after": {
+        "gameplayRevision": "91e7b36604b021e58e76",
+        "contentRevision": "fb7c88916c770c28d857"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "물고기",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.139,
+            "y": 0.091,
+            "rx": 0.06,
+            "ry": 0.05
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.913,
+            "y": 0.483,
+            "rx": 0.055,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "안경",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.675,
+            "y": 0.141,
+            "rx": 0.058,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.061,
+            "y": 0.363,
+            "rx": 0.032,
+            "ry": 0.075
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "초승달",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.908,
+            "y": 0.872,
+            "rx": 0.041,
+            "ry": 0.067
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "하트",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.941,
+            "y": 0.089,
+            "rx": 0.045,
+            "ry": 0.06
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "깃털",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.136,
+            "y": 0.87,
+            "rx": 0.061,
+            "ry": 0.081
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "조개",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.484,
+            "y": 0.924,
+            "rx": 0.038,
+            "ry": 0.055
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "550b9db42ba4f045294c508da253153e0484970f39608ab9d1f6e46efe3a381a",
+        "target-01.png": "619ab8b6d48224a8bfb4b0283f1965867aef5d31ca802b29ae7c478de386a55a",
+        "target-02.png": "9e31775296ee687810931492f211b65918c8a7c3011ebe96e821caf9b24f2c31",
+        "target-03.png": "cd0c43b336bd9fa722c1bb8ab715807de022302a37c5be95055a57b14c83db17",
+        "target-04.png": "a4c43c5ac887a1b419815882aadc61e61715d7c6d9931295d152a1b50773c6bb",
+        "target-05.png": "f6f34c1b09692d4ca69d18cbb00fe7c8a30685cf185335de108c188bb746d292",
+        "target-06.png": "d8b88395363717ca1197e72b545cd42bd930db667d704f775d180dc95d0e2de2",
+        "target-07.png": "8b88e6dcbd065f70f6ce7c0c8180470a439e0b0b705f2e0567bc5fa8601cdace",
+        "target-08.png": "703ae9bb1c367141dc543a91ac6f4eb62b3e48e2864900c906068f0c65ee99df",
+        "thumbnail.webp": "75ac57d2d79bc9ac740deabc6a7563a60a2669d9258b9724c186bf94f62300c1",
+        "puzzle.json": "d6f29c513bc82450cd4faa94b88edbc2106c1b11a79bbe6066256a48f9a5e015",
+        "metadata.json": "9c3e4b62ebd85d2c71fab2e48797bdab25508e78ce9375340a32ceb8e7213c48"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 81.88588842975207
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 87.43776859504132
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 46.68849173553719
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 52.08995867768595
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 73.02004132231404
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 146.32611570247934
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 88.13309917355372
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 99.24247933884297
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-fairytale-medium-04/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-fairytale-medium-04/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-fairytale-medium-04/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-fairytale-medium-04/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "구름 위의 놀이터"
+    },
+    {
+      "id": "hidden-princess-easy-01",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        5
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-5",
+          "label": "열쇠",
+          "originalStatus": "fix",
+          "originalObservation": "카드에는 위쪽 나선 고리 하나와 짧은 이 두 개가 있다. 장면에서는 자루 오른쪽의 큰 두 번째 나선이 붙어 카드와 다른 열쇠 윤곽을 만든다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "85e54b16a2727ec75933",
+        "contentRevision": "8e3be14253bf3cc3b710"
+      },
+      "after": {
+        "gameplayRevision": "796e6618a1892cfb5ac8",
+        "contentRevision": "691c81b622e6c934e0ce"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.101,
+            "y": 0.264,
+            "rx": 0.035,
+            "ry": 0.068
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.681,
+            "y": 0.65,
+            "rx": 0.042,
+            "ry": 0.056
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.87,
+            "y": 0.509,
+            "rx": 0.064,
+            "ry": 0.024
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "별",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.496,
+            "y": 0.807,
+            "rx": 0.03,
+            "ry": 0.043
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "열쇠",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.307,
+            "y": 0.295,
+            "rx": 0.02,
+            "ry": 0.06
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.758,
+            "y": 0.858,
+            "rx": 0.034,
+            "ry": 0.037
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.153,
+            "y": 0.797,
+            "rx": 0.072,
+            "ry": 0.067
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "ac2b2ade0de87f9f01e15d9f64f718716870b12e23dbbfa1bb8dff683d417072",
+        "target-01.png": "087abd4a37d3b803bcd96ec3ba34584b7d7db562455d86e455b9d2750a53be66",
+        "target-02.png": "ae9fa342c3ad98767504e19ddecce434df8562a18bab45e08505154c7b39b134",
+        "target-03.png": "fea14da42a5bd925df50b0755f2bb3ef501b23771e2645d8bcac48d41952fa5b",
+        "target-04.png": "6188118785ed53af4db0e3001ccb820b6c01ab21348468d86dcf2d141396f6e2",
+        "target-05.png": "2d870283f5c23efcfeb76268d510c7abe5269b9343b663ec37d23d085f9c9cc8",
+        "target-06.png": "ad83fd3b480defa4567bb0caf0c9672b8aa64a3ee0f52b7d1dc86c47cf9ab917",
+        "target-07.png": "a782fb1c1798da0c7a9182436992cdbf60c69f03f9341e7a5ba413665912efcb",
+        "thumbnail.webp": "ebbf1bbec179de3a5aec0fd038e3e571ca0ed6f423230798a609afc0bc89e630",
+        "puzzle.json": "f19a64a158172fefe7443e7be59a3b7dd7038d72cbdce1d88186af2d82727e7d",
+        "metadata.json": "e8a4b603701e1816c3edb4340b6f3641ab1714ffbc88900c2b62d86fd7bb8afa"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 50.135619834710745
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 66.96409090909091
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 38.33064049586777
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 68.94380165289256
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 53.91359504132232
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 41.71719008264463
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 26.85289256198347
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-princess-easy-01/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-princess-easy-01/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-princess-easy-01/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-princess-easy-01/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "공주의 꽃다발"
+    },
+    {
+      "id": "hidden-princess-easy-02",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        1,
+        6
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-1",
+          "label": "깃털",
+          "originalStatus": "recheck",
+          "originalObservation": "카드는 둥근 깃가지가 있지만 장면은 뾰족한 톱니 잎과 가지의 연결로 읽힌다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-6",
+          "label": "초승달",
+          "originalStatus": "recheck",
+          "originalObservation": "정답은 찻잔 받침의 노출된 띠다. 컵에 가린 부분 때문에 카드의 두 뾰족한 끝과 닫힌 초승달 윤곽이 모두 드러나는지 불명확하다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "9801a961115f9c2107a9",
+        "contentRevision": "2d1a8b74fe9d9e489826"
+      },
+      "after": {
+        "gameplayRevision": "fd16610fd15392335ecf",
+        "contentRevision": "ff3c88c3513dec2c222b"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "깃털",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.244,
+            "y": 0.091,
+            "rx": 0.045,
+            "ry": 0.078
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.415,
+            "y": 0.066,
+            "rx": 0.044,
+            "ry": 0.027
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "새의 날개",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.872,
+            "y": 0.491,
+            "rx": 0.06,
+            "ry": 0.06
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "양말",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.08,
+            "y": 0.705,
+            "rx": 0.029,
+            "ry": 0.056
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "나뭇가지",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.339,
+            "y": 0.794,
+            "rx": 0.077,
+            "ry": 0.069
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.444,
+            "y": 0.721,
+            "rx": 0.045,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.901,
+            "y": 0.259,
+            "rx": 0.021,
+            "ry": 0.054
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "cd0c3e2fd209d9ae30ff1237b3e0b3d7a5bdf6a5df69f8463094931031c30e88",
+        "target-01.png": "10f7588ed6193efc7aa493c5a18cd8cb5cef21340d41bb7ec977e013c6dcdf29",
+        "target-02.png": "9300ae77f4d041e8da9560803fcc476a574292c89b860553bdcf15048eb69b32",
+        "target-03.png": "8c5f401a3adfa2d2b199a0ab354422f4e31e8b83f488d299e0078609ca5bd0f6",
+        "target-04.png": "855cfc1b90ba60619802f3f8ee629ab4693a90ca7f965747046863b71dc1772e",
+        "target-05.png": "b417bd5584d32ef3005e39c08f67576f85f963adbba0ef99b1465869ad11ad48",
+        "target-06.png": "888bac25171291c8ee223d519044519a76a1d7cbe544e308dc41dcaa80bc8f45",
+        "target-07.png": "06cc55f92c7b45b848f70986529b71b8deb5fcd25b266393e0363947b7678940",
+        "thumbnail.webp": "cebeb8a5a051bade75b12b09cfbb544cd72761211981b61e6d77adf55f927f52",
+        "puzzle.json": "c2ea03cf1080c05f0f7cc2c3e43c54dac37efbee035b72a72580e2bfdd550a50",
+        "metadata.json": "43ecef8a63bface4b038603a47a63e43a1966df005160363d34add6d39110039"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 95.02580578512396
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 32.79710743801653
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 83.8546694214876
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.91873966942149
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 36.46309917355372
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 117.09530991735537
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 48.93002066115702
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-princess-easy-02/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-princess-easy-02/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-princess-easy-02/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-princess-easy-02/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "성의 작은 찻집"
+    },
+    {
+      "id": "hidden-princess-medium-03",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        1
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-1",
+          "label": "깃털",
+          "originalStatus": "recheck",
+          "originalObservation": "꽃다발 안의 톱니 잎 여러 장과 겹친다. 카드의 깃털 하나를 대응시킬 외곽과 깃대의 분리가 약하다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "81b7075a3ab63658add6",
+        "contentRevision": "3a1c627a0a9ddfaee245"
+      },
+      "after": {
+        "gameplayRevision": "36ec5739424b2fc05fac",
+        "contentRevision": "f19bebe26ffa745cf687"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "깃털",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.076,
+            "y": 0.192,
+            "rx": 0.04,
+            "ry": 0.075
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "반지",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.572,
+            "y": 0.083,
+            "rx": 0.024,
+            "ry": 0.034
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.905,
+            "y": 0.083,
+            "rx": 0.052,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "새의 날개",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.554,
+            "y": 0.4,
+            "rx": 0.037,
+            "ry": 0.068
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "양말",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.128,
+            "y": 0.857,
+            "rx": 0.065,
+            "ry": 0.061
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "열쇠",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.786,
+            "y": 0.355,
+            "rx": 0.015,
+            "ry": 0.038
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "조개",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.708,
+            "y": 0.831,
+            "rx": 0.036,
+            "ry": 0.035
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "빗",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.183,
+            "y": 0.486,
+            "rx": 0.036,
+            "ry": 0.024
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "a52f4fcb15c5a3666236b2525e822a57eb52cee3afd140fc3e44e55afbfb8a8b",
+        "target-01.png": "3099afb622966295c26a3b2a7d67767358f630aed31340dee956c897fc065419",
+        "target-02.png": "60dd7b50a864a2d8ffa0e6806018aef5c4ebe55e7ba594a0cb16ddb9ad3afd53",
+        "target-03.png": "6a653abd08eb618f48d0f6fba75c543084a89ed6aed25a2cd810d2fb536a06b9",
+        "target-04.png": "321459d12b669da22ca80393a4e193dbe6c47193b33c27fa48e9feabe517f23c",
+        "target-05.png": "303d57202c694efe5aca8adb0b2eabb4855d87692e6c6bf6abd8bb528a8935c4",
+        "target-06.png": "c96db92c7a84cb43d66e26f2f52bd920d1a2e906856c1da03613371c6682182b",
+        "target-07.png": "8e75d3221bb8b09e55511ecbd6a4bb5e493b80421b1ab83a9c627708907c6ea7",
+        "target-08.png": "206359ff02d58f4031e57c5a73f23cbd2968740ad7446a3aef4254bad5ca3984",
+        "thumbnail.webp": "7d610a2bdc5f62eb57595048ae0c50e1fa8cbc85b7548c6a81143093c7c61ace",
+        "puzzle.json": "a0a46e43f7a442ff84a63ff07ef91eedd8f5adb95352d1c35abd1e1b7db749e4",
+        "metadata.json": "c2fbc973bbd924d338a7ba65712f50d33ef7096e371e33f9e6432541240d8701"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.42545454545454
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 92.64477272727272
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 70.88392561983471
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.40644628099174
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 99.91785123966942
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 51.81683884297521
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 112.16342975206612
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 54.77047520661157
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-princess-medium-03/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-princess-medium-03/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-princess-medium-03/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-princess-medium-03/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "무도회 준비실"
+    },
+    {
+      "id": "hidden-space-hard-04",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        2
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-2",
+          "label": "활",
+          "originalStatus": "recheck",
+          "originalObservation": "정답 위치는 원형 창틀의 일부다. 카드에 있는 활시위의 곧은 선을 장면에서 명확하게 분리하기 어렵다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "a79b1437bb1fb882c1b7",
+        "contentRevision": "177a2d244fe35c3cea25"
+      },
+      "after": {
+        "gameplayRevision": "d9fd2a62be4a56858ef1",
+        "contentRevision": "1a7109fed499aaf48050"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "음표",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.085,
+            "y": 0.066,
+            "rx": 0.019,
+            "ry": 0.03
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "활",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.881,
+            "y": 0.105,
+            "rx": 0.055,
+            "ry": 0.098
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "찻잔",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.455,
+            "y": 0.065,
+            "rx": 0.039,
+            "ry": 0.036
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "거북이",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.087,
+            "y": 0.26,
+            "rx": 0.06,
+            "ry": 0.057
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.119,
+            "y": 0.491,
+            "rx": 0.043,
+            "ry": 0.09
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "왕관",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.963,
+            "y": 0.194,
+            "rx": 0.037,
+            "ry": 0.065
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "당근",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.804,
+            "y": 0.574,
+            "rx": 0.044,
+            "ry": 0.027
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "종",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.157,
+            "y": 0.73,
+            "rx": 0.036,
+            "ry": 0.06
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "장화",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.567,
+            "y": 0.909,
+            "rx": 0.041,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "달팽이",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.906,
+            "y": 0.839,
+            "rx": 0.049,
+            "ry": 0.052
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "e280ec5c7d73ab196867bce66ba88cf94a4a64ad845025eb69fb540d90591d51",
+        "target-01.png": "f1c3c48bf7a49a289888dae59677b5b90410ea767647197af10a6911b4600e0f",
+        "target-02.png": "7943ad506119a427339241648332e0a65bda3ada3d6c15801d9deeaad1a0abe7",
+        "target-03.png": "96acd99198a53dcae9a99ee409b470128075d9895d7514d2153635a9bca7c77e",
+        "target-04.png": "302a77f12f1e87881a4a2655eb023f3966e35f6ebe0b63b3eeb6c0e9d650c473",
+        "target-05.png": "48c72d0cb009cd7c389382db25b2e44d43d3973476c3513a578f7fe7eb277489",
+        "target-06.png": "bcec3ed86bb4b0209e313536b8370026b6aaee6dcbb2246814d0d8468e61693f",
+        "target-07.png": "1a588bf20cab77d17c3a86ca72bd4029f6e91bf074353c1c37570e8642690709",
+        "target-08.png": "63b84f2c2d675cc7af1770b961f0997afc91811cc017b7e18040131c74eef608",
+        "target-09.png": "fef95e5c6462651054f179ec867d4d89580eea6162f368571087e1fcf98b4b23",
+        "target-10.png": "17c5c4ea9ec5390fc487a3073e9da9daf4d04e07b461dc48aae0c71616f4439f",
+        "thumbnail.webp": "4a0a04a3ded2afa4076c23d73e562989865c50ecb195db05f9be6d568187cc96",
+        "puzzle.json": "18639d019b4fab82d10debaf5a5bc1919159c0d5b8ef04a9f732ddeec496e68a",
+        "metadata.json": "5126e2d7b594d5c0b571322c109f9547ae44a14650fda4b76824721103e3c27c"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 71.61111570247934
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 39.154173553719005
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 97.1029958677686
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 86.2225
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 80.32369834710744
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 67.01041322314049
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 52.70888429752066
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 111.8238223140496
+        },
+        {
+          "targetId": "target-9",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 115.68117768595042
+        },
+        {
+          "targetId": "target-10",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 108.33212809917356
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-space-hard-04/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-space-hard-04/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-space-hard-04/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-space-hard-04/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "우주 정거장의 축제"
+    },
+    {
+      "id": "hidden-space-hard-05",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        7
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-7",
+          "label": "숟가락",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 책갈피 무늬 모두 양 끝에 같은 크기의 타원형 뜨는 부분이 있다. 일반적인 숟가락의 한쪽 머리·한쪽 손잡이 구조가 아니다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "7c2182000593a21adda6",
+        "contentRevision": "45ed7a1bebb89b8c8e3d"
+      },
+      "after": {
+        "gameplayRevision": "13043185922e9ef77358",
+        "contentRevision": "282d0a4536f464db4e3b"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "연필",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.07,
+            "y": 0.076,
+            "rx": 0.057,
+            "ry": 0.038
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.867,
+            "y": 0.103,
+            "rx": 0.062,
+            "ry": 0.047
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "주전자",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.165,
+            "y": 0.255,
+            "rx": 0.053,
+            "ry": 0.052
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "오리",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.473,
+            "y": 0.168,
+            "rx": 0.043,
+            "ry": 0.044
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "사과",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.882,
+            "y": 0.749,
+            "rx": 0.027,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "버섯",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.103,
+            "y": 0.461,
+            "rx": 0.033,
+            "ry": 0.049
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.518,
+            "y": 0.885,
+            "rx": 0.021,
+            "ry": 0.057
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "장갑",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.122,
+            "y": 0.83,
+            "rx": 0.036,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "왕관",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.927,
+            "y": 0.919,
+            "rx": 0.043,
+            "ry": 0.063
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "물고기",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.95,
+            "y": 0.416,
+            "rx": 0.038,
+            "ry": 0.074
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "46f5e0bbc8e08df98a9879356d0afec6d84198bd23eb6c3beacba6dc780a95ca",
+        "target-01.png": "cb7e608a3e0f0abb8969e896cdbef7a80857b7bb3a2983307bba3db9e2ac86fd",
+        "target-02.png": "7f28577f434a7073be252549657d9b03e72a49efdbd038673ade4e81c83d888c",
+        "target-03.png": "4f30696c7958137ec7f59b4f7a7f0334558667272bf938a5a52dc4c4d42d9ea3",
+        "target-04.png": "a64222f17e756b88b88c894052c41cac44a58f92854a77d81b19362be2f5aefd",
+        "target-05.png": "19d9e02b5c61ce9d0800d3060538996f053ff2852116e18448366e1240b9159c",
+        "target-06.png": "94f46fe4eeeec30868c360d2386f589cf52b46e69347210c75d22588883b9e71",
+        "target-07.png": "fd46008a08134a71778a04e22a1f14fbb4a518fa2ba3d86fcc51d380bd2ce6b2",
+        "target-08.png": "6f956cd0839c47733dffd11572581c33059eb16c293956ddddefa417efc0e1e4",
+        "target-09.png": "1bb5dd54e92faa9cae74a486ede1eafd0aae977ed596c60c45cc5cd655893381",
+        "target-10.png": "9cabd9941830955c0c41846c093237ae8f6394902654022d4e36ce16400ef098",
+        "thumbnail.webp": "849190d3db2a9fdd76bbc676e2d13e0d5a0630701e0d89d191c7e7394759ff43",
+        "puzzle.json": "0d0ec2bf86a873bc4ac18dd7cc48996f64a30ece53edb4aa658e4fb5f65e793c",
+        "metadata.json": "acf6a94a094b3bc4b3bee18f75bb4c932609f43761164ec6dd1eb942855f539e"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 45.58632231404959
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 42.01043388429752
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 86.7209917355372
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 92.02836776859505
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 137.06578512396695
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 113.78913223140496
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 40.663987603305785
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 129.75799586776859
+        },
+        {
+          "targetId": "target-9",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 113.61068181818182
+        },
+        {
+          "targetId": "target-10",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 88.90404958677686
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-space-hard-05/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-space-hard-05/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-space-hard-05/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-space-hard-05/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "은하 도서관"
+    },
+    {
+      "id": "hidden-space-medium-02",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        5
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-5",
+          "label": "깃털",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 장면 모두 매끈한 잎 가장자리와 가지처럼 갈라지는 잎맥이 있다. 주변 잎과 구별되는 깃털의 깃가지·깃대 단서가 부족해 잎으로 읽힌다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "9c4fd83aafae2d37c51d",
+        "contentRevision": "ddf92c9a979e2b030147"
+      },
+      "after": {
+        "gameplayRevision": "7fd98140d77c25bb4af4",
+        "contentRevision": "3192c071e98df2cc0853"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "왕관",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.102,
+            "y": 0.086,
+            "rx": 0.05,
+            "ry": 0.045
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "달팽이",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.912,
+            "y": 0.123,
+            "rx": 0.075,
+            "ry": 0.075
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "종",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.457,
+            "y": 0.182,
+            "rx": 0.043,
+            "ry": 0.063
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "찻잔",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.129,
+            "y": 0.836,
+            "rx": 0.052,
+            "ry": 0.052
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.946,
+            "y": 0.48,
+            "rx": 0.043,
+            "ry": 0.126
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "배",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.925,
+            "y": 0.821,
+            "rx": 0.038,
+            "ry": 0.063
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "연",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.509,
+            "y": 0.87,
+            "rx": 0.064,
+            "ry": 0.094
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "나비",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.081,
+            "y": 0.292,
+            "rx": 0.076,
+            "ry": 0.091
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "eeadd1e4826fc1e9d35195eb423111ed87cd233484b746088bd841439527fd11",
+        "target-01.png": "bcc310547cfedebd29fbecafaad44c317667ecdd7243ffb38ff8456e155a8b20",
+        "target-02.png": "d80b731908f420c46e5771f6ebccb27118fbef4ce8241a1acc9b0a2e593f122a",
+        "target-03.png": "2739f93bbced07a625e9b6be79e07c4ff0477da31180ee6ba5ac642f55219b2e",
+        "target-04.png": "5431d69ee91eae9551a4e7535b4b8b73875aae352f8204d70511d2fd8c75eb6f",
+        "target-05.png": "fb385a50c90b7c4242bcff125d2279941adac83922862e984c827f7c4eb94bb2",
+        "target-06.png": "37924fe983ce24816f793a6ec30ef93e656d6e5f9ece396e1a645fa2339be85b",
+        "target-07.png": "fea0033c7618d03164525c17c6bcb4e6fb912536016d5ae6cc1709bb5b5a9edf",
+        "target-08.png": "fe56cb70e90198f0af7adf6d3228997f7c2481fb2ab39e818d7857c9913ea0fd",
+        "thumbnail.webp": "126eee0d92acf85b430c84dd64c4d2a76e1378a2722be410c64b5663c93290fe",
+        "puzzle.json": "986635784059da05c96ae3d1f83d8941ff8dcebb6dab05a149081b8340a9b086",
+        "metadata.json": "80ff8b5eb1a5d9a11b935dcb623dd0173073b03d514980c30487bdef0bd900c1"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.07407024793388
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 64.753326446281
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 74.31811983471074
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 93.74142561983471
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.951487603305786
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 98.89857438016529
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 52.676053719008266
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 103.80613636363637
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-space-medium-02/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-space-medium-02/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-space-medium-02/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-space-medium-02/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "별빛 우주 정원"
+    },
+    {
+      "id": "hidden-transport-easy-01",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-2",
+          "label": "물고기",
+          "originalStatus": "fix",
+          "originalObservation": "카드는 왼쪽에 두 갈래 꼬리가 있다. 장면의 왼쪽 끝은 둥글게 말린 소용돌이여서 물고기 꼬리의 갈라짐이 없다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-4",
+          "label": "숟가락",
+          "originalStatus": "fix",
+          "originalObservation": "카드는 짧고 곧은 손잡이로 끝난다. 버스 문 손잡이는 아래에서 U자로 꺾여 옆의 둥근 부품으로 이어져 끝 윤곽이 다르다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-7",
+          "label": "나비",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 장면 모두 매듭과 늘어진 끈을 가진 리본이다. 나비의 몸통·더듬이 구조가 없다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-6",
+          "label": "열쇠",
+          "originalStatus": "recheck",
+          "originalObservation": "펜스의 둥근 기둥과 가로대가 열쇠처럼 이어지지만 세로 기둥이 크게 내려와 카드의 열쇠 끝과 다르다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "78a47d1c65368a7b47e8",
+        "contentRevision": "d2725f42958b8ba663e3"
+      },
+      "after": {
+        "gameplayRevision": "4f387a84af44eca16a2b",
+        "contentRevision": "6847653e6e7580a771db"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.185,
+            "y": 0.323,
+            "rx": 0.035,
+            "ry": 0.074
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.202,
+            "y": 0.151,
+            "rx": 0.045,
+            "ry": 0.031
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "당근",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.922,
+            "y": 0.173,
+            "rx": 0.037,
+            "ry": 0.069
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "숟가락",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.797,
+            "y": 0.255,
+            "rx": 0.036,
+            "ry": 0.145
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "나뭇잎",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.358,
+            "y": 0.54,
+            "rx": 0.029,
+            "ry": 0.034
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "열쇠",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.192,
+            "y": 0.772,
+            "rx": 0.055,
+            "ry": 0.036
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "나비",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.267,
+            "y": 0.606,
+            "rx": 0.05,
+            "ry": 0.055
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "b6fe5948d5d2b841b966dec9f4f96e9333c8f7c1806be3e8f42276a729709aad",
+        "target-01.png": "d90c03e6aa952e33d539e1b017a31c2aa3a81a9d9aec731eb5df4dfeb9dac888",
+        "target-02.png": "f169e39015dff6839ad1ffc3b3f1c82f684b21f1749d07964a5c19c911e6b1e2",
+        "target-03.png": "b1c4ed2885647ebb210c91328481609b8db878095cd8f68f0de7e228e97899cf",
+        "target-04.png": "3d47ff43b8caab2c131b0376f7fed35be9dcbbd97ef1be779260fca769974473",
+        "target-05.png": "ed701074069f64081d0e147cd8c4e70116d027e0c42521c43c749c1497cc236f",
+        "target-06.png": "a26ae5af0d6e2fef130cd6a1ea1fb07d661884298a0d628c5d0f03ddedfd3b9b",
+        "target-07.png": "edfa928d53b4e12c73106dec5798b926fb03499e46cec83cddbf0231c2076d23",
+        "thumbnail.webp": "51e5fdd7a25529b06b658dea42f809d94e78f0bc2d927eb8b6aad434b52294b0",
+        "puzzle.json": "24553f60e8377c34908554d75a83189399dd00cd31f48e096ade459b74ab8363",
+        "metadata.json": "29b4e6f409c5815634051f2ea13ab53666d7b9cb4976f4f2e6b7b25b20700f5e"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 42.51916666666666
+        },
+        {
+          "targetId": "target-2",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 56.74836776859504
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 32.7106875
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 20.91202479338843
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 51.441875
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 40.06367768595042
+        },
+        {
+          "targetId": "target-7",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 61.368450413223144
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-transport-easy-01/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-transport-easy-01/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-transport-easy-01/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-transport-easy-01/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "동물 친구들의 버스"
+    },
+    {
+      "id": "hidden-transport-hard-04",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        5
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-5",
+          "label": "망치",
+          "originalStatus": "recheck",
+          "originalObservation": "장면에는 수평 긴 들보·수직 기둥·대각 지지대가 있다. 그중 어느 부분이 카드의 짧은 망치 머리와 긴 자루인지 경계가 불명확하다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "eb537a4fb36f29f4ecdb",
+        "contentRevision": "5de8becc7d26e3aa0816"
+      },
+      "after": {
+        "gameplayRevision": "70ff899f039d9e3506e1",
+        "contentRevision": "616ae5e2252c50250c19"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "거북이",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.222,
+            "y": 0.489,
+            "rx": 0.098,
+            "ry": 0.063
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "찻잔",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.425,
+            "y": 0.434,
+            "rx": 0.05,
+            "ry": 0.036
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "서양배",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.759,
+            "y": 0.322,
+            "rx": 0.026,
+            "ry": 0.047
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "안경",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.28,
+            "y": 0.6,
+            "rx": 0.1,
+            "ry": 0.053
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "망치",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.555,
+            "y": 0.445,
+            "rx": 0.046,
+            "ry": 0.052
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "버섯",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.833,
+            "y": 0.483,
+            "rx": 0.088,
+            "ry": 0.066
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "초승달",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.125,
+            "y": 0.805,
+            "rx": 0.048,
+            "ry": 0.07
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "생쥐",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.4,
+            "y": 0.768,
+            "rx": 0.084,
+            "ry": 0.078
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "촛불",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.61,
+            "y": 0.769,
+            "rx": 0.034,
+            "ry": 0.097
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "오리",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.851,
+            "y": 0.782,
+            "rx": 0.125,
+            "ry": 0.105
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "93582f2203378dc82caf234e3d1e6895839203da13c527c9a39328ca1874f8d1",
+        "target-01.png": "e2d5c115efc06e121856750aca1f8db82937a5124f965c066d1011399d3f9f17",
+        "target-02.png": "8d56f1bebf40809a2197d07ef7769a149794efea75609476db8920cbaa7ee566",
+        "target-03.png": "28247e84280a521919b3d79d81589f51a8d1c31ce0e6fe5b97791f07e6aa712e",
+        "target-04.png": "65814213aa80085141560d0141a4e9f0ff28bc068b6a069124e0209096eab05e",
+        "target-05.png": "97c88f8eb0aae5142644110140f30eeaae8420698cc0272f5d0f237535d0cebf",
+        "target-06.png": "3edae0091e84c9070b0664d8b0a243d8a4ee9625e3d93e0d33650374f38a837f",
+        "target-07.png": "8ca06a7f3d18a1010c1076a9aeed554134a2c8814fe4d125071180a63365a707",
+        "target-08.png": "9247bd820b56425fb8de7fd96fe470884e66a37eb693a7898b43489e9d619930",
+        "target-09.png": "c11bc2ea7b18e4d8a0ccae6798f0491846f503c2752c41aafeb79a731157cbc4",
+        "target-10.png": "39c40e73267bf868194d5c2e554730180e32ced8bb5edc2b64f5daed8d49e932",
+        "thumbnail.webp": "ad40084f65dabc09d37517c4e515308852821c22a53da47567e7222f08c0f9c8",
+        "puzzle.json": "d838413aa4bae5ef5295ea233b5c8935eef0f1eb2c53895e1922823ff58febed",
+        "metadata.json": "61f23a27b8c8e0e58f15f50bdba6920f11479b22ab1c06128bb21b4fc825db39"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 66.70422916666666
+        },
+        {
+          "targetId": "target-2",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 50.31402083333333
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 51.515625
+        },
+        {
+          "targetId": "target-4",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 28.745041666666665
+        },
+        {
+          "targetId": "target-5",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.98142561983471
+        },
+        {
+          "targetId": "target-6",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 47.01527083333333
+        },
+        {
+          "targetId": "target-7",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 30.22725
+        },
+        {
+          "targetId": "target-8",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 59.28189583333333
+        },
+        {
+          "targetId": "target-9",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 33.762708333333336
+        },
+        {
+          "targetId": "target-10",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 56.99947916666667
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-transport-hard-04/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-transport-hard-04/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-transport-hard-04/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-transport-hard-04/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "북적북적 항구"
+    },
+    {
+      "id": "hidden-transport-hard-05",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        8,
+        10
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8",
+        "target-9",
+        "target-10"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-8",
+          "label": "조개",
+          "originalStatus": "fix",
+          "originalObservation": "카드는 부채꼴 조개와 아래 받침이다. 장면은 부채꼴 위에 천이 이어지고 아래에는 긴 술 여러 가닥이 달려 조개 전체 윤곽과 다르다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-10",
+          "label": "하트",
+          "originalStatus": "recheck",
+          "originalObservation": "정답 위치는 겹친 눈더미다. 카드의 두 둥근 윗부분과 가운데 홈을 같은 눈덩이 경계에서 분리하기 어렵다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "5ea6dd6ea3fc468e3d54",
+        "contentRevision": "1782d7bd7203de24752e"
+      },
+      "after": {
+        "gameplayRevision": "0007da2b7ed63fad9b38",
+        "contentRevision": "f5fe084e0e86888b3206"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "장화",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.118,
+            "y": 0.129,
+            "rx": 0.045,
+            "ry": 0.068
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "바나나",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.43,
+            "y": 0.118,
+            "rx": 0.044,
+            "ry": 0.049
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.902,
+            "y": 0.393,
+            "rx": 0.038,
+            "ry": 0.04
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "주전자",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.108,
+            "y": 0.632,
+            "rx": 0.072,
+            "ry": 0.079
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "도토리",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.507,
+            "y": 0.355,
+            "rx": 0.027,
+            "ry": 0.046
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "나비",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.627,
+            "y": 0.494,
+            "rx": 0.043,
+            "ry": 0.066
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "빗",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.936,
+            "y": 0.713,
+            "rx": 0.038,
+            "ry": 0.037
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "조개",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.184,
+            "y": 0.706,
+            "rx": 0.042,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-9",
+          "label": "열쇠",
+          "image": "target-09.png",
+          "area": {
+            "x": 0.568,
+            "y": 0.845,
+            "rx": 0.028,
+            "ry": 0.056
+          }
+        },
+        {
+          "id": "target-10",
+          "label": "하트",
+          "image": "target-10.png",
+          "area": {
+            "x": 0.858,
+            "y": 0.89,
+            "rx": 0.065,
+            "ry": 0.08
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "2219f26acbb92719c375e6710fa52e50d2bdb9b390b5a8f6d7a9192923fb89ca",
+        "target-01.png": "a840aa349667e35130a55c6d379581b90daac176268cebafd6ab1746076d2b9b",
+        "target-02.png": "e1aa65cb791fa2fb71284140b441d2df8b32205990f7dfe1a15a0e81b32039ae",
+        "target-03.png": "369b4e2ce8cfeb4065ca828b221c9fc4562ed3306ff29a36483af9e18f1c997a",
+        "target-04.png": "e69d8d89c818ed48a8d562ae4bf4bb562ae035452072460321de48befab1c4fb",
+        "target-05.png": "4ddd50b27550ad7abb9997ec7050b3b1ab06c29de20a67f13ad292cdd0019430",
+        "target-06.png": "b8e36b3d3dbaa0c41003f48a1d3ead5aeea05c6a467a6cc2593d5a02e3eec4f7",
+        "target-07.png": "b9909f0e5c42f33294147e9ce6e4c0922f5a71329888fb974dba37f652010050",
+        "target-08.png": "bca173b7cbb681a0e64211d296b2815dfed7c7def5e9c0f7a06fa4cc61855c30",
+        "target-09.png": "b8c1d20c2c42517a1fb8f77a6b22b798bcb0419da33483d29a5e58def2329f50",
+        "target-10.png": "2776d0f2ce949ed01a6a6b6d2693ef33fa8fcf25ae2961329a4b2a77d9dff6a0",
+        "thumbnail.webp": "f00e942654bc5e61664a73b65cc3dcdcd8120543f288efca3d58cecb8a53ce44",
+        "puzzle.json": "b7abfe82cb5019887246c614ede7d6a331b8722cd41ef73cb1f0c2f78d50ec2b",
+        "metadata.json": "5df6e2ee0e8280a4deed514ef9779cede465189f17d64312f29bcdaa57fe4d77"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 84.12427083333333
+        },
+        {
+          "targetId": "target-2",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 51.646875
+        },
+        {
+          "targetId": "target-3",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 58.989625
+        },
+        {
+          "targetId": "target-4",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 70.277125
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 51.567708333333336
+        },
+        {
+          "targetId": "target-6",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 73.68304166666667
+        },
+        {
+          "targetId": "target-7",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 66.499875
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 138.52818181818182
+        },
+        {
+          "targetId": "target-9",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 30.155958333333334
+        },
+        {
+          "targetId": "target-10",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 131.28940082644627
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-transport-hard-05/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-transport-hard-05/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-transport-hard-05/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-transport-hard-05/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "눈 내리는 역"
+    },
+    {
+      "id": "hidden-transport-medium-03",
+      "status": "passed",
+      "date": "2026-10-29",
+      "tool": "built-in image_gen",
+      "sceneChanged": true,
+      "changedTargetNumbers": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "allTargetsInspected": [
+        "target-1",
+        "target-2",
+        "target-3",
+        "target-4",
+        "target-5",
+        "target-6",
+        "target-7",
+        "target-8"
+      ],
+      "visualChecks": [
+        "Final scene and neutral target cards compared for every target",
+        "Names, key anatomical structures and major outline correspondence checked",
+        "Final answer ellipses inspected on scene",
+        "Alpha PNGs checked on solid backgrounds; alpha 254 is valid near-opaque coverage"
+      ],
+      "findings": [
+        {
+          "targetId": "target-4",
+          "label": "포크",
+          "originalStatus": "fix",
+          "originalObservation": "카드와 수레 무늬의 살이 손잡이 방향에 직각으로 붙어 있다. 포크보다 손잡이 달린 빗의 구조다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-8",
+          "label": "종",
+          "originalStatus": "fix",
+          "originalObservation": "매달린 갓 아래 흰 전구가 보이고 위에는 전선이 있다. 카드도 같은 조명 구조라 종으로 부르기 어렵다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-3",
+          "label": "왕관",
+          "originalStatus": "recheck",
+          "originalObservation": "왕관 카드의 밑변에 대응하는 선이 수풀에 없다. 수관의 둥근 돌출부만으로 왕관을 추측해야 한다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        },
+        {
+          "targetId": "target-6",
+          "label": "리본",
+          "originalStatus": "recheck",
+          "originalObservation": "카드는 대칭인 네 갈래 리본이다. 장면은 목을 두른 스카프의 매듭과 비대칭인 긴 끈으로 구성된다.",
+          "resolution": "corrected",
+          "method": "scene and target-card corrected together"
+        }
+      ],
+      "before": {
+        "gameplayRevision": "f97ddf785f7ab3093091",
+        "contentRevision": "2e26ed9fc82f18c3bcf1"
+      },
+      "after": {
+        "gameplayRevision": "f025635f8ef031cbf91f",
+        "contentRevision": "4b3318e56fd965cc12e7"
+      },
+      "finalTargets": [
+        {
+          "id": "target-1",
+          "label": "고래",
+          "image": "target-01.png",
+          "area": {
+            "x": 0.193,
+            "y": 0.108,
+            "rx": 0.071,
+            "ry": 0.05
+          }
+        },
+        {
+          "id": "target-2",
+          "label": "사과",
+          "image": "target-02.png",
+          "area": {
+            "x": 0.387,
+            "y": 0.77,
+            "rx": 0.049,
+            "ry": 0.054
+          }
+        },
+        {
+          "id": "target-3",
+          "label": "왕관",
+          "image": "target-03.png",
+          "area": {
+            "x": 0.855,
+            "y": 0.373,
+            "rx": 0.067,
+            "ry": 0.067
+          }
+        },
+        {
+          "id": "target-4",
+          "label": "포크",
+          "image": "target-04.png",
+          "area": {
+            "x": 0.0967,
+            "y": 0.495,
+            "rx": 0.039,
+            "ry": 0.112
+          }
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "image": "target-05.png",
+          "area": {
+            "x": 0.207,
+            "y": 0.358,
+            "rx": 0.027,
+            "ry": 0.034
+          }
+        },
+        {
+          "id": "target-6",
+          "label": "리본",
+          "image": "target-06.png",
+          "area": {
+            "x": 0.428,
+            "y": 0.612,
+            "rx": 0.046,
+            "ry": 0.064
+          }
+        },
+        {
+          "id": "target-7",
+          "label": "신발",
+          "image": "target-07.png",
+          "area": {
+            "x": 0.776,
+            "y": 0.805,
+            "rx": 0.069,
+            "ry": 0.055
+          }
+        },
+        {
+          "id": "target-8",
+          "label": "종",
+          "image": "target-08.png",
+          "area": {
+            "x": 0.937,
+            "y": 0.153,
+            "rx": 0.022,
+            "ry": 0.03
+          }
+        }
+      ],
+      "hashes": {
+        "scene.webp": "92d63ddd9ca4287ec5200e6b6f178ccfd41a99aa20cd1333e2384031613dbe67",
+        "target-01.png": "3ddf4959454600e3f31499a0f9d295fc06843bfec191943801c18029d9e3428f",
+        "target-02.png": "dc18fd0c4ec9173efe38cf85f3264c7dfebe371daa363760f8c1a26ce17babe1",
+        "target-03.png": "b5ddedb620d5682711b8f3ae274fcdbece500cd5c6d80201b6fabd48b5c1bdc4",
+        "target-04.png": "11fb85cbcf75319e9f4e5efbd242ab59026f343f37f0a7441f76c1db56a4baba",
+        "target-05.png": "7d97ff6a00db2d1b349295b5f178b7993320c664a89787417a4f21a8ba446d70",
+        "target-06.png": "9ec137c25765be4059c32fe20cc01cbc729f99bb9e5957811a7b9bfc7a0de095",
+        "target-07.png": "405c3ec257d2f30fe29fb42a4e5cfce7460671dfd4e124fd7e32186eaa51e684",
+        "target-08.png": "575edc452844cbc221de9b104310367a90d1ccfd420642194de01493f1d0b7ad",
+        "thumbnail.webp": "b2f52bf48abfe1c90382f6e60539c76a9ce581bdee46493ad0cacd85fd4d2109",
+        "puzzle.json": "c903c9d6e6f61865d24c8ee196d32b528060993cc7e98b5731a62971d121eaf1",
+        "metadata.json": "a2b12f5d22f797f43cdb7ac0dc6a33f63b6bc76886590809d843a10b42e8dc82"
+      },
+      "alphaValidation": [
+        {
+          "targetId": "target-1",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 49.83754166666667
+        },
+        {
+          "targetId": "target-2",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 49.78672916666667
+        },
+        {
+          "targetId": "target-3",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 93.89018595041323
+        },
+        {
+          "targetId": "target-4",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 48.300144628099176
+        },
+        {
+          "targetId": "target-5",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 23.41379166666667
+        },
+        {
+          "targetId": "target-6",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 95.47954545454546
+        },
+        {
+          "targetId": "target-7",
+          "width": 240,
+          "height": 200,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 43.453625
+        },
+        {
+          "targetId": "target-8",
+          "width": 220,
+          "height": 220,
+          "hasAlpha": true,
+          "min": 0,
+          "max": 255,
+          "mean": 146.55320247933884
+        }
+      ],
+      "evidence": {
+        "comparison": "work/hidden-shape-fix-20261029/hidden-transport-medium-03/comparison.png",
+        "areas": "work/hidden-shape-fix-20261029/hidden-transport-medium-03/review.png",
+        "preservedVersion": "work/hidden-shape-fix-20261029/hidden-transport-medium-03/before",
+        "plan": "work/hidden-shape-fix-20261029/hidden-transport-medium-03/plan.json"
+      },
+      "unverified": [
+        "실제 iPad A16·Apple Pencil 입력",
+        "주아의 식별·체감 난이도"
+      ],
+      "title": "비행장 견학"
+    }
+  ],
+  "unverified": [
+    "실제 iPad A16·Apple Pencil 입력",
+    "주아의 식별·체감 난이도"
+  ],
+  "deployment": "not performed"
+}

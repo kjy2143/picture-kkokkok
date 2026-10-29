@@ -1,0 +1,4554 @@
+{
+  "date": "2026-10-29",
+  "scope": "Active hidden-object content only. Visual audit, no content changes.",
+  "method": [
+    "Read all 30 active scenes in context",
+    "Compared all 250 active target PNGs, labels, and padded scene crops",
+    "Reopened suspect crops and cards individually",
+    "Accepted color/material changes and rotation; assessed identity, distinctive structure, and major outline correspondence"
+  ],
+  "counts": {
+    "games": 30,
+    "targets": 250,
+    "fix": 18,
+    "recheck": 17,
+    "noClearIssueFound": 215,
+    "gamesWithFix": 11,
+    "gamesWithFindings": 19
+  },
+  "dataCheck": {
+    "command": "npm run content -- check",
+    "result": "60개 게임 데이터 검사 통과",
+    "meaning": "Files/schema/coordinates passed. This does not validate object identity or silhouette."
+  },
+  "limitations": [
+    "Qualitative visual judgments; recheck is not a confirmed error",
+    "No iPad or child play test",
+    "Existing difference games were outside the label/card/scene audit",
+    "No images, labels, areas, source code or deployments changed"
+  ],
+  "games": [
+    {
+      "id": "hidden-animals-easy-01",
+      "title": "토끼의 작은 정원",
+      "scene": "content/games/hidden-animals-easy-01/scene.webp",
+      "sheet": "hidden-animals-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "area": {
+            "x": 0.115,
+            "y": 0.203,
+            "rx": 0.029,
+            "ry": 0.033
+          },
+          "crop": "hidden-animals-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "area": {
+            "x": 0.266,
+            "y": 0.871,
+            "rx": 0.066,
+            "ry": 0.035
+          },
+          "crop": "hidden-animals-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "숟가락",
+          "area": {
+            "x": 0.461,
+            "y": 0.337,
+            "rx": 0.031,
+            "ry": 0.086
+          },
+          "crop": "hidden-animals-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "나비",
+          "area": {
+            "x": 0.872,
+            "y": 0.259,
+            "rx": 0.053,
+            "ry": 0.061
+          },
+          "crop": "hidden-animals-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "area": {
+            "x": 0.576,
+            "y": 0.096,
+            "rx": 0.033,
+            "ry": 0.04
+          },
+          "crop": "hidden-animals-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.875,
+            "y": 0.743,
+            "rx": 0.053,
+            "ry": 0.115
+          },
+          "crop": "hidden-animals-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "area": {
+            "x": 0.26,
+            "y": 0.424,
+            "rx": 0.036,
+            "ry": 0.049
+          },
+          "crop": "hidden-animals-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "0ec54384be7b964662e1c6c6d949b9bbd413142f1513fae7ef23fd2c810ddef6",
+        "metadata.json": "e8e9741f952ebe415bdec886e57a77acdca6e2fe55b1554c004656cbf6397330",
+        "scene.webp": "29c6fdb36ec665ac1e14b67333c1d72037c5763877a9161ff2de8c80dd9aeb19",
+        "target-01.png": "a505be88db094263b195af3ff3eea026d90dfa348bceaf01721776a8af4ab3c9",
+        "target-02.png": "5d6560ef8655ac00c751d981b7ed7f987cce20bb4d936b453b710b0269ce9de3",
+        "target-03.png": "9ac7d9abb1593a537fb558953816795d1bdd76f8d9fdd462fb37e8f8aff306b3",
+        "target-04.png": "5eafd9e3cbd4798fd95974a33094ec23b93cca853f4716729c4b675b28ace9b7",
+        "target-05.png": "503b3d5116d34b0c2df78ff52063d9df12f84023cf836af4fa59cbd77a902572",
+        "target-06.png": "0c7e64d710a5cb8a6b1996460a5334479fc701f1dbfe7fb9ba0f2193c8095f02",
+        "target-07.png": "28ffcf60ac9c11b00260ccf44827798f29892d1de0959207e444ba8479da7f0e"
+      }
+    },
+    {
+      "id": "hidden-animals-easy-02",
+      "title": "숲속 친구들의 소풍",
+      "scene": "content/games/hidden-animals-easy-02/scene.webp",
+      "sheet": "hidden-animals-easy-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "물고기",
+          "area": {
+            "x": 0.125,
+            "y": 0.697,
+            "rx": 0.056,
+            "ry": 0.044
+          },
+          "crop": "hidden-animals-easy-02-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.181,
+            "y": 0.154,
+            "rx": 0.077,
+            "ry": 0.053
+          },
+          "crop": "hidden-animals-easy-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "숟가락",
+          "area": {
+            "x": 0.325,
+            "y": 0.461,
+            "rx": 0.058,
+            "ry": 0.026
+          },
+          "crop": "hidden-animals-easy-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "나비",
+          "area": {
+            "x": 0.857,
+            "y": 0.134,
+            "rx": 0.083,
+            "ry": 0.087
+          },
+          "crop": "hidden-animals-easy-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "장화",
+          "area": {
+            "x": 0.571,
+            "y": 0.759,
+            "rx": 0.061,
+            "ry": 0.113
+          },
+          "crop": "hidden-animals-easy-02-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "거북이",
+          "area": {
+            "x": 0.401,
+            "y": 0.747,
+            "rx": 0.065,
+            "ry": 0.052
+          },
+          "crop": "hidden-animals-easy-02-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "종",
+          "area": {
+            "x": 0.075,
+            "y": 0.39,
+            "rx": 0.032,
+            "ry": 0.044
+          },
+          "crop": "hidden-animals-easy-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "704e4a7e238ccf59ba50430721cea4e2caff58e6c2faf2d9700e718bf4c0aac7",
+        "metadata.json": "6f0d1f785c6e2394bf0fa9e26ae5d44b790211451602c185f61c6d82dc29325f",
+        "scene.webp": "139a8cdbde9a433753cd9104e5ea84f853077536e43ab54d278826f5adf12ac2",
+        "target-01.png": "b9b4899739cda47db03f83d6fd6c58b8baf00424567b00418c040ef867a1462c",
+        "target-02.png": "b612045051481eee73b681574a3a6004ee0e9d547f5bd6a120bccf44b22d56e0",
+        "target-03.png": "9c7cff319707856f54c5b4205b059cc98b0cee7ac06740745eddde8f82fb88f7",
+        "target-04.png": "258bc96972dc6d3b27a38c01cceb057849b7330183caecf4fddaec48575aa69b",
+        "target-05.png": "e7d5cf535dc53823edc59b52f1630e6ab2d21773f80b512b1ae6d946a427003d",
+        "target-06.png": "6e97123d972bb2dcd6ff5a69c993e4a604c2602d1bdc2e5525905ef1172c9c9f",
+        "target-07.png": "b278610838672b9790ef4a9fb06b8190c5686f9d1cde5a2154449378a1efdf28"
+      }
+    },
+    {
+      "id": "hidden-animals-medium-03",
+      "title": "다람쥐의 도토리 집",
+      "scene": "content/games/hidden-animals-medium-03/scene.webp",
+      "sheet": "hidden-animals-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "우산",
+          "area": {
+            "x": 0.19,
+            "y": 0.091,
+            "rx": 0.072,
+            "ry": 0.059
+          },
+          "crop": "hidden-animals-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "area": {
+            "x": 0.823,
+            "y": 0.167,
+            "rx": 0.057,
+            "ry": 0.038
+          },
+          "crop": "hidden-animals-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "닻",
+          "area": {
+            "x": 0.562,
+            "y": 0.792,
+            "rx": 0.043,
+            "ry": 0.044
+          },
+          "crop": "hidden-animals-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "장갑",
+          "area": {
+            "x": 0.937,
+            "y": 0.507,
+            "rx": 0.044,
+            "ry": 0.067
+          },
+          "crop": "hidden-animals-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "열쇠",
+          "area": {
+            "x": 0.241,
+            "y": 0.83,
+            "rx": 0.057,
+            "ry": 0.05
+          },
+          "crop": "hidden-animals-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "별",
+          "area": {
+            "x": 0.545,
+            "y": 0.148,
+            "rx": 0.036,
+            "ry": 0.04
+          },
+          "crop": "hidden-animals-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "area": {
+            "x": 0.546,
+            "y": 0.708,
+            "rx": 0.053,
+            "ry": 0.022
+          },
+          "crop": "hidden-animals-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "나비",
+          "area": {
+            "x": 0.883,
+            "y": 0.87,
+            "rx": 0.068,
+            "ry": 0.091
+          },
+          "crop": "hidden-animals-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "recheck"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "5dd289e3b6bc6840b1400ebb423619e28ffec50a69eac973a9de2ce0a7367afb",
+        "metadata.json": "3cc70a1783a6923f3f1ac4d512a743d3f294ea905af80e1bac44d7f85f262cd2",
+        "scene.webp": "6be68ff7582d9cb286d1fb114f7d96312eb8405fd1ffd88f47395ac0f62214ee",
+        "target-01.png": "dff73a3d60abb827ac2df94179c518f66a5e9bcb13a56c89d7225214619464c4",
+        "target-02.png": "573200d1d3d5b1230d3617be24a15a0ec03ac5fe19969c570075a864f26e1aee",
+        "target-03.png": "1a7c34ada0ca2a01ff1f2021fd141aba942dc6d99430a2bbad91df41c74f1294",
+        "target-04.png": "f827709feb1769a51eb4e9d2c6779fe10c091482202fdb7f2e3fb07bd7d0d4de",
+        "target-05.png": "b4850ce605c90f0985376d25489dc724e82670cc645630ebc40d5f088bc6d689",
+        "target-06.png": "0ac1d18437810d3efbd5b9d46fd8a9b225ca24950c472aa7e3bee13f6b02f008",
+        "target-07.png": "736b473b38367e5963b8113154401c62778b6d3b623e64dbd5573531e6a980d9",
+        "target-08.png": "5be52d5ce9dc1642f5f086b9c29667b7e9b6f8c38c8d040eef7f5465810d3cc8"
+      }
+    },
+    {
+      "id": "hidden-animals-medium-04",
+      "title": "바닷속 음악회",
+      "scene": "content/games/hidden-animals-medium-04/scene.webp",
+      "sheet": "hidden-animals-medium-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "우산",
+          "area": {
+            "x": 0.089,
+            "y": 0.352,
+            "rx": 0.069,
+            "ry": 0.094
+          },
+          "crop": "hidden-animals-medium-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "숟가락",
+          "area": {
+            "x": 0.91,
+            "y": 0.111,
+            "rx": 0.071,
+            "ry": 0.099
+          },
+          "crop": "hidden-animals-medium-04-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "장갑",
+          "area": {
+            "x": 0.934,
+            "y": 0.438,
+            "rx": 0.039,
+            "ry": 0.071
+          },
+          "crop": "hidden-animals-medium-04-target-3.png",
+          "image": "target-03.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-4",
+          "label": "하트",
+          "area": {
+            "x": 0.136,
+            "y": 0.127,
+            "rx": 0.038,
+            "ry": 0.045
+          },
+          "crop": "hidden-animals-medium-04-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "오리머리",
+          "area": {
+            "x": 0.144,
+            "y": 0.738,
+            "rx": 0.056,
+            "ry": 0.061
+          },
+          "crop": "hidden-animals-medium-04-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "왕관",
+          "area": {
+            "x": 0.526,
+            "y": 0.109,
+            "rx": 0.043,
+            "ry": 0.047
+          },
+          "crop": "hidden-animals-medium-04-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "장화",
+          "area": {
+            "x": 0.908,
+            "y": 0.768,
+            "rx": 0.041,
+            "ry": 0.069
+          },
+          "crop": "hidden-animals-medium-04-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "리본",
+          "area": {
+            "x": 0.551,
+            "y": 0.814,
+            "rx": 0.053,
+            "ry": 0.045
+          },
+          "crop": "hidden-animals-medium-04-target-8.png",
+          "image": "target-08.png",
+          "status": "fix"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "d37b282c688119305a5fb8b89ed7454ef981330373666280323bf6f8c0c4c863",
+        "metadata.json": "b8cda313d502330e5e18461800367724dda422a420e36f812e419cc37bec5c9b",
+        "scene.webp": "ac56a9ae080cd105f37c32c1d97921052bb72ca4ac619849e6d7589a971bce1b",
+        "target-01.png": "bb4117512059e8f9f57cf2c1530f4937e6d76a285bdab736036305ab09e2c724",
+        "target-02.png": "641ac9cd8075eab0db6b128b800da4475a91b1a882371728f3222b771c037ef7",
+        "target-03.png": "b5413b82ec7519f26af6ccab945683edbec5d19966d8546267c3d8074de1aa3b",
+        "target-04.png": "ae8f576e42ede33b12905b0fa28c890517d41542b01281a04a336c93c10643a3",
+        "target-05.png": "23973e26c127c855fdd980565dc8f8e554369ade23acf8410b17d349829b3dee",
+        "target-06.png": "92acb9a889ef15b4de61cd594bb8a7888cb14eab542d0aed32552ac8f06dc840",
+        "target-07.png": "017800072ff1d63c19f9bad707712576d90ed3a3de59a39d973634420ca50b71",
+        "target-08.png": "5e00a778a11be0f1756d876261bb5e198db1625da23ffc82da6429551ba385ce"
+      }
+    },
+    {
+      "id": "hidden-animals-hard-05",
+      "title": "동물 마을의 가을 장터",
+      "scene": "content/games/hidden-animals-hard-05/scene.webp",
+      "sheet": "hidden-animals-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "가위",
+          "area": {
+            "x": 0.084,
+            "y": 0.146,
+            "rx": 0.067,
+            "ry": 0.08
+          },
+          "crop": "hidden-animals-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "연",
+          "area": {
+            "x": 0.9,
+            "y": 0.11,
+            "rx": 0.05,
+            "ry": 0.068
+          },
+          "crop": "hidden-animals-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "버섯",
+          "area": {
+            "x": 0.483,
+            "y": 0.081,
+            "rx": 0.029,
+            "ry": 0.038
+          },
+          "crop": "hidden-animals-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "장갑",
+          "area": {
+            "x": 0.956,
+            "y": 0.522,
+            "rx": 0.027,
+            "ry": 0.065
+          },
+          "crop": "hidden-animals-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "베어문사과",
+          "area": {
+            "x": 0.093,
+            "y": 0.394,
+            "rx": 0.032,
+            "ry": 0.045
+          },
+          "crop": "hidden-animals-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "장화",
+          "area": {
+            "x": 0.164,
+            "y": 0.625,
+            "rx": 0.049,
+            "ry": 0.069
+          },
+          "crop": "hidden-animals-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "area": {
+            "x": 0.087,
+            "y": 0.816,
+            "rx": 0.061,
+            "ry": 0.061
+          },
+          "crop": "hidden-animals-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "달팽이",
+          "area": {
+            "x": 0.548,
+            "y": 0.852,
+            "rx": 0.061,
+            "ry": 0.066
+          },
+          "crop": "hidden-animals-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "왕관",
+          "area": {
+            "x": 0.241,
+            "y": 0.952,
+            "rx": 0.029,
+            "ry": 0.031
+          },
+          "crop": "hidden-animals-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "코끼리머리",
+          "area": {
+            "x": 0.964,
+            "y": 0.26,
+            "rx": 0.035,
+            "ry": 0.067
+          },
+          "crop": "hidden-animals-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "d346d3f676b0e80c9214bb3af6ba4ba00dd98c585775458a6a8c976c6479f125",
+        "metadata.json": "32820549852a46e97ec0f734a789f0aff9162beca28f980df38d933b2cfaf122",
+        "scene.webp": "8c98d5d457f712e5d48e66d52bdc4276f6ef1e433cd5a2a70aaaad66e8ae0d05",
+        "target-01.png": "dd7f424421452c1ded099225eef69a574c72848f9afdbc1b4c221f188a250f90",
+        "target-02.png": "26bf3fd2511ade385380f5283a40610be6f00b41cb9373ce76cc25fd67142ffc",
+        "target-03.png": "5bba3abfb2e9a2c253d977c03b25d662deff6c3287b3a25011bf9420fc56581f",
+        "target-04.png": "c485d2272baac88a79f85f88855d701e8493ee0bfcd392adcbf3d78649a79de6",
+        "target-05.png": "7cbaa9ac5d90bea440692365920323a9e08eab647a455a5f2d5915e9c84b52ec",
+        "target-06.png": "e51049888f8452844fcd130c96ad8fd979ae85aa8ec3c2f70d959b1ffd3a5ba9",
+        "target-07.png": "f0a1e47bbc0502d72904fd369c45abcbed1cf69fdf26f0f52f137994ea65981c",
+        "target-08.png": "5b0483227e3703ccfe57b7d6a939f212269c83d4b9937779cbcbc29681cf4d17",
+        "target-09.png": "8da42f18e0d8b1eafb7a97214c62d2387eb89c13e087b45f1e5cb22808db87bd",
+        "target-10.png": "31fd17615e89c93423a14ac64becf4812110752305794aa269fc542924928e23"
+      }
+    },
+    {
+      "id": "hidden-space-easy-01",
+      "title": "달 토끼의 산책",
+      "scene": "content/games/hidden-space-easy-01/scene.webp",
+      "sheet": "hidden-space-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "당근",
+          "area": {
+            "x": 0.08,
+            "y": 0.125,
+            "rx": 0.05,
+            "ry": 0.083
+          },
+          "crop": "hidden-space-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "오리",
+          "area": {
+            "x": 0.766,
+            "y": 0.125,
+            "rx": 0.047,
+            "ry": 0.057
+          },
+          "crop": "hidden-space-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "장화",
+          "area": {
+            "x": 0.128,
+            "y": 0.797,
+            "rx": 0.05,
+            "ry": 0.066
+          },
+          "crop": "hidden-space-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "찻잔",
+          "area": {
+            "x": 0.875,
+            "y": 0.449,
+            "rx": 0.043,
+            "ry": 0.043
+          },
+          "crop": "hidden-space-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "나비",
+          "area": {
+            "x": 0.14,
+            "y": 0.357,
+            "rx": 0.096,
+            "ry": 0.108
+          },
+          "crop": "hidden-space-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "우산",
+          "area": {
+            "x": 0.89,
+            "y": 0.824,
+            "rx": 0.044,
+            "ry": 0.064
+          },
+          "crop": "hidden-space-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "종",
+          "area": {
+            "x": 0.461,
+            "y": 0.849,
+            "rx": 0.032,
+            "ry": 0.046
+          },
+          "crop": "hidden-space-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "917c94e1eadb2f6b731aa431dcbc4e6f7c86f477281a6ce7f38b0a37909fd221",
+        "metadata.json": "10df5a11416bfcce1c80922369a1c7ab745459c3a670543ddf65d78558d034fb",
+        "scene.webp": "96378b12d1df1d901cca267b31b1c1f2b19b94f17ffee5846d7436c2bd0cdbe3",
+        "target-01.png": "616c43294b38dcefdc3ac2500b1184d40ee0915e6c47384843c9dc1a3458dbf6",
+        "target-02.png": "291096f9668171b1664d105d022d445d0324fa15699a3757d873f6b084ef2e3f",
+        "target-03.png": "697d0165e66d71bf1dbf13daac2878686c1262d28fe90c462d793866bf28ff37",
+        "target-04.png": "9d70c75958a2cb92af46b287ca24af1927c2787bbe8d73110073659eb238194b",
+        "target-05.png": "1ebc2f1c64156a584a0e3f52dd13a0d3209c3e66da26fbdc2e6d5e4150bd9df0",
+        "target-06.png": "ebb5ae80d24265092b15f390d83436a95b23d73b6fc7c93a0cd7bf75e6752b54",
+        "target-07.png": "d352a8330c00a1bd941352b55331a8590c21decd1188f45ae934129ee15736da"
+      }
+    },
+    {
+      "id": "hidden-space-medium-02",
+      "title": "별빛 우주 정원",
+      "scene": "content/games/hidden-space-medium-02/scene.webp",
+      "sheet": "hidden-space-medium-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "왕관",
+          "area": {
+            "x": 0.102,
+            "y": 0.086,
+            "rx": 0.05,
+            "ry": 0.045
+          },
+          "crop": "hidden-space-medium-02-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "달팽이",
+          "area": {
+            "x": 0.912,
+            "y": 0.123,
+            "rx": 0.075,
+            "ry": 0.075
+          },
+          "crop": "hidden-space-medium-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "종",
+          "area": {
+            "x": 0.457,
+            "y": 0.182,
+            "rx": 0.043,
+            "ry": 0.063
+          },
+          "crop": "hidden-space-medium-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "찻잔",
+          "area": {
+            "x": 0.129,
+            "y": 0.836,
+            "rx": 0.052,
+            "ry": 0.052
+          },
+          "crop": "hidden-space-medium-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "area": {
+            "x": 0.946,
+            "y": 0.48,
+            "rx": 0.043,
+            "ry": 0.126
+          },
+          "crop": "hidden-space-medium-02-target-5.png",
+          "image": "target-05.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-6",
+          "label": "배",
+          "area": {
+            "x": 0.925,
+            "y": 0.821,
+            "rx": 0.038,
+            "ry": 0.063
+          },
+          "crop": "hidden-space-medium-02-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "연",
+          "area": {
+            "x": 0.509,
+            "y": 0.87,
+            "rx": 0.064,
+            "ry": 0.094
+          },
+          "crop": "hidden-space-medium-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "나비",
+          "area": {
+            "x": 0.081,
+            "y": 0.292,
+            "rx": 0.076,
+            "ry": 0.091
+          },
+          "crop": "hidden-space-medium-02-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "986635784059da05c96ae3d1f83d8941ff8dcebb6dab05a149081b8340a9b086",
+        "metadata.json": "80ff8b5eb1a5d9a11b935dcb623dd0173073b03d514980c30487bdef0bd900c1",
+        "scene.webp": "aa535b40e9996a5164b0dbb963cd128bc572a69a02f52ace50993d0eb56d8aaa",
+        "target-01.png": "bcc310547cfedebd29fbecafaad44c317667ecdd7243ffb38ff8456e155a8b20",
+        "target-02.png": "d80b731908f420c46e5771f6ebccb27118fbef4ce8241a1acc9b0a2e593f122a",
+        "target-03.png": "2739f93bbced07a625e9b6be79e07c4ff0477da31180ee6ba5ac642f55219b2e",
+        "target-04.png": "5431d69ee91eae9551a4e7535b4b8b73875aae352f8204d70511d2fd8c75eb6f",
+        "target-05.png": "bb275d524c76b0cae492bcec33943b97a7fdf5b6caf2d971fabc529f814f1f20",
+        "target-06.png": "37924fe983ce24816f793a6ec30ef93e656d6e5f9ece396e1a645fa2339be85b",
+        "target-07.png": "fea0033c7618d03164525c17c6bcb4e6fb912536016d5ae6cc1709bb5b5a9edf",
+        "target-08.png": "fe56cb70e90198f0af7adf6d3228997f7c2481fb2ab39e818d7857c9913ea0fd"
+      }
+    },
+    {
+      "id": "hidden-space-medium-03",
+      "title": "로봇의 행성 탐험",
+      "scene": "content/games/hidden-space-medium-03/scene.webp",
+      "sheet": "hidden-space-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "기타",
+          "area": {
+            "x": 0.123,
+            "y": 0.148,
+            "rx": 0.059,
+            "ry": 0.118
+          },
+          "crop": "hidden-space-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "왕관",
+          "area": {
+            "x": 0.911,
+            "y": 0.077,
+            "rx": 0.041,
+            "ry": 0.043
+          },
+          "crop": "hidden-space-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "토끼머리",
+          "area": {
+            "x": 0.102,
+            "y": 0.475,
+            "rx": 0.059,
+            "ry": 0.096
+          },
+          "crop": "hidden-space-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "돛단배",
+          "area": {
+            "x": 0.921,
+            "y": 0.285,
+            "rx": 0.053,
+            "ry": 0.069
+          },
+          "crop": "hidden-space-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "우산",
+          "area": {
+            "x": 0.586,
+            "y": 0.437,
+            "rx": 0.047,
+            "ry": 0.073
+          },
+          "crop": "hidden-space-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "주전자",
+          "area": {
+            "x": 0.811,
+            "y": 0.826,
+            "rx": 0.073,
+            "ry": 0.052
+          },
+          "crop": "hidden-space-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "버섯",
+          "area": {
+            "x": 0.122,
+            "y": 0.818,
+            "rx": 0.043,
+            "ry": 0.058
+          },
+          "crop": "hidden-space-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "아이스크림",
+          "area": {
+            "x": 0.432,
+            "y": 0.869,
+            "rx": 0.031,
+            "ry": 0.066
+          },
+          "crop": "hidden-space-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "ff19753a3008c59b6b6106e7d6f1a022b7dd85b0fda8e955b554b00744340b10",
+        "metadata.json": "0a1378ae3a0a29059380b24a29b89d6b34d0cc59d77c2ba9f4a36145aacab017",
+        "scene.webp": "2788786b6588fa45130cc83fe3e4e8fea8e454d25297025450afee61073f7891",
+        "target-01.png": "dc181f2bdbd4b4e81e7b98fec787988555dabaa5f1cee2c67ec2358e5dabcd7c",
+        "target-02.png": "a72bd9e80007abcc010159275200bc65a9743faca21aee5d57dc8c4dae5a108b",
+        "target-03.png": "4b904acabc9da2dfda8bce791bd8fe82e32f5d3eb1796c3d08db410933cd6812",
+        "target-04.png": "78d51b99797a98bd9305122b6602adc484139172c6acfa405eea08fec13eeaab",
+        "target-05.png": "7be076ae367c1f14f89c800cf9312fe73918f0eacebf94542713358d74331e06",
+        "target-06.png": "5fb6f3affcecb297b3926410e7ab7f663d4425ae07ea6e4a82e65034ec845c5e",
+        "target-07.png": "d39b02095d3b04f7f43996c6a75fd1248c6e9575ff41bdfacd2b478b82c26c78",
+        "target-08.png": "bdf48075fa3d1a695f4f675370d64dd033436581b8c9336d2e863029f051225c"
+      }
+    },
+    {
+      "id": "hidden-space-hard-04",
+      "title": "우주 정거장의 축제",
+      "scene": "content/games/hidden-space-hard-04/scene.webp",
+      "sheet": "hidden-space-hard-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "음표",
+          "area": {
+            "x": 0.085,
+            "y": 0.066,
+            "rx": 0.019,
+            "ry": 0.03
+          },
+          "crop": "hidden-space-hard-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "활",
+          "area": {
+            "x": 0.909,
+            "y": 0.072,
+            "rx": 0.03,
+            "ry": 0.057
+          },
+          "crop": "hidden-space-hard-04-target-2.png",
+          "image": "target-02.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-3",
+          "label": "찻잔",
+          "area": {
+            "x": 0.455,
+            "y": 0.065,
+            "rx": 0.039,
+            "ry": 0.036
+          },
+          "crop": "hidden-space-hard-04-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "거북이",
+          "area": {
+            "x": 0.087,
+            "y": 0.26,
+            "rx": 0.06,
+            "ry": 0.057
+          },
+          "crop": "hidden-space-hard-04-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "area": {
+            "x": 0.119,
+            "y": 0.491,
+            "rx": 0.043,
+            "ry": 0.09
+          },
+          "crop": "hidden-space-hard-04-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "왕관",
+          "area": {
+            "x": 0.963,
+            "y": 0.194,
+            "rx": 0.037,
+            "ry": 0.065
+          },
+          "crop": "hidden-space-hard-04-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "당근",
+          "area": {
+            "x": 0.804,
+            "y": 0.574,
+            "rx": 0.044,
+            "ry": 0.027
+          },
+          "crop": "hidden-space-hard-04-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "종",
+          "area": {
+            "x": 0.157,
+            "y": 0.73,
+            "rx": 0.036,
+            "ry": 0.06
+          },
+          "crop": "hidden-space-hard-04-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "장화",
+          "area": {
+            "x": 0.567,
+            "y": 0.909,
+            "rx": 0.041,
+            "ry": 0.055
+          },
+          "crop": "hidden-space-hard-04-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "달팽이",
+          "area": {
+            "x": 0.906,
+            "y": 0.839,
+            "rx": 0.049,
+            "ry": 0.052
+          },
+          "crop": "hidden-space-hard-04-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "f05a7c92b8299d8f1f592a30f3bfeb6c449f4e1173f6e01528e845d49c878986",
+        "metadata.json": "5126e2d7b594d5c0b571322c109f9547ae44a14650fda4b76824721103e3c27c",
+        "scene.webp": "278609143aa2c40cfdd6f71383913d944c7a1dfeca1afaeabba69e1ae7c6a6bb",
+        "target-01.png": "f1c3c48bf7a49a289888dae59677b5b90410ea767647197af10a6911b4600e0f",
+        "target-02.png": "eb8325a3ccba437b99e220479545a8d19223733436d5bf4ecce572d6bfaab5ef",
+        "target-03.png": "96acd99198a53dcae9a99ee409b470128075d9895d7514d2153635a9bca7c77e",
+        "target-04.png": "302a77f12f1e87881a4a2655eb023f3966e35f6ebe0b63b3eeb6c0e9d650c473",
+        "target-05.png": "48c72d0cb009cd7c389382db25b2e44d43d3973476c3513a578f7fe7eb277489",
+        "target-06.png": "bcec3ed86bb4b0209e313536b8370026b6aaee6dcbb2246814d0d8468e61693f",
+        "target-07.png": "1a588bf20cab77d17c3a86ca72bd4029f6e91bf074353c1c37570e8642690709",
+        "target-08.png": "63b84f2c2d675cc7af1770b961f0997afc91811cc017b7e18040131c74eef608",
+        "target-09.png": "fef95e5c6462651054f179ec867d4d89580eea6162f368571087e1fcf98b4b23",
+        "target-10.png": "17c5c4ea9ec5390fc487a3073e9da9daf4d04e07b461dc48aae0c71616f4439f"
+      }
+    },
+    {
+      "id": "hidden-space-hard-05",
+      "title": "은하 도서관",
+      "scene": "content/games/hidden-space-hard-05/scene.webp",
+      "sheet": "hidden-space-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "연필",
+          "area": {
+            "x": 0.07,
+            "y": 0.076,
+            "rx": 0.057,
+            "ry": 0.038
+          },
+          "crop": "hidden-space-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.867,
+            "y": 0.103,
+            "rx": 0.062,
+            "ry": 0.047
+          },
+          "crop": "hidden-space-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "주전자",
+          "area": {
+            "x": 0.165,
+            "y": 0.255,
+            "rx": 0.053,
+            "ry": 0.052
+          },
+          "crop": "hidden-space-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "오리",
+          "area": {
+            "x": 0.473,
+            "y": 0.168,
+            "rx": 0.043,
+            "ry": 0.044
+          },
+          "crop": "hidden-space-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "사과",
+          "area": {
+            "x": 0.882,
+            "y": 0.749,
+            "rx": 0.027,
+            "ry": 0.04
+          },
+          "crop": "hidden-space-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "버섯",
+          "area": {
+            "x": 0.103,
+            "y": 0.461,
+            "rx": 0.033,
+            "ry": 0.049
+          },
+          "crop": "hidden-space-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "area": {
+            "x": 0.518,
+            "y": 0.885,
+            "rx": 0.021,
+            "ry": 0.057
+          },
+          "crop": "hidden-space-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-8",
+          "label": "장갑",
+          "area": {
+            "x": 0.122,
+            "y": 0.83,
+            "rx": 0.036,
+            "ry": 0.055
+          },
+          "crop": "hidden-space-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "왕관",
+          "area": {
+            "x": 0.927,
+            "y": 0.919,
+            "rx": 0.043,
+            "ry": 0.063
+          },
+          "crop": "hidden-space-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "물고기",
+          "area": {
+            "x": 0.95,
+            "y": 0.416,
+            "rx": 0.038,
+            "ry": 0.074
+          },
+          "crop": "hidden-space-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "0d0ec2bf86a873bc4ac18dd7cc48996f64a30ece53edb4aa658e4fb5f65e793c",
+        "metadata.json": "acf6a94a094b3bc4b3bee18f75bb4c932609f43761164ec6dd1eb942855f539e",
+        "scene.webp": "bce01bade469af94fcbb0c77cd2471cfd547d65b7c74daf6d603725b88f92870",
+        "target-01.png": "cb7e608a3e0f0abb8969e896cdbef7a80857b7bb3a2983307bba3db9e2ac86fd",
+        "target-02.png": "7f28577f434a7073be252549657d9b03e72a49efdbd038673ade4e81c83d888c",
+        "target-03.png": "4f30696c7958137ec7f59b4f7a7f0334558667272bf938a5a52dc4c4d42d9ea3",
+        "target-04.png": "a64222f17e756b88b88c894052c41cac44a58f92854a77d81b19362be2f5aefd",
+        "target-05.png": "19d9e02b5c61ce9d0800d3060538996f053ff2852116e18448366e1240b9159c",
+        "target-06.png": "94f46fe4eeeec30868c360d2386f589cf52b46e69347210c75d22588883b9e71",
+        "target-07.png": "de4512929c1b22bd74f0f70ce1739b92580a8e359f3c514add0ecb5d587cbe63",
+        "target-08.png": "6f956cd0839c47733dffd11572581c33059eb16c293956ddddefa417efc0e1e4",
+        "target-09.png": "1bb5dd54e92faa9cae74a486ede1eafd0aae977ed596c60c45cc5cd655893381",
+        "target-10.png": "9cabd9941830955c0c41846c093237ae8f6394902654022d4e36ce16400ef098"
+      }
+    },
+    {
+      "id": "hidden-princess-easy-01",
+      "title": "공주의 꽃다발",
+      "scene": "content/games/hidden-princess-easy-01/scene.webp",
+      "sheet": "hidden-princess-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "area": {
+            "x": 0.101,
+            "y": 0.264,
+            "rx": 0.035,
+            "ry": 0.068
+          },
+          "crop": "hidden-princess-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.681,
+            "y": 0.65,
+            "rx": 0.042,
+            "ry": 0.056
+          },
+          "crop": "hidden-princess-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.87,
+            "y": 0.509,
+            "rx": 0.064,
+            "ry": 0.024
+          },
+          "crop": "hidden-princess-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "별",
+          "area": {
+            "x": 0.496,
+            "y": 0.807,
+            "rx": 0.03,
+            "ry": 0.043
+          },
+          "crop": "hidden-princess-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "열쇠",
+          "area": {
+            "x": 0.307,
+            "y": 0.295,
+            "rx": 0.02,
+            "ry": 0.06
+          },
+          "crop": "hidden-princess-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.758,
+            "y": 0.858,
+            "rx": 0.034,
+            "ry": 0.037
+          },
+          "crop": "hidden-princess-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "숟가락",
+          "area": {
+            "x": 0.153,
+            "y": 0.797,
+            "rx": 0.072,
+            "ry": 0.067
+          },
+          "crop": "hidden-princess-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "c11e1979bc741c2d88e59ee0c6c5fb5fa9997bc893bdab31ad75d53e36346adf",
+        "metadata.json": "e8a4b603701e1816c3edb4340b6f3641ab1714ffbc88900c2b62d86fd7bb8afa",
+        "scene.webp": "3ba8745b60cba9a7f677fecad1ff8edbad3be1fada530ee025f022e8c64de849",
+        "target-01.png": "087abd4a37d3b803bcd96ec3ba34584b7d7db562455d86e455b9d2750a53be66",
+        "target-02.png": "ae9fa342c3ad98767504e19ddecce434df8562a18bab45e08505154c7b39b134",
+        "target-03.png": "fea14da42a5bd925df50b0755f2bb3ef501b23771e2645d8bcac48d41952fa5b",
+        "target-04.png": "6188118785ed53af4db0e3001ccb820b6c01ab21348468d86dcf2d141396f6e2",
+        "target-05.png": "510753a3056826f8ffa3a4e98365f0ebe878ef56a2e67e973d1a986da13fb87e",
+        "target-06.png": "ad83fd3b480defa4567bb0caf0c9672b8aa64a3ee0f52b7d1dc86c47cf9ab917",
+        "target-07.png": "a782fb1c1798da0c7a9182436992cdbf60c69f03f9341e7a5ba413665912efcb"
+      }
+    },
+    {
+      "id": "hidden-princess-easy-02",
+      "title": "성의 작은 찻집",
+      "scene": "content/games/hidden-princess-easy-02/scene.webp",
+      "sheet": "hidden-princess-easy-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "깃털",
+          "area": {
+            "x": 0.244,
+            "y": 0.091,
+            "rx": 0.045,
+            "ry": 0.078
+          },
+          "crop": "hidden-princess-easy-02-target-1.png",
+          "image": "target-01.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.415,
+            "y": 0.066,
+            "rx": 0.044,
+            "ry": 0.027
+          },
+          "crop": "hidden-princess-easy-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.872,
+            "y": 0.491,
+            "rx": 0.06,
+            "ry": 0.06
+          },
+          "crop": "hidden-princess-easy-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "양말",
+          "area": {
+            "x": 0.08,
+            "y": 0.705,
+            "rx": 0.029,
+            "ry": 0.056
+          },
+          "crop": "hidden-princess-easy-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "나뭇가지",
+          "area": {
+            "x": 0.339,
+            "y": 0.794,
+            "rx": 0.077,
+            "ry": 0.069
+          },
+          "crop": "hidden-princess-easy-02-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.444,
+            "y": 0.721,
+            "rx": 0.045,
+            "ry": 0.022
+          },
+          "crop": "hidden-princess-easy-02-target-6.png",
+          "image": "target-06.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "area": {
+            "x": 0.901,
+            "y": 0.259,
+            "rx": 0.021,
+            "ry": 0.054
+          },
+          "crop": "hidden-princess-easy-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "df8ae077cecdfb56ce7b4c05e929eb4229c76a68497b7fa8288341d9b103a765",
+        "metadata.json": "43ecef8a63bface4b038603a47a63e43a1966df005160363d34add6d39110039",
+        "scene.webp": "c2fb217eeb29f08b5cc5dfbfcd73a554f5d7ea4b6e4f2c759924429371447efb",
+        "target-01.png": "d858c5cc5fa6a8d37f17114563fbb01ab2d8f5a1d606338dbd0f55aa10178716",
+        "target-02.png": "9300ae77f4d041e8da9560803fcc476a574292c89b860553bdcf15048eb69b32",
+        "target-03.png": "8c5f401a3adfa2d2b199a0ab354422f4e31e8b83f488d299e0078609ca5bd0f6",
+        "target-04.png": "855cfc1b90ba60619802f3f8ee629ab4693a90ca7f965747046863b71dc1772e",
+        "target-05.png": "b417bd5584d32ef3005e39c08f67576f85f963adbba0ef99b1465869ad11ad48",
+        "target-06.png": "781431380027017c196fa7db6a69e001ac4239126bd957e21853effd4eb947d7",
+        "target-07.png": "06cc55f92c7b45b848f70986529b71b8deb5fcd25b266393e0363947b7678940"
+      }
+    },
+    {
+      "id": "hidden-princess-medium-03",
+      "title": "무도회 준비실",
+      "scene": "content/games/hidden-princess-medium-03/scene.webp",
+      "sheet": "hidden-princess-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "깃털",
+          "area": {
+            "x": 0.076,
+            "y": 0.192,
+            "rx": 0.04,
+            "ry": 0.075
+          },
+          "crop": "hidden-princess-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-2",
+          "label": "반지",
+          "area": {
+            "x": 0.572,
+            "y": 0.083,
+            "rx": 0.024,
+            "ry": 0.034
+          },
+          "crop": "hidden-princess-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.905,
+            "y": 0.083,
+            "rx": 0.052,
+            "ry": 0.04
+          },
+          "crop": "hidden-princess-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.554,
+            "y": 0.4,
+            "rx": 0.037,
+            "ry": 0.068
+          },
+          "crop": "hidden-princess-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "양말",
+          "area": {
+            "x": 0.128,
+            "y": 0.857,
+            "rx": 0.065,
+            "ry": 0.061
+          },
+          "crop": "hidden-princess-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "열쇠",
+          "area": {
+            "x": 0.786,
+            "y": 0.355,
+            "rx": 0.015,
+            "ry": 0.038
+          },
+          "crop": "hidden-princess-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "조개",
+          "area": {
+            "x": 0.708,
+            "y": 0.831,
+            "rx": 0.036,
+            "ry": 0.035
+          },
+          "crop": "hidden-princess-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "빗",
+          "area": {
+            "x": 0.183,
+            "y": 0.486,
+            "rx": 0.036,
+            "ry": 0.024
+          },
+          "crop": "hidden-princess-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "8c2cf2b072a2a5cec228f3f526a85b8bf4324949ee5546980dcceee5561b4872",
+        "metadata.json": "c2fbc973bbd924d338a7ba65712f50d33ef7096e371e33f9e6432541240d8701",
+        "scene.webp": "ff941a12b7872d1a085853c52882300b0ac39d45248bf27ece56f1a6d5c63747",
+        "target-01.png": "5bb601bfa342a14683aad51635f0a4ed8af1846c664fbba7516f5023f8ef2489",
+        "target-02.png": "60dd7b50a864a2d8ffa0e6806018aef5c4ebe55e7ba594a0cb16ddb9ad3afd53",
+        "target-03.png": "6a653abd08eb618f48d0f6fba75c543084a89ed6aed25a2cd810d2fb536a06b9",
+        "target-04.png": "321459d12b669da22ca80393a4e193dbe6c47193b33c27fa48e9feabe517f23c",
+        "target-05.png": "303d57202c694efe5aca8adb0b2eabb4855d87692e6c6bf6abd8bb528a8935c4",
+        "target-06.png": "c96db92c7a84cb43d66e26f2f52bd920d1a2e906856c1da03613371c6682182b",
+        "target-07.png": "8e75d3221bb8b09e55511ecbd6a4bb5e493b80421b1ab83a9c627708907c6ea7",
+        "target-08.png": "206359ff02d58f4031e57c5a73f23cbd2968740ad7446a3aef4254bad5ca3984"
+      }
+    },
+    {
+      "id": "hidden-princess-hard-04",
+      "title": "보석 공방의 오후",
+      "scene": "content/games/hidden-princess-hard-04/scene.webp",
+      "sheet": "hidden-princess-hard-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "물고기",
+          "area": {
+            "x": 0.139,
+            "y": 0.096,
+            "rx": 0.048,
+            "ry": 0.04
+          },
+          "crop": "hidden-princess-hard-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.47,
+            "y": 0.065,
+            "rx": 0.055,
+            "ry": 0.03
+          },
+          "crop": "hidden-princess-hard-04-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "깃털",
+          "area": {
+            "x": 0.912,
+            "y": 0.125,
+            "rx": 0.045,
+            "ry": 0.08
+          },
+          "crop": "hidden-princess-hard-04-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.116,
+            "y": 0.45,
+            "rx": 0.072,
+            "ry": 0.095
+          },
+          "crop": "hidden-princess-hard-04-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "양말",
+          "area": {
+            "x": 0.242,
+            "y": 0.831,
+            "rx": 0.04,
+            "ry": 0.086
+          },
+          "crop": "hidden-princess-hard-04-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "열쇠",
+          "area": {
+            "x": 0.941,
+            "y": 0.46,
+            "rx": 0.018,
+            "ry": 0.055
+          },
+          "crop": "hidden-princess-hard-04-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "조개",
+          "area": {
+            "x": 0.516,
+            "y": 0.603,
+            "rx": 0.03,
+            "ry": 0.036
+          },
+          "crop": "hidden-princess-hard-04-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "초승달",
+          "area": {
+            "x": 0.579,
+            "y": 0.849,
+            "rx": 0.028,
+            "ry": 0.038
+          },
+          "crop": "hidden-princess-hard-04-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "아령",
+          "area": {
+            "x": 0.918,
+            "y": 0.842,
+            "rx": 0.076,
+            "ry": 0.074
+          },
+          "crop": "hidden-princess-hard-04-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "하트",
+          "area": {
+            "x": 0.089,
+            "y": 0.827,
+            "rx": 0.031,
+            "ry": 0.047
+          },
+          "crop": "hidden-princess-hard-04-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "5bd4f64a8dc2b99aad028d3eee4f1df77f703b3f546c364874babc4f5ff6dcbb",
+        "metadata.json": "1027066f6a37bfd10568402c027fd645ea55ce4dcd4764ab66a9a0e25191b902",
+        "scene.webp": "3ffdd98d9d1e8c6b60e61c4a9e32fb7367af3da62e4ff6cdd0699f42f8d25178",
+        "target-01.png": "f531a5059b5b83755947875c1025a75146be3627579032af4e7e89dbecc25d08",
+        "target-02.png": "9b54baf2daa0b006ba70f5279e4b17f18211b7c7d16283e284486313083128f9",
+        "target-03.png": "a4fa0801617c8217a454aa2c304e4e35cff0e12026b3b7fd49aec005f2e46ac0",
+        "target-04.png": "93b1440bd6ccd2a60afbc70d35fc21b41efaa5c9b6216f5248f895c2d4df3507",
+        "target-05.png": "88e1222b10665da438aa664cf6df4dc98b2228d06a087ab52f4ae7860f21f5a8",
+        "target-06.png": "2a1f500a13f882c3433ef9b47df0702b66fe61d0e261b106e7641f2ef29cbdf8",
+        "target-07.png": "529323cc2630afd9a698d2615e98a089ba678a6e224d5b593dbf1fb0fba04c44",
+        "target-08.png": "ee06abc1ddda4258cf87028e7a2d5043639fbe1c704811d5a8ceb91a70a675e7",
+        "target-09.png": "4e9410418fd4056090fabff8db10e6fd55431044b35a2c0954f14e8f631cdcf6",
+        "target-10.png": "0189907f529e6b03aa3b3ca48f0d051e3347900fe8ea16b47b14fdf6a361a36d"
+      }
+    },
+    {
+      "id": "hidden-princess-hard-05",
+      "title": "장미 정원의 축제",
+      "scene": "content/games/hidden-princess-hard-05/scene.webp",
+      "sheet": "hidden-princess-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "깃털",
+          "area": {
+            "x": 0.065,
+            "y": 0.117,
+            "rx": 0.045,
+            "ry": 0.071
+          },
+          "crop": "hidden-princess-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.413,
+            "y": 0.062,
+            "rx": 0.04,
+            "ry": 0.025
+          },
+          "crop": "hidden-princess-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.87,
+            "y": 0.35,
+            "rx": 0.061,
+            "ry": 0.031
+          },
+          "crop": "hidden-princess-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "area": {
+            "x": 0.161,
+            "y": 0.347,
+            "rx": 0.022,
+            "ry": 0.056
+          },
+          "crop": "hidden-princess-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.54,
+            "y": 0.703,
+            "rx": 0.043,
+            "ry": 0.05
+          },
+          "crop": "hidden-princess-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "양말",
+          "area": {
+            "x": 0.94,
+            "y": 0.68,
+            "rx": 0.036,
+            "ry": 0.072
+          },
+          "crop": "hidden-princess-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "초승달",
+          "area": {
+            "x": 0.046,
+            "y": 0.806,
+            "rx": 0.026,
+            "ry": 0.034
+          },
+          "crop": "hidden-princess-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "하트",
+          "area": {
+            "x": 0.067,
+            "y": 0.256,
+            "rx": 0.015,
+            "ry": 0.033
+          },
+          "crop": "hidden-princess-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "숟가락",
+          "area": {
+            "x": 0.528,
+            "y": 0.893,
+            "rx": 0.046,
+            "ry": 0.056
+          },
+          "crop": "hidden-princess-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "조개",
+          "area": {
+            "x": 0.939,
+            "y": 0.894,
+            "rx": 0.032,
+            "ry": 0.037
+          },
+          "crop": "hidden-princess-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "add3c5a880e5f783c59f6ea6ea410d4c5afe24b136bfa784e60dc8a3481db039",
+        "metadata.json": "3263c2e9ce6ceb68ce30bd41dcf2ae27e213bfeeaa6b37749f02e0001833e76b",
+        "scene.webp": "e0849af8a61c3ea3df80d3c838f53c98de50ab5141d3dd3b2654f1f1a5b29f15",
+        "target-01.png": "1335ea96c511faac1f4fff89881f523c0b2733bbac74baa8ba0d16eb6412fbc4",
+        "target-02.png": "aa0620c8cdd763fa60b8308caa299041b58a1e7eff0f43e2f121a108ed97d2b3",
+        "target-03.png": "c57d72ffc3970810ccbb0c0aee9da5e473b3fef737ccac9659dfc3918e0b6f80",
+        "target-04.png": "630c680799ee01f2ed4f17e099c3f1d2d42cc16eb9ffa605fb676d05751aa98f",
+        "target-05.png": "394faf839fe61b4e6b8f5b50155a58ef92fd5557305965267428f5891f152e7b",
+        "target-06.png": "137b70ff3e363a3b32a780ea1e5a8bd36563660a7359d40bcbaee119f42e2d60",
+        "target-07.png": "d96457c16eab6eeca6a26583106e728d1ede981f8a589cfa47c87e65be94ca8b",
+        "target-08.png": "11dc41bcc437f4f929c8eac39adb9bc5cfdf0a1834cab4a8e4552ace16035196",
+        "target-09.png": "9ce8e8434737f4e65292d19b9805b2410ceca54c0f512d329e0bae77028a4d30",
+        "target-10.png": "ffce56448817ad413a3cfbc076eac154965723099a21181a33e9c9718130b178"
+      }
+    },
+    {
+      "id": "hidden-fairytale-easy-01",
+      "title": "꼬마 용의 숲속 집",
+      "scene": "content/games/hidden-fairytale-easy-01/scene.webp",
+      "sheet": "hidden-fairytale-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "area": {
+            "x": 0.125,
+            "y": 0.075,
+            "rx": 0.04,
+            "ry": 0.054
+          },
+          "crop": "hidden-fairytale-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.09,
+            "y": 0.424,
+            "rx": 0.036,
+            "ry": 0.042
+          },
+          "crop": "hidden-fairytale-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.832,
+            "y": 0.611,
+            "rx": 0.085,
+            "ry": 0.04
+          },
+          "crop": "hidden-fairytale-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "area": {
+            "x": 0.325,
+            "y": 0.338,
+            "rx": 0.016,
+            "ry": 0.043
+          },
+          "crop": "hidden-fairytale-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "깃털",
+          "area": {
+            "x": 0.108,
+            "y": 0.807,
+            "rx": 0.066,
+            "ry": 0.112
+          },
+          "crop": "hidden-fairytale-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.868,
+            "y": 0.748,
+            "rx": 0.035,
+            "ry": 0.043
+          },
+          "crop": "hidden-fairytale-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "안경",
+          "area": {
+            "x": 0.923,
+            "y": 0.424,
+            "rx": 0.054,
+            "ry": 0.026
+          },
+          "crop": "hidden-fairytale-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "6aa6d273f14e9e70005139e07cb75be312e59c8fa14e900341d9437336f1336f",
+        "metadata.json": "c8cd5d6e6f6402ea01e610b8991d4dec1b9043d4aaf94a39cc03358402dc9937",
+        "scene.webp": "3c0973c9fadc6fe15c709ba0e69fce69d4245a8100486b9bb652c464644fcbdb",
+        "target-01.png": "7d6b9209f54e9cfc6c22e42eb6c851418520d9128e8512820918b46f86638070",
+        "target-02.png": "6151dc63011bb868fb26973fa1730e84d3cdfb0449cc9a2ed86b66cb1b9eeb1c",
+        "target-03.png": "a6d5d20f3d8de53e90eb5f13de99a89e17b07653fa255dab87f048b9134dbc56",
+        "target-04.png": "d8ce196482fc5b7f4c38e7bb848f9e5f883be988f803d4dc3db745ee57c17e22",
+        "target-05.png": "240f5dbc8aee557b72bab02562cb6026fd9ee563b982516e6103fd7d97e0c79e",
+        "target-06.png": "7d8b1de43234fab22b06a672cbba9c7a5b56467a9c485460010e3d7446c366fb",
+        "target-07.png": "94aea64ab567cae61cf2ba9da0c5c1558a914ebe9cec0c13d7ef90644f2f7d7d"
+      }
+    },
+    {
+      "id": "hidden-fairytale-easy-02",
+      "title": "요정의 꽃잎 배",
+      "scene": "content/games/hidden-fairytale-easy-02/scene.webp",
+      "sheet": "hidden-fairytale-easy-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.465,
+            "y": 0.193,
+            "rx": 0.067,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-easy-02-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "하트",
+          "area": {
+            "x": 0.83,
+            "y": 0.137,
+            "rx": 0.038,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-easy-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.226,
+            "y": 0.641,
+            "rx": 0.063,
+            "ry": 0.035
+          },
+          "crop": "hidden-fairytale-easy-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "area": {
+            "x": 0.921,
+            "y": 0.483,
+            "rx": 0.034,
+            "ry": 0.095
+          },
+          "crop": "hidden-fairytale-easy-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "숟가락",
+          "area": {
+            "x": 0.227,
+            "y": 0.763,
+            "rx": 0.105,
+            "ry": 0.049
+          },
+          "crop": "hidden-fairytale-easy-02-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.878,
+            "y": 0.806,
+            "rx": 0.041,
+            "ry": 0.055
+          },
+          "crop": "hidden-fairytale-easy-02-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "안경",
+          "area": {
+            "x": 0.531,
+            "y": 0.806,
+            "rx": 0.075,
+            "ry": 0.06
+          },
+          "crop": "hidden-fairytale-easy-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "804a8306cb2c78bf71e45007068219cdce5efa83802d548f089b31d63b6b2228",
+        "metadata.json": "f5c4b33272a79cbae2c6962a3f0352bdf2dbfa0dda68bbc970d72342a1ffb2f7",
+        "scene.webp": "fc0488cc6136b429524cf69cb8642e93d4dcc7e695dbc39643a24862a4f9f49f",
+        "target-01.png": "133f231a2e0919c206b68c0a58658fc5a4eb10966be866cc71d2b310290636cb",
+        "target-02.png": "6bf32e050bc02fdefaa91389f8d765bcb9a8c8e0dca27aebbbff772fc2271861",
+        "target-03.png": "83c6609beb066a880844bab2826c43a178fd100f6ebe8490f15ad521b88a821e",
+        "target-04.png": "30b1d1ee2ee1cb1bdeaf5c4d611b03f4ad45a7c62632f7fe186dddc7e9758ee8",
+        "target-05.png": "28645f93844c9e0420eeeaf91571904e677561787a987c57de4d24ee62f96995",
+        "target-06.png": "afc98f6790eb6da30695ed83df806d11babf2d1eb117b824bbf15df063aad5c6",
+        "target-07.png": "18da2a2472b11a62f9c0d2917a79f32de68432b38b501bfc2a9274f134b33b6c"
+      }
+    },
+    {
+      "id": "hidden-fairytale-medium-03",
+      "title": "버섯 마을의 빵집",
+      "scene": "content/games/hidden-fairytale-medium-03/scene.webp",
+      "sheet": "hidden-fairytale-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "area": {
+            "x": 0.203,
+            "y": 0.083,
+            "rx": 0.028,
+            "ry": 0.033
+          },
+          "crop": "hidden-fairytale-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "안경",
+          "area": {
+            "x": 0.527,
+            "y": 0.159,
+            "rx": 0.05,
+            "ry": 0.035
+          },
+          "crop": "hidden-fairytale-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.211,
+            "y": 0.629,
+            "rx": 0.055,
+            "ry": 0.048
+          },
+          "crop": "hidden-fairytale-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "물고기",
+          "area": {
+            "x": 0.454,
+            "y": 0.493,
+            "rx": 0.073,
+            "ry": 0.057
+          },
+          "crop": "hidden-fairytale-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "열쇠",
+          "area": {
+            "x": 0.905,
+            "y": 0.352,
+            "rx": 0.025,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "초승달",
+          "area": {
+            "x": 0.855,
+            "y": 0.927,
+            "rx": 0.035,
+            "ry": 0.047
+          },
+          "crop": "hidden-fairytale-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "뱀",
+          "area": {
+            "x": 0.526,
+            "y": 0.775,
+            "rx": 0.09,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "깃털",
+          "area": {
+            "x": 0.128,
+            "y": 0.75,
+            "rx": 0.046,
+            "ry": 0.081
+          },
+          "crop": "hidden-fairytale-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "1ee122b066ff7dd473a0d57726fa65e92f294f908533680d5a643ea2bcd8b046",
+        "metadata.json": "9fd61d83152d78230d582c016f363b1784076d176ac18ac0264a796b2b346555",
+        "scene.webp": "5a80b8b11487b712f94807778b94ad495ad5ab3d76db8eb2a1dc8dfbde612783",
+        "target-01.png": "f7336f31272c9650dbc9f146f003251303e99fd252cfc4d2c3d88da6ca835b28",
+        "target-02.png": "e6421325755bde7130e7ae9c122c1845edb1e371ed40749ae98fab9567cef5f3",
+        "target-03.png": "c987fa8892cb862c947e7b42b22614c5927c492ada40cac300079b540bd2ebc4",
+        "target-04.png": "cf21f597b3476341320fc0438b1d04fb563f6a19f799eda48a280769f88ace56",
+        "target-05.png": "e3792e6384450c44da002a4c0985f636ecbb78bfbbe0bae14f7eac9971e53684",
+        "target-06.png": "906e2a1a2922df1d4c459a1b9719d4ff4ccfc9a2e508cd0e2a337635f9cfb1e5",
+        "target-07.png": "d17dc58d3c6d2fc88ec0299484b0774e36841d6343157018efd25f53e48276cc",
+        "target-08.png": "a0a033ed0fc0ec3c58a39f6db1856ba09488d99fd4922f9245e8a59f117312db"
+      }
+    },
+    {
+      "id": "hidden-fairytale-medium-04",
+      "title": "구름 위의 놀이터",
+      "scene": "content/games/hidden-fairytale-medium-04/scene.webp",
+      "sheet": "hidden-fairytale-medium-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "물고기",
+          "area": {
+            "x": 0.139,
+            "y": 0.091,
+            "rx": 0.06,
+            "ry": 0.05
+          },
+          "crop": "hidden-fairytale-medium-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.913,
+            "y": 0.483,
+            "rx": 0.055,
+            "ry": 0.055
+          },
+          "crop": "hidden-fairytale-medium-04-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "안경",
+          "area": {
+            "x": 0.675,
+            "y": 0.141,
+            "rx": 0.058,
+            "ry": 0.035
+          },
+          "crop": "hidden-fairytale-medium-04-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "area": {
+            "x": 0.061,
+            "y": 0.363,
+            "rx": 0.032,
+            "ry": 0.075
+          },
+          "crop": "hidden-fairytale-medium-04-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "초승달",
+          "area": {
+            "x": 0.908,
+            "y": 0.872,
+            "rx": 0.041,
+            "ry": 0.067
+          },
+          "crop": "hidden-fairytale-medium-04-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "하트",
+          "area": {
+            "x": 0.941,
+            "y": 0.089,
+            "rx": 0.045,
+            "ry": 0.06
+          },
+          "crop": "hidden-fairytale-medium-04-target-6.png",
+          "image": "target-06.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-7",
+          "label": "깃털",
+          "area": {
+            "x": 0.136,
+            "y": 0.87,
+            "rx": 0.061,
+            "ry": 0.081
+          },
+          "crop": "hidden-fairytale-medium-04-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "조개",
+          "area": {
+            "x": 0.484,
+            "y": 0.924,
+            "rx": 0.038,
+            "ry": 0.055
+          },
+          "crop": "hidden-fairytale-medium-04-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "965701bed50d509fe6993c50e9c4314cf84a6ed8c8fab33c230fd3857418fc4d",
+        "metadata.json": "9c3e4b62ebd85d2c71fab2e48797bdab25508e78ce9375340a32ceb8e7213c48",
+        "scene.webp": "a24da977e2dafef4c9a2e259a46bc8e39c786d828a0ba66264a74a6c98fb4534",
+        "target-01.png": "619ab8b6d48224a8bfb4b0283f1965867aef5d31ca802b29ae7c478de386a55a",
+        "target-02.png": "9e31775296ee687810931492f211b65918c8a7c3011ebe96e821caf9b24f2c31",
+        "target-03.png": "cd0c43b336bd9fa722c1bb8ab715807de022302a37c5be95055a57b14c83db17",
+        "target-04.png": "a4c43c5ac887a1b419815882aadc61e61715d7c6d9931295d152a1b50773c6bb",
+        "target-05.png": "f6f34c1b09692d4ca69d18cbb00fe7c8a30685cf185335de108c188bb746d292",
+        "target-06.png": "c81756f117f9939be0968ec96b55c2da7ffc3409ad64ec6d687e12c223f64574",
+        "target-07.png": "8b88e6dcbd065f70f6ce7c0c8180470a439e0b0b705f2e0567bc5fa8601cdace",
+        "target-08.png": "703ae9bb1c367141dc543a91ac6f4eb62b3e48e2864900c906068f0c65ee99df"
+      }
+    },
+    {
+      "id": "hidden-fairytale-hard-05",
+      "title": "마법사의 장난감 가게",
+      "scene": "content/games/hidden-fairytale-hard-05/scene.webp",
+      "sheet": "hidden-fairytale-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "물고기",
+          "area": {
+            "x": 0.094,
+            "y": 0.055,
+            "rx": 0.064,
+            "ry": 0.041
+          },
+          "crop": "hidden-fairytale-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "초승달",
+          "area": {
+            "x": 0.632,
+            "y": 0.072,
+            "rx": 0.032,
+            "ry": 0.05
+          },
+          "crop": "hidden-fairytale-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "새의 날개",
+          "area": {
+            "x": 0.897,
+            "y": 0.074,
+            "rx": 0.052,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "열쇠",
+          "area": {
+            "x": 0.084,
+            "y": 0.36,
+            "rx": 0.028,
+            "ry": 0.065
+          },
+          "crop": "hidden-fairytale-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "안경",
+          "area": {
+            "x": 0.491,
+            "y": 0.741,
+            "rx": 0.055,
+            "ry": 0.039
+          },
+          "crop": "hidden-fairytale-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "하트",
+          "area": {
+            "x": 0.843,
+            "y": 0.705,
+            "rx": 0.034,
+            "ry": 0.039
+          },
+          "crop": "hidden-fairytale-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "깃털",
+          "area": {
+            "x": 0.205,
+            "y": 0.829,
+            "rx": 0.085,
+            "ry": 0.095
+          },
+          "crop": "hidden-fairytale-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "숟가락",
+          "area": {
+            "x": 0.499,
+            "y": 0.846,
+            "rx": 0.055,
+            "ry": 0.045
+          },
+          "crop": "hidden-fairytale-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "양말",
+          "area": {
+            "x": 0.854,
+            "y": 0.942,
+            "rx": 0.052,
+            "ry": 0.052
+          },
+          "crop": "hidden-fairytale-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "조개",
+          "area": {
+            "x": 0.922,
+            "y": 0.453,
+            "rx": 0.06,
+            "ry": 0.075
+          },
+          "crop": "hidden-fairytale-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "f0678e1a0d5ccb86be7b645183d3b8ad0be8c4d3d38181872275b769e4846dde",
+        "metadata.json": "799a7c08e0e79e375f9596694a55d79ee1ddb2a3ab3602841bf84535bd75edec",
+        "scene.webp": "32e68de1415e01a14c9367fffc883e6a7280ea7164aa29f09bf3fabf691e32aa",
+        "target-01.png": "6ab5f29a4755d6d33197c9d4f322efd551e31e2b5af4df83745f23c5cde1a862",
+        "target-02.png": "59230050182e10e888cd8725628ba4dc93056500daba30b40feaf81397a5c9a2",
+        "target-03.png": "6c8aa1abe2011c4491faae33b550571fc2a4ef114147eb1975a30d57a982b550",
+        "target-04.png": "6b4cd359b3c3275b6dc64f97e22618dac5813a583ed193db9a79349a93d02a5c",
+        "target-05.png": "3f98ca89d7363077ed599ff398ab1b792f5e161e8d21bf148f243443231405c7",
+        "target-06.png": "f54bca9d7bca0969008b0ee0a7f24bfd715c0838ec475bae74dd7e8dc30b8295",
+        "target-07.png": "19eebbc2dc034eadd539589cae87be61dfcc372c4b23a4556dfbc6cce2c6d783",
+        "target-08.png": "356e89c9603457e422f907afd023b93725f91069120bf55153541f03321654e7",
+        "target-09.png": "44797f386dc3b7acc1d221ed1f4ba70b5c87350fdfae5c71880a4b76507173eb",
+        "target-10.png": "719a698994cac1c3b28ec3c6e690cbc4512024151976a9b037b2cb8d1b2e9a41"
+      }
+    },
+    {
+      "id": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "scene": "content/games/hidden-transport-easy-01/scene.webp",
+      "sheet": "hidden-transport-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "하트",
+          "area": {
+            "x": 0.185,
+            "y": 0.323,
+            "rx": 0.035,
+            "ry": 0.074
+          },
+          "crop": "hidden-transport-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "물고기",
+          "area": {
+            "x": 0.171,
+            "y": 0.157,
+            "rx": 0.034,
+            "ry": 0.025
+          },
+          "crop": "hidden-transport-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-3",
+          "label": "당근",
+          "area": {
+            "x": 0.922,
+            "y": 0.173,
+            "rx": 0.037,
+            "ry": 0.069
+          },
+          "crop": "hidden-transport-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "숟가락",
+          "area": {
+            "x": 0.797,
+            "y": 0.246,
+            "rx": 0.029,
+            "ry": 0.133
+          },
+          "crop": "hidden-transport-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-5",
+          "label": "나뭇잎",
+          "area": {
+            "x": 0.358,
+            "y": 0.54,
+            "rx": 0.029,
+            "ry": 0.034
+          },
+          "crop": "hidden-transport-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "열쇠",
+          "area": {
+            "x": 0.203,
+            "y": 0.748,
+            "rx": 0.075,
+            "ry": 0.083
+          },
+          "crop": "hidden-transport-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-7",
+          "label": "나비",
+          "area": {
+            "x": 0.267,
+            "y": 0.606,
+            "rx": 0.05,
+            "ry": 0.055
+          },
+          "crop": "hidden-transport-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "fix"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "c3e15d485b7e2c85680611fd3a938e9f6e3dbea65cd6f564b0e6c7fe16e900d8",
+        "metadata.json": "29b4e6f409c5815634051f2ea13ab53666d7b9cb4976f4f2e6b7b25b20700f5e",
+        "scene.webp": "3b835da26a15a7b2cc28a1267d7912478eb141cfec6597162da5a44871ea43a0",
+        "target-01.png": "d90c03e6aa952e33d539e1b017a31c2aa3a81a9d9aec731eb5df4dfeb9dac888",
+        "target-02.png": "5f2c24d5151886c68d83ce55496a4b9d91b16f9a6a4cf2ee66938868714c5c9c",
+        "target-03.png": "b1c4ed2885647ebb210c91328481609b8db878095cd8f68f0de7e228e97899cf",
+        "target-04.png": "cd67f8d95f43843986bdd4dd5790f1fad88465e3e0acb660ff66d66af458e3bf",
+        "target-05.png": "ed701074069f64081d0e147cd8c4e70116d027e0c42521c43c749c1497cc236f",
+        "target-06.png": "89f63dc8b4190910f8f2eb80cdef26f92715ce9997d0b0303fcb9074eab97cbe",
+        "target-07.png": "2e3f962b68fc67bc84ef3b87bb548162a426c80313c45159317a80d2a39b9ac2"
+      }
+    },
+    {
+      "id": "hidden-transport-medium-02",
+      "title": "꽃길을 달리는 기차",
+      "scene": "content/games/hidden-transport-medium-02/scene.webp",
+      "sheet": "hidden-transport-medium-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "달팽이",
+          "area": {
+            "x": 0.54,
+            "y": 0.576,
+            "rx": 0.047,
+            "ry": 0.043
+          },
+          "crop": "hidden-transport-medium-02-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "양말",
+          "area": {
+            "x": 0.713,
+            "y": 0.253,
+            "rx": 0.045,
+            "ry": 0.086
+          },
+          "crop": "hidden-transport-medium-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "우산",
+          "area": {
+            "x": 0.936,
+            "y": 0.519,
+            "rx": 0.043,
+            "ry": 0.059
+          },
+          "crop": "hidden-transport-medium-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "초승달",
+          "area": {
+            "x": 0.576,
+            "y": 0.092,
+            "rx": 0.031,
+            "ry": 0.042
+          },
+          "crop": "hidden-transport-medium-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "물고기",
+          "area": {
+            "x": 0.405,
+            "y": 0.433,
+            "rx": 0.04,
+            "ry": 0.032
+          },
+          "crop": "hidden-transport-medium-02-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "빗",
+          "area": {
+            "x": 0.138,
+            "y": 0.741,
+            "rx": 0.044,
+            "ry": 0.041
+          },
+          "crop": "hidden-transport-medium-02-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "깃털",
+          "area": {
+            "x": 0.032,
+            "y": 0.155,
+            "rx": 0.032,
+            "ry": 0.085
+          },
+          "crop": "hidden-transport-medium-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "장갑",
+          "area": {
+            "x": 0.906,
+            "y": 0.812,
+            "rx": 0.067,
+            "ry": 0.094
+          },
+          "crop": "hidden-transport-medium-02-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "f5181aba792dd74cecaa0f9b5365bd854d6df67850e85e77331d93f8e8d7daa1",
+        "metadata.json": "1d5006225b4f4f5fcee8297b13ad0d7373be7d5d8f02b48d6b895a0e4d99955c",
+        "scene.webp": "30510afda1f37c8838913e21104bc95643cc269037a9619606af0a6d43f8ef43",
+        "target-01.png": "7597bd00e3b4cdb91cf393779c379599ee787091b04e1e304a5f3321f5ad10cb",
+        "target-02.png": "8926924e8efcb6ff43fb88117793208a3500243eb0c2bd11aaf7301d31dcbd78",
+        "target-03.png": "26483525f23fc73933922e30446350604e16eec7e3c003665c632780b98cf534",
+        "target-04.png": "89fd9bd446ede86bb6959b0aa951583882ca71843a1a37bc02c7b050a56fbaee",
+        "target-05.png": "e279f534d08cd4ff9aeb076b25cbf6e07a51c77219627e056f2fdfdc3a2ba332",
+        "target-06.png": "91f9294f5855cebb7fa7659faf39e7f61313345e2d2d52aa22489be9f0ec60ee",
+        "target-07.png": "474d34f1300405d1538ea6d50b71852e4171a83089d3f6a618668c0f32255a54",
+        "target-08.png": "0d2e445ec68c265e23978d49447f60c2658fab8953f2ec47f201ad79659fe020"
+      }
+    },
+    {
+      "id": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "scene": "content/games/hidden-transport-medium-03/scene.webp",
+      "sheet": "hidden-transport-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "고래",
+          "area": {
+            "x": 0.193,
+            "y": 0.108,
+            "rx": 0.071,
+            "ry": 0.05
+          },
+          "crop": "hidden-transport-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "사과",
+          "area": {
+            "x": 0.387,
+            "y": 0.77,
+            "rx": 0.049,
+            "ry": 0.054
+          },
+          "crop": "hidden-transport-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "왕관",
+          "area": {
+            "x": 0.856,
+            "y": 0.348,
+            "rx": 0.056,
+            "ry": 0.05
+          },
+          "crop": "hidden-transport-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-4",
+          "label": "포크",
+          "area": {
+            "x": 0.0967,
+            "y": 0.495,
+            "rx": 0.039,
+            "ry": 0.112
+          },
+          "crop": "hidden-transport-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "area": {
+            "x": 0.207,
+            "y": 0.358,
+            "rx": 0.027,
+            "ry": 0.034
+          },
+          "crop": "hidden-transport-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "리본",
+          "area": {
+            "x": 0.428,
+            "y": 0.612,
+            "rx": 0.046,
+            "ry": 0.064
+          },
+          "crop": "hidden-transport-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-7",
+          "label": "신발",
+          "area": {
+            "x": 0.776,
+            "y": 0.805,
+            "rx": 0.069,
+            "ry": 0.055
+          },
+          "crop": "hidden-transport-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "종",
+          "area": {
+            "x": 0.937,
+            "y": 0.169,
+            "rx": 0.048,
+            "ry": 0.06
+          },
+          "crop": "hidden-transport-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "fix"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "ee612cdcf65b2915722fbc5818e6d0dc4ca26d27545495404da0237840b0de53",
+        "metadata.json": "a2b12f5d22f797f43cdb7ac0dc6a33f63b6bc76886590809d843a10b42e8dc82",
+        "scene.webp": "efee145fd4bfc156194c19755d034e86ef958376b523b3b021f832eabbcc3ed0",
+        "target-01.png": "3ddf4959454600e3f31499a0f9d295fc06843bfec191943801c18029d9e3428f",
+        "target-02.png": "dc18fd0c4ec9173efe38cf85f3264c7dfebe371daa363760f8c1a26ce17babe1",
+        "target-03.png": "708dcebde2653620a3fbfca75cc547b4f01f6f979eb35a49c1c21df2a5ca9442",
+        "target-04.png": "dc4df2a87dae7ec7f4917fe34e14b8c513983d5e0e0d6b4e713e54b858d574f4",
+        "target-05.png": "7d97ff6a00db2d1b349295b5f178b7993320c664a89787417a4f21a8ba446d70",
+        "target-06.png": "f3f3cb34d4fd28a2499cfb8a75c6a314b124ab1e7fed9aeb17078655d3ab9016",
+        "target-07.png": "405c3ec257d2f30fe29fb42a4e5cfce7460671dfd4e124fd7e32186eaa51e684",
+        "target-08.png": "0b0d9ca1f80b5c073e493824f0cf9a1402291716c8cb4e99a3e7d3cd2f0591d8"
+      }
+    },
+    {
+      "id": "hidden-transport-hard-04",
+      "title": "북적북적 항구",
+      "scene": "content/games/hidden-transport-hard-04/scene.webp",
+      "sheet": "hidden-transport-hard-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "거북이",
+          "area": {
+            "x": 0.222,
+            "y": 0.489,
+            "rx": 0.098,
+            "ry": 0.063
+          },
+          "crop": "hidden-transport-hard-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "찻잔",
+          "area": {
+            "x": 0.425,
+            "y": 0.434,
+            "rx": 0.05,
+            "ry": 0.036
+          },
+          "crop": "hidden-transport-hard-04-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "서양배",
+          "area": {
+            "x": 0.759,
+            "y": 0.322,
+            "rx": 0.026,
+            "ry": 0.047
+          },
+          "crop": "hidden-transport-hard-04-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "안경",
+          "area": {
+            "x": 0.28,
+            "y": 0.6,
+            "rx": 0.1,
+            "ry": 0.053
+          },
+          "crop": "hidden-transport-hard-04-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "망치",
+          "area": {
+            "x": 0.555,
+            "y": 0.501,
+            "rx": 0.081,
+            "ry": 0.124
+          },
+          "crop": "hidden-transport-hard-04-target-5.png",
+          "image": "target-05.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-6",
+          "label": "버섯",
+          "area": {
+            "x": 0.833,
+            "y": 0.483,
+            "rx": 0.088,
+            "ry": 0.066
+          },
+          "crop": "hidden-transport-hard-04-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "초승달",
+          "area": {
+            "x": 0.125,
+            "y": 0.805,
+            "rx": 0.048,
+            "ry": 0.07
+          },
+          "crop": "hidden-transport-hard-04-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "생쥐",
+          "area": {
+            "x": 0.4,
+            "y": 0.768,
+            "rx": 0.084,
+            "ry": 0.078
+          },
+          "crop": "hidden-transport-hard-04-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "촛불",
+          "area": {
+            "x": 0.61,
+            "y": 0.769,
+            "rx": 0.034,
+            "ry": 0.097
+          },
+          "crop": "hidden-transport-hard-04-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "오리",
+          "area": {
+            "x": 0.851,
+            "y": 0.782,
+            "rx": 0.125,
+            "ry": 0.105
+          },
+          "crop": "hidden-transport-hard-04-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "dac898df91c5aa581a83f93dac7ef3d5fd7ff9a97954d57be66ab769ff5130dd",
+        "metadata.json": "61f23a27b8c8e0e58f15f50bdba6920f11479b22ab1c06128bb21b4fc825db39",
+        "scene.webp": "56363dbfd30912d5d3d72b1a35b2deabd2067d3f4943871ec36f1255bea6f3b9",
+        "target-01.png": "e2d5c115efc06e121856750aca1f8db82937a5124f965c066d1011399d3f9f17",
+        "target-02.png": "8d56f1bebf40809a2197d07ef7769a149794efea75609476db8920cbaa7ee566",
+        "target-03.png": "28247e84280a521919b3d79d81589f51a8d1c31ce0e6fe5b97791f07e6aa712e",
+        "target-04.png": "65814213aa80085141560d0141a4e9f0ff28bc068b6a069124e0209096eab05e",
+        "target-05.png": "931280a143944a612e891311f07556c5ab13c9be7fc4d10aba9c6560aa43ffa0",
+        "target-06.png": "3edae0091e84c9070b0664d8b0a243d8a4ee9625e3d93e0d33650374f38a837f",
+        "target-07.png": "8ca06a7f3d18a1010c1076a9aeed554134a2c8814fe4d125071180a63365a707",
+        "target-08.png": "9247bd820b56425fb8de7fd96fe470884e66a37eb693a7898b43489e9d619930",
+        "target-09.png": "c11bc2ea7b18e4d8a0ccae6798f0491846f503c2752c41aafeb79a731157cbc4",
+        "target-10.png": "39c40e73267bf868194d5c2e554730180e32ced8bb5edc2b64f5daed8d49e932"
+      }
+    },
+    {
+      "id": "hidden-transport-hard-05",
+      "title": "눈 내리는 역",
+      "scene": "content/games/hidden-transport-hard-05/scene.webp",
+      "sheet": "hidden-transport-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "장화",
+          "area": {
+            "x": 0.118,
+            "y": 0.129,
+            "rx": 0.045,
+            "ry": 0.068
+          },
+          "crop": "hidden-transport-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "바나나",
+          "area": {
+            "x": 0.43,
+            "y": 0.118,
+            "rx": 0.044,
+            "ry": 0.049
+          },
+          "crop": "hidden-transport-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.902,
+            "y": 0.393,
+            "rx": 0.038,
+            "ry": 0.04
+          },
+          "crop": "hidden-transport-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "주전자",
+          "area": {
+            "x": 0.108,
+            "y": 0.632,
+            "rx": 0.072,
+            "ry": 0.079
+          },
+          "crop": "hidden-transport-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "도토리",
+          "area": {
+            "x": 0.507,
+            "y": 0.355,
+            "rx": 0.027,
+            "ry": 0.046
+          },
+          "crop": "hidden-transport-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "나비",
+          "area": {
+            "x": 0.627,
+            "y": 0.494,
+            "rx": 0.043,
+            "ry": 0.066
+          },
+          "crop": "hidden-transport-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "빗",
+          "area": {
+            "x": 0.936,
+            "y": 0.713,
+            "rx": 0.038,
+            "ry": 0.037
+          },
+          "crop": "hidden-transport-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "조개",
+          "area": {
+            "x": 0.184,
+            "y": 0.734,
+            "rx": 0.045,
+            "ry": 0.059
+          },
+          "crop": "hidden-transport-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-9",
+          "label": "열쇠",
+          "area": {
+            "x": 0.568,
+            "y": 0.845,
+            "rx": 0.028,
+            "ry": 0.056
+          },
+          "crop": "hidden-transport-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "하트",
+          "area": {
+            "x": 0.858,
+            "y": 0.89,
+            "rx": 0.052,
+            "ry": 0.063
+          },
+          "crop": "hidden-transport-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "recheck"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "0a889955156be0a92f7d1ac97342f53175b7b455eb25400d85ebf7997653da66",
+        "metadata.json": "5df6e2ee0e8280a4deed514ef9779cede465189f17d64312f29bcdaa57fe4d77",
+        "scene.webp": "fbbfa8c5cf617146cb3e119d7e8e3898e40ea62d939bbcaac9e45644cac43488",
+        "target-01.png": "a840aa349667e35130a55c6d379581b90daac176268cebafd6ab1746076d2b9b",
+        "target-02.png": "e1aa65cb791fa2fb71284140b441d2df8b32205990f7dfe1a15a0e81b32039ae",
+        "target-03.png": "369b4e2ce8cfeb4065ca828b221c9fc4562ed3306ff29a36483af9e18f1c997a",
+        "target-04.png": "e69d8d89c818ed48a8d562ae4bf4bb562ae035452072460321de48befab1c4fb",
+        "target-05.png": "4ddd50b27550ad7abb9997ec7050b3b1ab06c29de20a67f13ad292cdd0019430",
+        "target-06.png": "b8e36b3d3dbaa0c41003f48a1d3ead5aeea05c6a467a6cc2593d5a02e3eec4f7",
+        "target-07.png": "b9909f0e5c42f33294147e9ce6e4c0922f5a71329888fb974dba37f652010050",
+        "target-08.png": "167596da988d6cf506786173bfdf368f9c62ab024c6dcd94dd774f98b9bfa96f",
+        "target-09.png": "b8c1d20c2c42517a1fb8f77a6b22b798bcb0419da33483d29a5e58def2329f50",
+        "target-10.png": "1ad1650eb3de8697fd5032e26413d194190fdf5006af5342c82ea8d90fb36d76"
+      }
+    },
+    {
+      "id": "hidden-daily-easy-01",
+      "title": "우리 집 아침 식탁",
+      "scene": "content/games/hidden-daily-easy-01/scene.webp",
+      "sheet": "hidden-daily-easy-01.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "토끼",
+          "area": {
+            "x": 0.089,
+            "y": 0.157,
+            "rx": 0.032,
+            "ry": 0.079
+          },
+          "crop": "hidden-daily-easy-01-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "종",
+          "area": {
+            "x": 0.462,
+            "y": 0.129,
+            "rx": 0.1,
+            "ry": 0.093
+          },
+          "crop": "hidden-daily-easy-01-target-2.png",
+          "image": "target-02.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-3",
+          "label": "물고기",
+          "area": {
+            "x": 0.684,
+            "y": 0.125,
+            "rx": 0.042,
+            "ry": 0.04
+          },
+          "crop": "hidden-daily-easy-01-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "숟가락",
+          "area": {
+            "x": 0.14,
+            "y": 0.69,
+            "rx": 0.075,
+            "ry": 0.052
+          },
+          "crop": "hidden-daily-easy-01-target-4.png",
+          "image": "target-04.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-5",
+          "label": "별",
+          "area": {
+            "x": 0.48,
+            "y": 0.357,
+            "rx": 0.03,
+            "ry": 0.035
+          },
+          "crop": "hidden-daily-easy-01-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "나뭇잎",
+          "area": {
+            "x": 0.863,
+            "y": 0.553,
+            "rx": 0.029,
+            "ry": 0.056
+          },
+          "crop": "hidden-daily-easy-01-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "나비",
+          "area": {
+            "x": 0.043,
+            "y": 0.37,
+            "rx": 0.038,
+            "ry": 0.058
+          },
+          "crop": "hidden-daily-easy-01-target-7.png",
+          "image": "target-07.png",
+          "status": "fix"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "e623938e466e86ff39165a42135923d7bc07bed4e68b589d651e13238368ecc9",
+        "metadata.json": "93d640e1d906f165d86a6feb6c06ea3dfc6439190e25bdb8919742d91c5fc268",
+        "scene.webp": "98992894ed68350a3399dee54013aa42c97f5d75d156f273fd3e6613b1d33843",
+        "target-01.png": "5ba2a28c886ba7ed51ecb8301e7d14c8fe4098a0a740e9af5bc09de5c617eb6a",
+        "target-02.png": "10231dffa6e3930c18b077161602b24341e39145d59da1e55e25bb6791199b9e",
+        "target-03.png": "dc23f86d9be143425aede6fac506a5d3c0ca71a8aa9ceadcff6de0a260e6fb49",
+        "target-04.png": "1c28f09889d50f4a6e64b9827b05da64db2d59d4788edf0488940a4d3c5c293e",
+        "target-05.png": "e501d8650acd18c6a811a056fb8993f60c16fd277e812fffa688727bda9ed0d9",
+        "target-06.png": "e84ec844e182eef5071476e1a4fb482e27f541b0b11d9aac49ef702d4d7f562d",
+        "target-07.png": "79b148beaed62379d350956d15b95087c0c9dc3ac906a701957f4d533af95350"
+      }
+    },
+    {
+      "id": "hidden-daily-easy-02",
+      "title": "놀이터의 오후",
+      "scene": "content/games/hidden-daily-easy-02/scene.webp",
+      "sheet": "hidden-daily-easy-02.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "고양이",
+          "area": {
+            "x": 0.133,
+            "y": 0.125,
+            "rx": 0.066,
+            "ry": 0.06
+          },
+          "crop": "hidden-daily-easy-02-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "우산",
+          "area": {
+            "x": 0.831,
+            "y": 0.108,
+            "rx": 0.09,
+            "ry": 0.085
+          },
+          "crop": "hidden-daily-easy-02-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "당근",
+          "area": {
+            "x": 0.303,
+            "y": 0.425,
+            "rx": 0.058,
+            "ry": 0.1
+          },
+          "crop": "hidden-daily-easy-02-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "장갑",
+          "area": {
+            "x": 0.06,
+            "y": 0.504,
+            "rx": 0.035,
+            "ry": 0.052
+          },
+          "crop": "hidden-daily-easy-02-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "나비",
+          "area": {
+            "x": 0.557,
+            "y": 0.828,
+            "rx": 0.059,
+            "ry": 0.046
+          },
+          "crop": "hidden-daily-easy-02-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "사과",
+          "area": {
+            "x": 0.85,
+            "y": 0.494,
+            "rx": 0.046,
+            "ry": 0.055
+          },
+          "crop": "hidden-daily-easy-02-target-6.png",
+          "image": "target-06.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-7",
+          "label": "열쇠",
+          "area": {
+            "x": 0.886,
+            "y": 0.839,
+            "rx": 0.035,
+            "ry": 0.071
+          },
+          "crop": "hidden-daily-easy-02-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "eb3b4c584b97046b2488332f10510f6d91da853fcc93a13388a83235b449e2f2",
+        "metadata.json": "0e441aad8e500a07a37a8d2417a9bf9f0ee3e1fe179dfe9599bf5aec969cf962",
+        "scene.webp": "5e39dcd054cfb21af8d2d53f364a464968334dea6ae50a006c4130e6ff25860e",
+        "target-01.png": "1e5f939022c980cf53f449cdd65bf18dc79ccf4fa6577b14cd93d59a37d79713",
+        "target-02.png": "79028c1d913306381aab823d484fd01411f9502369a91d878be6a0af27b11914",
+        "target-03.png": "37938449507ac067d0df0b3751d72b2b94ded750e822eaf03cadf2f7e1e86e9b",
+        "target-04.png": "8a12d5eb71750fb9e3057a600b36a08fb6c4d8a7c38061c5b7558bd9a296b772",
+        "target-05.png": "a0200ad61a57f0f46547c67d0df42b2cfef87a6cd3cdf28e2bdfdc36f141be25",
+        "target-06.png": "bd2d0293b140c899be04e2afcd1cd0d639a69adec6fb4ed28991080acf79d29f",
+        "target-07.png": "481b00ad518a61e2fb04ed692bc6ed10ddbde44db3c3be723c9b12ca53902be4"
+      }
+    },
+    {
+      "id": "hidden-daily-medium-03",
+      "title": "우리 동네 도서관",
+      "scene": "content/games/hidden-daily-medium-03/scene.webp",
+      "sheet": "hidden-daily-medium-03.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "새",
+          "area": {
+            "x": 0.105,
+            "y": 0.104,
+            "rx": 0.03,
+            "ry": 0.051
+          },
+          "crop": "hidden-daily-medium-03-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "찻잔",
+          "area": {
+            "x": 0.494,
+            "y": 0.244,
+            "rx": 0.039,
+            "ry": 0.031
+          },
+          "crop": "hidden-daily-medium-03-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "돛단배",
+          "area": {
+            "x": 0.68,
+            "y": 0.144,
+            "rx": 0.038,
+            "ry": 0.045
+          },
+          "crop": "hidden-daily-medium-03-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "가위",
+          "area": {
+            "x": 0.182,
+            "y": 0.548,
+            "rx": 0.044,
+            "ry": 0.074
+          },
+          "crop": "hidden-daily-medium-03-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "왕관",
+          "area": {
+            "x": 0.616,
+            "y": 0.44,
+            "rx": 0.02,
+            "ry": 0.025
+          },
+          "crop": "hidden-daily-medium-03-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "달팽이",
+          "area": {
+            "x": 0.925,
+            "y": 0.767,
+            "rx": 0.046,
+            "ry": 0.051
+          },
+          "crop": "hidden-daily-medium-03-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "빗",
+          "area": {
+            "x": 0.252,
+            "y": 0.872,
+            "rx": 0.016,
+            "ry": 0.066
+          },
+          "crop": "hidden-daily-medium-03-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "단추",
+          "area": {
+            "x": 0.686,
+            "y": 0.885,
+            "rx": 0.033,
+            "ry": 0.039
+          },
+          "crop": "hidden-daily-medium-03-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "e545d025054a96f609a882d5dba8f6d9289f2d789ee3c7f7bc933c4a4da222dc",
+        "metadata.json": "115948973ff8be147095ab4c3e4eddd4c894703d4066cc07fe74672970e44233",
+        "scene.webp": "0ab89a602528d06a8c1e170084bb6ffd83a672a57cfedfbba01ab122d4585f9a",
+        "target-01.png": "c2b647e2b72384404e1bd7e9638544680eacd30bf32ad1e01b082063e6f2c5c7",
+        "target-02.png": "7eb8486ec95f00e2d32a4c0970e0b9b2c7b90ab540d9107fdaa6b8ae5d66f66b",
+        "target-03.png": "cc4debe2a6f6a4c5d41a260fee400f9897ef6b920f99da7a15c8e7514f7a5d87",
+        "target-04.png": "b60f82f64b2aa298e4eeccc1fb30a0c52ec810186f5750e387c0bf1df862e295",
+        "target-05.png": "e7c32f0784f377c70a810c07f6b2bb1fa6e4145c89fdd2be51e9d9efb58bc810",
+        "target-06.png": "e406d85a7881cdee283c3967a86c46fda4cd6f9898ebaeedb659870eb1ffb4cc",
+        "target-07.png": "bef349b720124dd9db5594a5e0f380cb9ee0ab7e6c764ecccbbd7fc1626f76bc",
+        "target-08.png": "25f345e612279a2f1668dfb6b3a06d88fe2f8a536ba90fd97108f341816dcadf"
+      }
+    },
+    {
+      "id": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "scene": "content/games/hidden-daily-hard-04/scene.webp",
+      "sheet": "hidden-daily-hard-04.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "고래",
+          "area": {
+            "x": 0.289,
+            "y": 0.087,
+            "rx": 0.056,
+            "ry": 0.038
+          },
+          "crop": "hidden-daily-hard-04-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "리본",
+          "area": {
+            "x": 0.59,
+            "y": 0.12,
+            "rx": 0.037,
+            "ry": 0.045
+          },
+          "crop": "hidden-daily-hard-04-target-2.png",
+          "image": "target-02.png",
+          "status": "recheck"
+        },
+        {
+          "id": "target-3",
+          "label": "종",
+          "area": {
+            "x": 0.792,
+            "y": 0.117,
+            "rx": 0.076,
+            "ry": 0.065
+          },
+          "crop": "hidden-daily-hard-04-target-3.png",
+          "image": "target-03.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-4",
+          "label": "망치",
+          "area": {
+            "x": 0.134,
+            "y": 0.412,
+            "rx": 0.04,
+            "ry": 0.048
+          },
+          "crop": "hidden-daily-hard-04-target-4.png",
+          "image": "target-04.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-5",
+          "label": "오리",
+          "area": {
+            "x": 0.44,
+            "y": 0.553,
+            "rx": 0.039,
+            "ry": 0.058
+          },
+          "crop": "hidden-daily-hard-04-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "물뿌리개",
+          "area": {
+            "x": 0.731,
+            "y": 0.486,
+            "rx": 0.054,
+            "ry": 0.053
+          },
+          "crop": "hidden-daily-hard-04-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "포크",
+          "area": {
+            "x": 0.172,
+            "y": 0.857,
+            "rx": 0.026,
+            "ry": 0.088
+          },
+          "crop": "hidden-daily-hard-04-target-7.png",
+          "image": "target-07.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-8",
+          "label": "버섯",
+          "area": {
+            "x": 0.469,
+            "y": 0.778,
+            "rx": 0.035,
+            "ry": 0.049
+          },
+          "crop": "hidden-daily-hard-04-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "촛불",
+          "area": {
+            "x": 0.676,
+            "y": 0.779,
+            "rx": 0.02,
+            "ry": 0.051
+          },
+          "crop": "hidden-daily-hard-04-target-9.png",
+          "image": "target-09.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-10",
+          "label": "신발",
+          "area": {
+            "x": 0.908,
+            "y": 0.922,
+            "rx": 0.061,
+            "ry": 0.046
+          },
+          "crop": "hidden-daily-hard-04-target-10.png",
+          "image": "target-10.png",
+          "status": "recheck"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "4da961383df7631c74efe492f74ae156967dcaf4ddc21ec1be2ef0173107ca7e",
+        "metadata.json": "aed468d66e90ad0abe8c14b002f70a7912b009df2c96a330c05df499ae3fdb57",
+        "scene.webp": "68299798956f34cf231a35ce021d08d6105150656ef5834a84d104c64a2b5478",
+        "target-01.png": "72bb58d6b900780bce6b48e39f914c07cd6478fc3643915256c76039c1d41365",
+        "target-02.png": "946929c35c6787fa54be152e4a231a916f1fdcae2992b5f6e967deefa6d9d616",
+        "target-03.png": "39935d905c051bb74b579f0a5593c9de27b2294313e75c32a30ed4359e55633b",
+        "target-04.png": "b6d82105ba5c8b63b06dcdbae5a7ba56de308a7146ba2c7003ccf0f612c6f1a2",
+        "target-05.png": "4b79bbc6b6793dd8ab9e45c81ec44a38850f0efefc29ee36f5408608c708e6cc",
+        "target-06.png": "c616cf978a422f1c468ac5cbfa025d5c24d9a3ed7f3188124e90ecc36e694406",
+        "target-07.png": "247e1237d8103bd07a89517e85758680d22dc5547d3fecaed5f8a799c5e824d5",
+        "target-08.png": "68ea79c31c80b2b13784f4981d42809c9d18d7ced18db15a5976399f4b025985",
+        "target-09.png": "ee8c2ba0f474ae654acbd68b68cc79d288b01530ddf70e0f99bd18124be15eb2",
+        "target-10.png": "e723e0df9e3172314dafe2943c99fd4bcb5fc57eb46b85f03aee1211f690b17f"
+      }
+    },
+    {
+      "id": "hidden-daily-hard-05",
+      "title": "즐거운 캠핑장",
+      "scene": "content/games/hidden-daily-hard-05/scene.webp",
+      "sheet": "hidden-daily-hard-05.png",
+      "targets": [
+        {
+          "id": "target-1",
+          "label": "생쥐",
+          "area": {
+            "x": 0.075,
+            "y": 0.176,
+            "rx": 0.039,
+            "ry": 0.071
+          },
+          "crop": "hidden-daily-hard-05-target-1.png",
+          "image": "target-01.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-2",
+          "label": "초승달",
+          "area": {
+            "x": 0.413,
+            "y": 0.159,
+            "rx": 0.034,
+            "ry": 0.048
+          },
+          "crop": "hidden-daily-hard-05-target-2.png",
+          "image": "target-02.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-3",
+          "label": "거북이",
+          "area": {
+            "x": 0.751,
+            "y": 0.378,
+            "rx": 0.042,
+            "ry": 0.042
+          },
+          "crop": "hidden-daily-hard-05-target-3.png",
+          "image": "target-03.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-4",
+          "label": "조개",
+          "area": {
+            "x": 0.485,
+            "y": 0.54,
+            "rx": 0.027,
+            "ry": 0.037
+          },
+          "crop": "hidden-daily-hard-05-target-4.png",
+          "image": "target-04.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-5",
+          "label": "안경",
+          "area": {
+            "x": 0.642,
+            "y": 0.457,
+            "rx": 0.038,
+            "ry": 0.029
+          },
+          "crop": "hidden-daily-hard-05-target-5.png",
+          "image": "target-05.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-6",
+          "label": "장화",
+          "area": {
+            "x": 0.909,
+            "y": 0.567,
+            "rx": 0.032,
+            "ry": 0.05
+          },
+          "crop": "hidden-daily-hard-05-target-6.png",
+          "image": "target-06.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-7",
+          "label": "바나나",
+          "area": {
+            "x": 0.132,
+            "y": 0.752,
+            "rx": 0.068,
+            "ry": 0.045
+          },
+          "crop": "hidden-daily-hard-05-target-7.png",
+          "image": "target-07.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-8",
+          "label": "도토리",
+          "area": {
+            "x": 0.477,
+            "y": 0.802,
+            "rx": 0.034,
+            "ry": 0.051
+          },
+          "crop": "hidden-daily-hard-05-target-8.png",
+          "image": "target-08.png",
+          "status": "no-clear-issue-found"
+        },
+        {
+          "id": "target-9",
+          "label": "별",
+          "area": {
+            "x": 0.619,
+            "y": 0.843,
+            "rx": 0.025,
+            "ry": 0.031
+          },
+          "crop": "hidden-daily-hard-05-target-9.png",
+          "image": "target-09.png",
+          "status": "fix"
+        },
+        {
+          "id": "target-10",
+          "label": "물방울",
+          "area": {
+            "x": 0.89,
+            "y": 0.841,
+            "rx": 0.016,
+            "ry": 0.028
+          },
+          "crop": "hidden-daily-hard-05-target-10.png",
+          "image": "target-10.png",
+          "status": "no-clear-issue-found"
+        }
+      ],
+      "sha256": {
+        "puzzle.json": "c84116ebf68a6c01e4a21be989702f34a8a8776ebee461fa38991519f5965083",
+        "metadata.json": "bb125a142412f5d5222ad66b3dd550abfeaec72978feb37f3e282e15e2bf8a99",
+        "scene.webp": "432f181a1eaac04299d411bf16b3cdf42fe30116b661194878bd898a033c024f",
+        "target-01.png": "de8f8a590115ec93f61f3335129de350c72fe0070f83f51a514522904d70ff8a",
+        "target-02.png": "891f6e027d82ae07dd840d3f3c3a85204e515d3aa2f438fbe3ba59cbef09b803",
+        "target-03.png": "c0d614055d5a51a81ed8c45f056e8f11892ee187f4a4209dccfc7b21deb3aa0a",
+        "target-04.png": "0db644db5138d67aec3dd4d72e1bc399e13fb8ef22a04914d9cc4152533cffc6",
+        "target-05.png": "f62efe90d7d04058c030be745288d41712c06a5982ee10d5a40598468050e723",
+        "target-06.png": "45c4b2e6b1248828f42a7aabbbe991e4c79a6e3e590cdae5bd85e698de81d5e3",
+        "target-07.png": "294bec87a10aa2a7e8aa6c2e5d83d015023f26a1cb6c079e7bec90e51b6a4336",
+        "target-08.png": "7832a9c12507846b9ccd9b39456379960dd76bf2f0f290364ad0dea2da571a93",
+        "target-09.png": "c597c07fb45bd9c14a1abd06089990930ccfc7a79c751adde07ef3ae6cd04d4d",
+        "target-10.png": "d057e511f9c80d8fc71fc2680819daab3c61adacb68ad305497e338fb967508c"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "gameId": "hidden-daily-easy-01",
+      "title": "우리 집 아침 식탁",
+      "targetId": "target-2",
+      "targetNumber": 2,
+      "label": "종",
+      "status": "fix",
+      "category": "name",
+      "observation": "카드와 장면 모두 전등갓이다. 종을 구분하는 종추가 없고 천장 전선과 연결된다.",
+      "recommendation": "종을 유지하려면 종추·벌어진 입구를 가진 종 윤곽을 장면과 카드에 함께 만든다. 전등으로 이름만 바꾸면 일반 사물 찾기가 되므로 숨김 기준도 다시 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01-target-2.png",
+        "card": "content/games/hidden-daily-easy-01/target-02.png",
+        "scene": "content/games/hidden-daily-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-daily-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-easy-01",
+      "title": "우리 집 아침 식탁",
+      "targetId": "target-4",
+      "targetNumber": 4,
+      "label": "숟가락",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드는 한쪽에만 뜨는 부분이 있다. 의자 무늬는 양 끝이 타원으로 부풀고 가운데가 잘록해 양쪽 머리 형태다.",
+      "recommendation": "장면의 한쪽 끝을 가느다란 손잡이로 교정하고 같은 윤곽으로 목표를 제작한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01-target-4.png",
+        "card": "content/games/hidden-daily-easy-01/target-04.png",
+        "scene": "content/games/hidden-daily-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-daily-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-easy-01",
+      "title": "우리 집 아침 식탁",
+      "targetId": "target-7",
+      "targetNumber": 7,
+      "label": "나비",
+      "status": "fix",
+      "category": "name",
+      "observation": "카드와 장면 모두 가운데 매듭과 아래로 늘어진 끈 두 가닥이 있다. 나비의 몸통·더듬이가 없고 커튼을 묶는 리본으로 읽힌다.",
+      "recommendation": "나비를 유지하려면 몸통·더듬이·위아래 날개를 가진 윤곽으로 두 그림을 함께 고친다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-01-target-7.png",
+        "card": "content/games/hidden-daily-easy-01/target-07.png",
+        "scene": "content/games/hidden-daily-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-daily-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targetId": "target-3",
+      "targetNumber": 3,
+      "label": "종",
+      "status": "fix",
+      "category": "name",
+      "observation": "갓 아래 물방울형 전구와 전선이 보인다. 카드도 전구를 그대로 그려 종보다 조명으로 읽힌다.",
+      "recommendation": "전구를 종추로 취급하지 말고 종의 구조로 장면과 카드를 다시 제작한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04-target-3.png",
+        "card": "content/games/hidden-daily-hard-04/target-03.png",
+        "scene": "content/games/hidden-daily-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targetId": "target-4",
+      "targetNumber": 4,
+      "label": "망치",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드의 망치 머리는 반듯한 직사각형이다. 상자 무늬의 머리는 굴곡과 잘록한 부분이 있는 다른 윤곽이다.",
+      "recommendation": "장면에서 사용할 망치 종류와 머리 윤곽을 먼저 정하고 카드도 동일하게 맞춘다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04-target-4.png",
+        "card": "content/games/hidden-daily-hard-04/target-04.png",
+        "scene": "content/games/hidden-daily-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targetId": "target-7",
+      "targetNumber": 7,
+      "label": "포크",
+      "status": "fix",
+      "category": "name",
+      "observation": "장면의 도구 끝은 막혀 있고 내부에 길쭉한 구멍 세 개가 있다. 카드의 포크처럼 끝이 갈라진 살이 없다. 구멍 난 뒤집개로 보인다.",
+      "recommendation": "포크를 유지하려면 끝이 열린 여러 갈래의 살을 만든다. 뒤집개로 바꾸려면 카드와 이름을 함께 고친다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04-target-7.png",
+        "card": "content/games/hidden-daily-hard-04/target-07.png",
+        "scene": "content/games/hidden-daily-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-05",
+      "title": "즐거운 캠핑장",
+      "targetId": "target-9",
+      "targetNumber": 9,
+      "label": "별",
+      "status": "fix",
+      "category": "name",
+      "observation": "정답 위치에는 가운데 노란 꽃술과 둥근 흰 꽃잎 다섯 장이 있다. 카드의 별 윤곽과 다르고 꽃으로 읽힌다.",
+      "recommendation": "다른 꽃과 구별되는 별 윤곽을 계획해 장면과 카드를 함께 교정한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-05.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-05-target-9.png",
+        "card": "content/games/hidden-daily-hard-05/target-09.png",
+        "scene": "content/games/hidden-daily-hard-05/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-05/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-animals-easy-01",
+      "title": "토끼의 작은 정원",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "초승달",
+      "status": "fix",
+      "category": "form",
+      "observation": "카드와 천의 양 끝이 모두 둥글고 두껍다. 뾰족한 두 끝과 안쪽 원호를 가진 초승달보다 구부러진 양말·콩 형태에 가깝다.",
+      "recommendation": "초승달의 두 끝이 가늘어지는 윤곽으로 장면과 카드를 함께 교정한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-animals-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-animals-easy-01-target-6.png",
+        "card": "content/games/hidden-animals-easy-01/target-06.png",
+        "scene": "content/games/hidden-animals-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-animals-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-animals-medium-04",
+      "title": "바닷속 음악회",
+      "targetId": "target-8",
+      "targetNumber": 8,
+      "label": "리본",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드는 좌우 매듭 고리만 있다. 장면에는 매듭 아래로 내려오는 긴 끈 두 가닥이 추가된다.",
+      "recommendation": "고리와 늘어진 끈의 개수·길이를 장면과 카드에서 맞춘다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-04-target-8.png",
+        "card": "content/games/hidden-animals-medium-04/target-08.png",
+        "scene": "content/games/hidden-animals-medium-04/scene.webp",
+        "puzzle": "content/games/hidden-animals-medium-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-space-medium-02",
+      "title": "별빛 우주 정원",
+      "targetId": "target-5",
+      "targetNumber": 5,
+      "label": "깃털",
+      "status": "fix",
+      "category": "name",
+      "observation": "카드와 장면 모두 매끈한 잎 가장자리와 가지처럼 갈라지는 잎맥이 있다. 주변 잎과 구별되는 깃털의 깃가지·깃대 단서가 부족해 잎으로 읽힌다.",
+      "recommendation": "깃털을 유지하려면 노출된 깃대와 깃가지가 보이는 고유한 외곽을 장면과 카드에 만든다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-space-medium-02.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-space-medium-02-target-5.png",
+        "card": "content/games/hidden-space-medium-02/target-05.png",
+        "scene": "content/games/hidden-space-medium-02/scene.webp",
+        "puzzle": "content/games/hidden-space-medium-02/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-space-hard-05",
+      "title": "은하 도서관",
+      "targetId": "target-7",
+      "targetNumber": 7,
+      "label": "숟가락",
+      "status": "fix",
+      "category": "form",
+      "observation": "카드와 책갈피 무늬 모두 양 끝에 같은 크기의 타원형 뜨는 부분이 있다. 일반적인 숟가락의 한쪽 머리·한쪽 손잡이 구조가 아니다.",
+      "recommendation": "한쪽 끝을 가느다란 손잡이로 바꾸고 다른 쪽만 뜨는 부분으로 남긴다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-space-hard-05.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-space-hard-05-target-7.png",
+        "card": "content/games/hidden-space-hard-05/target-07.png",
+        "scene": "content/games/hidden-space-hard-05/scene.webp",
+        "puzzle": "content/games/hidden-space-hard-05/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-princess-easy-01",
+      "title": "공주의 꽃다발",
+      "targetId": "target-5",
+      "targetNumber": 5,
+      "label": "열쇠",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드에는 위쪽 나선 고리 하나와 짧은 이 두 개가 있다. 장면에서는 자루 오른쪽의 큰 두 번째 나선이 붙어 카드와 다른 열쇠 윤곽을 만든다.",
+      "recommendation": "정답 열쇠의 고리·자루·이를 주변 문양과 구분한 뒤 카드와 같은 윤곽으로 정리한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-01-target-5.png",
+        "card": "content/games/hidden-princess-easy-01/target-05.png",
+        "scene": "content/games/hidden-princess-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-princess-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "targetId": "target-2",
+      "targetNumber": 2,
+      "label": "물고기",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드는 왼쪽에 두 갈래 꼬리가 있다. 장면의 왼쪽 끝은 둥글게 말린 소용돌이여서 물고기 꼬리의 갈라짐이 없다.",
+      "recommendation": "왼쪽 꼬리의 두 갈래 구조를 카드와 장면에서 맞춘다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01-target-2.png",
+        "card": "content/games/hidden-transport-easy-01/target-02.png",
+        "scene": "content/games/hidden-transport-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-transport-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "targetId": "target-4",
+      "targetNumber": 4,
+      "label": "숟가락",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드는 짧고 곧은 손잡이로 끝난다. 버스 문 손잡이는 아래에서 U자로 꺾여 옆의 둥근 부품으로 이어져 끝 윤곽이 다르다.",
+      "recommendation": "숟가락으로 읽히는 하나의 완결된 윤곽을 정하고 주변 문 부품과 분리해 목표에도 반영한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01-target-4.png",
+        "card": "content/games/hidden-transport-easy-01/target-04.png",
+        "scene": "content/games/hidden-transport-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-transport-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "targetId": "target-7",
+      "targetNumber": 7,
+      "label": "나비",
+      "status": "fix",
+      "category": "name",
+      "observation": "카드와 장면 모두 매듭과 늘어진 끈을 가진 리본이다. 나비의 몸통·더듬이 구조가 없다.",
+      "recommendation": "나비를 유지하려면 나비의 구조를 가진 위장 윤곽으로 다시 제작한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01-target-7.png",
+        "card": "content/games/hidden-transport-easy-01/target-07.png",
+        "scene": "content/games/hidden-transport-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-transport-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "targetId": "target-4",
+      "targetNumber": 4,
+      "label": "포크",
+      "status": "fix",
+      "category": "name",
+      "observation": "카드와 수레 무늬의 살이 손잡이 방향에 직각으로 붙어 있다. 포크보다 손잡이 달린 빗의 구조다.",
+      "recommendation": "포크의 살과 손잡이가 같은 길이 방향을 향하도록 장면과 카드를 함께 고친다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03-target-4.png",
+        "card": "content/games/hidden-transport-medium-03/target-04.png",
+        "scene": "content/games/hidden-transport-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-transport-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "targetId": "target-8",
+      "targetNumber": 8,
+      "label": "종",
+      "status": "fix",
+      "category": "name",
+      "observation": "매달린 갓 아래 흰 전구가 보이고 위에는 전선이 있다. 카드도 같은 조명 구조라 종으로 부르기 어렵다.",
+      "recommendation": "전등의 전구를 종추로 간주하지 말고 종의 특징을 갖춘 윤곽을 다시 계획한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03-target-8.png",
+        "card": "content/games/hidden-transport-medium-03/target-08.png",
+        "scene": "content/games/hidden-transport-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-transport-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-hard-05",
+      "title": "눈 내리는 역",
+      "targetId": "target-8",
+      "targetNumber": 8,
+      "label": "조개",
+      "status": "fix",
+      "category": "silhouette",
+      "observation": "카드는 부채꼴 조개와 아래 받침이다. 장면은 부채꼴 위에 천이 이어지고 아래에는 긴 술 여러 가닥이 달려 조개 전체 윤곽과 다르다.",
+      "recommendation": "천 속에서 하나의 조개로 닫히는 윤곽을 만들고 그 실제 형태와 카드의 테두리를 맞춘다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-05.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-05-target-8.png",
+        "card": "content/games/hidden-transport-hard-05/target-08.png",
+        "scene": "content/games/hidden-transport-hard-05/scene.webp",
+        "puzzle": "content/games/hidden-transport-hard-05/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-easy-02",
+      "title": "놀이터의 오후",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "사과",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "장면은 하트형 잎에 가깝고 카드에 있는 사과 꼭지가 명확하지 않다.",
+      "recommendation": "꼭지와 과일 밑부분을 확대해 확인하고 사과 고유의 단서를 보강한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-02.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-easy-02-target-6.png",
+        "card": "content/games/hidden-daily-easy-02/target-06.png",
+        "scene": "content/games/hidden-daily-easy-02/scene.webp",
+        "puzzle": "content/games/hidden-daily-easy-02/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targetId": "target-2",
+      "targetNumber": 2,
+      "label": "리본",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "리본의 고리·늘어진 부분이 모두 잎으로 이어져 카드의 리본 끈 끝과 다르다.",
+      "recommendation": "잎 모양으로 위장하더라도 리본의 매듭·고리·끈 끝이 함께 읽히는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04-target-2.png",
+        "card": "content/games/hidden-daily-hard-04/target-02.png",
+        "scene": "content/games/hidden-daily-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-daily-hard-04",
+      "title": "시끌벅적 과일 가게",
+      "targetId": "target-10",
+      "targetNumber": 10,
+      "label": "신발",
+      "status": "recheck",
+      "category": "silhouette",
+      "observation": "카드는 둥근 앞코와 굽·밑창이 있는 신발이다. 돌바닥 무늬는 각진 윤곽과 끈 위주여서 앞코와 밑창의 대응이 약하다.",
+      "recommendation": "원근 차이를 고려해도 같은 신발로 대응되는지 재검토한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-daily-hard-04-target-10.png",
+        "card": "content/games/hidden-daily-hard-04/target-10.png",
+        "scene": "content/games/hidden-daily-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-daily-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-animals-medium-03",
+      "title": "다람쥐의 도토리 집",
+      "targetId": "target-8",
+      "targetNumber": 8,
+      "label": "나비",
+      "status": "recheck",
+      "category": "silhouette",
+      "observation": "카드는 둥글고 넓은 윗날개다. 장면은 끝이 좁아지고 톱니가 있는 잎 모양 윗날개다. 몸통과 더듬이는 확인된다.",
+      "recommendation": "나비 이름은 유지할 수 있으나 네 날개의 바깥 윤곽과 비율을 더 가깝게 맞춘다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-03-target-8.png",
+        "card": "content/games/hidden-animals-medium-03/target-08.png",
+        "scene": "content/games/hidden-animals-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-animals-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-animals-medium-04",
+      "title": "바닷속 음악회",
+      "targetId": "target-3",
+      "targetNumber": 3,
+      "label": "장갑",
+      "status": "recheck",
+      "category": "form",
+      "observation": "장갑 카드와 산호 윤곽 모두 긴 중앙 부분의 좌우에 돌출부가 있다. 엄지가 두 개인 벙어리장갑으로 오해할 수 있다.",
+      "recommendation": "손목 주름과 엄지를 구분해 엄지 하나·나머지 손가락 묶음 하나로 명확하게 정리한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-animals-medium-04-target-3.png",
+        "card": "content/games/hidden-animals-medium-04/target-03.png",
+        "scene": "content/games/hidden-animals-medium-04/scene.webp",
+        "puzzle": "content/games/hidden-animals-medium-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-princess-easy-02",
+      "title": "성의 작은 찻집",
+      "targetId": "target-1",
+      "targetNumber": 1,
+      "label": "깃털",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "카드는 둥근 깃가지가 있지만 장면은 뾰족한 톱니 잎과 가지의 연결로 읽힌다.",
+      "recommendation": "깃털의 외곽과 노출된 깃대를 장면에서 따로 식별할 수 있는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-02.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-02-target-1.png",
+        "card": "content/games/hidden-princess-easy-02/target-01.png",
+        "scene": "content/games/hidden-princess-easy-02/scene.webp",
+        "puzzle": "content/games/hidden-princess-easy-02/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-princess-easy-02",
+      "title": "성의 작은 찻집",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "초승달",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "정답은 찻잔 받침의 노출된 띠다. 컵에 가린 부분 때문에 카드의 두 뾰족한 끝과 닫힌 초승달 윤곽이 모두 드러나는지 불명확하다.",
+      "recommendation": "실제 보이는 경계만으로 초승달이 완성되는지 재검토한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-02.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-princess-easy-02-target-6.png",
+        "card": "content/games/hidden-princess-easy-02/target-06.png",
+        "scene": "content/games/hidden-princess-easy-02/scene.webp",
+        "puzzle": "content/games/hidden-princess-easy-02/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-princess-medium-03",
+      "title": "무도회 준비실",
+      "targetId": "target-1",
+      "targetNumber": 1,
+      "label": "깃털",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "꽃다발 안의 톱니 잎 여러 장과 겹친다. 카드의 깃털 하나를 대응시킬 외곽과 깃대의 분리가 약하다.",
+      "recommendation": "깃털 하나의 윤곽이 다른 잎에 가리지 않고 끝까지 이어지는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-princess-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-princess-medium-03-target-1.png",
+        "card": "content/games/hidden-princess-medium-03/target-01.png",
+        "scene": "content/games/hidden-princess-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-princess-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-fairytale-easy-01",
+      "title": "꼬마 용의 숲속 집",
+      "targetId": "target-3",
+      "targetNumber": 3,
+      "label": "물고기",
+      "status": "recheck",
+      "category": "silhouette",
+      "observation": "카드는 가늘고 긴 몸에 두 갈래 꼬리가 있다. 장면의 물결은 더 넓은 몸을 만들며 꼬리가 주변 물결과 합쳐져 있다.",
+      "recommendation": "눈·몸·두 갈래 꼬리가 카드와 한 물고기로 대응되는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-easy-01-target-3.png",
+        "card": "content/games/hidden-fairytale-easy-01/target-03.png",
+        "scene": "content/games/hidden-fairytale-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-fairytale-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-fairytale-easy-01",
+      "title": "꼬마 용의 숲속 집",
+      "targetId": "target-5",
+      "targetNumber": 5,
+      "label": "깃털",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "장면에서는 고사리 잎의 갈라지는 잔잎으로 읽힌다. 카드의 하나로 이어진 깃털 가장자리와 구조가 다르다.",
+      "recommendation": "깃대·깃가지로 읽히는 윤곽과 고사리 잔잎의 경계를 구분할 수 있는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-easy-01-target-5.png",
+        "card": "content/games/hidden-fairytale-easy-01/target-05.png",
+        "scene": "content/games/hidden-fairytale-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-fairytale-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-fairytale-medium-04",
+      "title": "구름 위의 놀이터",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "하트",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "카드 자체가 하트와 큰 나선의 결합이다. 장면은 구름 소용돌이와 경계가 이어져 일반적인 하트의 두 둥근 윗부분과 아래 꼭짓점이 약하다.",
+      "recommendation": "하트 하나의 완결된 외곽을 정하고 주변 구름 선과 구분한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-medium-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-fairytale-medium-04-target-6.png",
+        "card": "content/games/hidden-fairytale-medium-04/target-06.png",
+        "scene": "content/games/hidden-fairytale-medium-04/scene.webp",
+        "puzzle": "content/games/hidden-fairytale-medium-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-space-hard-04",
+      "title": "우주 정거장의 축제",
+      "targetId": "target-2",
+      "targetNumber": 2,
+      "label": "활",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "정답 위치는 원형 창틀의 일부다. 카드에 있는 활시위의 곧은 선을 장면에서 명확하게 분리하기 어렵다.",
+      "recommendation": "활 몸체의 두 끝을 잇는 시위를 포함해 같은 활이 완성되는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-space-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-space-hard-04-target-2.png",
+        "card": "content/games/hidden-space-hard-04/target-02.png",
+        "scene": "content/games/hidden-space-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-space-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-easy-01",
+      "title": "동물 친구들의 버스",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "열쇠",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "펜스의 둥근 기둥과 가로대가 열쇠처럼 이어지지만 세로 기둥이 크게 내려와 카드의 열쇠 끝과 다르다.",
+      "recommendation": "열쇠 머리·자루·이를 어느 경계로 읽을지 정하고 닫힌 윤곽을 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-easy-01-target-6.png",
+        "card": "content/games/hidden-transport-easy-01/target-06.png",
+        "scene": "content/games/hidden-transport-easy-01/scene.webp",
+        "puzzle": "content/games/hidden-transport-easy-01/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "targetId": "target-3",
+      "targetNumber": 3,
+      "label": "왕관",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "왕관 카드의 밑변에 대응하는 선이 수풀에 없다. 수관의 둥근 돌출부만으로 왕관을 추측해야 한다.",
+      "recommendation": "왕관 윗부분과 밑부분을 함께 식별할 수 있는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03-target-3.png",
+        "card": "content/games/hidden-transport-medium-03/target-03.png",
+        "scene": "content/games/hidden-transport-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-transport-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-medium-03",
+      "title": "비행장 견학",
+      "targetId": "target-6",
+      "targetNumber": 6,
+      "label": "리본",
+      "status": "recheck",
+      "category": "silhouette",
+      "observation": "카드는 대칭인 네 갈래 리본이다. 장면은 목을 두른 스카프의 매듭과 비대칭인 긴 끈으로 구성된다.",
+      "recommendation": "매듭·고리·끈의 실제 개수와 길이에 맞춰 카드의 형태를 대조한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-medium-03-target-6.png",
+        "card": "content/games/hidden-transport-medium-03/target-06.png",
+        "scene": "content/games/hidden-transport-medium-03/scene.webp",
+        "puzzle": "content/games/hidden-transport-medium-03/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-hard-04",
+      "title": "북적북적 항구",
+      "targetId": "target-5",
+      "targetNumber": 5,
+      "label": "망치",
+      "status": "recheck",
+      "category": "silhouette",
+      "observation": "장면에는 수평 긴 들보·수직 기둥·대각 지지대가 있다. 그중 어느 부분이 카드의 짧은 망치 머리와 긴 자루인지 경계가 불명확하다.",
+      "recommendation": "크레인 전체를 망치로 간주하지 말고 머리와 자루만으로 완성되는 윤곽을 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-04.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-04-target-5.png",
+        "card": "content/games/hidden-transport-hard-04/target-05.png",
+        "scene": "content/games/hidden-transport-hard-04/scene.webp",
+        "puzzle": "content/games/hidden-transport-hard-04/puzzle.json"
+      }
+    },
+    {
+      "gameId": "hidden-transport-hard-05",
+      "title": "눈 내리는 역",
+      "targetId": "target-10",
+      "targetNumber": 10,
+      "label": "하트",
+      "status": "recheck",
+      "category": "ambiguous",
+      "observation": "정답 위치는 겹친 눈더미다. 카드의 두 둥근 윗부분과 가운데 홈을 같은 눈덩이 경계에서 분리하기 어렵다.",
+      "recommendation": "하트의 두 윗부분·가운데 홈·아래 꼭짓점이 하나의 외곽에 있는지 확인한다.",
+      "evidence": {
+        "sheet": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-05.png",
+        "crop": "work/reviews/hidden-shape-audit-20261029/hidden-transport-hard-05-target-10.png",
+        "card": "content/games/hidden-transport-hard-05/target-10.png",
+        "scene": "content/games/hidden-transport-hard-05/scene.webp",
+        "puzzle": "content/games/hidden-transport-hard-05/puzzle.json"
+      }
+    }
+  ]
+}
